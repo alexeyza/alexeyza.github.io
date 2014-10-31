@@ -4,7 +4,7 @@
   <title><![CDATA[Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2014-10-31T13:11:15-07:00</updated>
+  <updated>2014-10-31T13:13:28-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -21,6 +21,9 @@
     <content type="html"><![CDATA[<p>Our paper on the the emergence of GitHub as a collaborative platform for education has been accepted to <a href="http://cscw.acm.org/2015/">CSCW 2015</a>!</p>
 
 <p><a href="http://alexeyza.com/pdf/cscw15.pdf">Preprint here!</a></p>
+
+<!-- more -->
+
 
 <p>Authors: Alexey Zagalsky, Joseph Feliciano, Margaret-Anne Storey, Yiyun Zhao, Weiliang Wang</p>
 
