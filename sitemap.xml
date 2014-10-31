@@ -2,37 +2,31 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   
-  <url>
-    <loc>http://alexeyza.com/blog/2014/10/31/the-emergence-of-github-as-a-collaborative-platform-for-education/</loc>
-    <lastmod>2014-10-31T11:41:54-07:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
   
   <url>
     <loc>http://alexeyza.com/blog/archives/</loc>
-    <lastmod>2014-10-31T12:38:38-07:00</lastmod>
+    <lastmod>2014-10-31T13:00:47-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://alexeyza.com/</loc>
-    <lastmod>2014-10-31T12:38:38-07:00</lastmod>
+    <lastmod>2014-10-31T13:00:47-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://alexeyza.com/posts/</loc>
-    <lastmod>2014-10-31T12:38:38-07:00</lastmod>
+    <lastmod>2014-10-31T13:00:47-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://alexeyza.com/publications/</loc>
-    <lastmod>2014-10-31T12:38:38-07:00</lastmod>
+    <lastmod>2014-10-31T13:00:47-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
