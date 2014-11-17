@@ -4,7 +4,7 @@
   <title><![CDATA[Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2014-11-01T14:31:11-07:00</updated>
+  <updated>2014-11-17T10:47:53-08:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -12,5 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://alexeyza.com/blog/2014/11/17/hello-world/"/>
+    <updated>2014-11-17T10:45:58-08:00</updated>
+    <id>http://alexeyza.com/blog/2014/11/17/hello-world</id>
+    <content type="html"><![CDATA[<p>This is a debug post.</p>
+
+<!-- more -->
+
+
+<p>Using this post to figure out why posts not shown on the main page of my blog. Please ignore it (it will be removed soon).</p>
+]]></content>
+  </entry>
   
 </feed>
