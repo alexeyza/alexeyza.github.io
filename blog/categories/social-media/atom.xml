@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Alexey Zagalsky]]></title>
-  <link href="http://alexeyza.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Social Media | Alexey Zagalsky]]></title>
+  <link href="http://alexeyza.com/blog/categories/social-media/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
   <updated>2014-12-08T11:48:43-08:00</updated>
   <id>http://alexeyza.com/</id>
@@ -24,8 +24,7 @@
 
 <p>Using GitHub as a submission platform was accomplished in one of two ways<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Some interviewees set up a base repository for the class and had each student fork it&mdash;everyone who forked the base repository could see all other forked repositories as well. This allowed students to cross-reference different solutions and encouraged student collaboration (e.g., by using PRs) and peer learning.</p>
 
-<blockquote><p>When you do a pull, you can see what the others in the seminar are doing. For example, a student wrote a python script, and others want to use it, so they can just grab it and use it.</p><footer><strong>[P4]</strong></footer></blockquote>
-
+<p><blockquote><p>When you do a pull, you can see what the others in the seminar are doing. For example, a student wrote a python script, and others want to use it, so they can just grab it and use it.</p><footer><strong>[P4]</strong></footer></blockquote></p>
 
 <p>Other interviewees set up private repositories for each student, and individual students could only see other repositories when explicitly given access. For P5&rsquo;s course, <em>Students have separate repositories, and it&rsquo;s private so that people cannot see what they are working on.</em> With this option, repositories and permissions are manually set up, which may be difficult in courses with a large number of students.</p>
 
