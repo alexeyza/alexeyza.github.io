@@ -1,48 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  
   <url>
     <loc>http://alexeyza.com/blog/2015/02/06/5-tips-for-successfully-meeting-people-at-academic-conferences/</loc>
     <lastmod>2015-02-06T11:34:07-08:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
-  
   <url>
     <loc>http://alexeyza.com/</loc>
-    <lastmod>2015-09-09T11:18:52-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
-  
   <url>
     <loc>http://alexeyza.com/blog/archives/</loc>
-    <lastmod>2015-09-09T11:18:52-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
-  
   <url>
     <loc>http://alexeyza.com/posts/</loc>
-    <lastmod>2015-09-09T11:18:52-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
-  
   <url>
     <loc>http://alexeyza.com/publications/</loc>
-    <lastmod>2015-09-09T11:18:52-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
-  
   <url>
     <loc>http://alexeyza.com/activities/</loc>
-    <lastmod>2015-09-09T11:18:52-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
-  
-  
+  <url>
+    <loc>http://alexeyza.com/blog/categories/conferences/</loc>
+  </url>
+  <url>
+    <loc>http://alexeyza.com/blog/categories/networking/</loc>
+  </url>
+  <url>
+    <loc>http://alexeyza.com/blog/categories/grad-students/</loc>
+  </url>
 </urlset>
