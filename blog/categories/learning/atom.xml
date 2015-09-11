@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Alexey Zagalsky]]></title>
-  <link href="http://alexeyza.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Learning | Alexey Zagalsky]]></title>
+  <link href="http://alexeyza.com/blog/categories/learning/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
   <updated>2015-09-10T17:14:17-07:00</updated>
   <id>http://alexeyza.com/</id>
@@ -20,8 +20,7 @@
     <id>http://alexeyza.com/blog/2015/09/10/embracing-participatory-culture-in-education</id>
     <content type="html"><![CDATA[<p><img style="float:right; margin: 8px 20px" src="http://alexeyza.com/images/github_student.png" widht="120" height="180" title="GitHub for Education?"/></p>
 
-<blockquote><p>"It's always about timing. If it's too soon, no one understands. If it's too late, everyone's forgotten."</p><footer><strong>Anna Wintour</strong></footer></blockquote>
-
+<p><blockquote><p>&ldquo;It&rsquo;s always about timing. If it&rsquo;s too soon, no one understands. If it&rsquo;s too late, everyone&rsquo;s forgotten.&rdquo;</p><footer><strong>Anna Wintour</strong></footer></blockquote></p>
 
 <p>GitHub is on the brink of growing from a platform for software projects, and into a mainstream collaboration platform for other domains as well.
 An unexpected area where GitHub&rsquo;s collaborative workflow holds the potential to bring groundbreaking changes is education and learning. In fact, educators have already begun to use GitHub to support teaching and learning. In some cases using it to replace certain aspects of the traditional learning management systems (e.g., Blackboard, Moodle), while in other cases gaining new benefits and capabilities.</p>
@@ -33,13 +32,11 @@ An unexpected area where GitHub&rsquo;s collaborative workflow holds the potenti
 
 <p>Some say that <a href="http://allankelly.blogspot.ca/2014/04/the-prototype-of-future-knowledge.html">software developers are the knowledge worker prototype</a>, in the sense that developers are the first to use and shape the tools other knowledge workers use. For example, the (inter-machine) Email in 1971 by <a href="http://en.wikipedia.org/wiki/Ray_Tomlinson">Ray Tomlinson</a>, the Wiki by <a href="http://en.wikipedia.org/wiki/Ward_Cunningham">Ward Cunningham</a>, and Stack Overflow by <a href="http://en.wikipedia.org/wiki/Joel_Spolsky">Joel Spolsky</a>. We believe GitHub is another such example.</p>
 
-<blockquote><p>"This doesn't mean that non-programmers can't invent electronic tools. Others can invent tools, but for programmers the barriers between imagining a tool and creating the tool are far lower."</p><footer><strong>Allan Kelly,</strong> <cite><a href='http://allankelly.blogspot.ca/2014/04/the-prototype-of-future-knowledge.html'>The Prototype of Future Knowledge Workers</a></cite></footer></blockquote>
-
+<p><blockquote><p>&ldquo;This doesn&rsquo;t mean that non-programmers can&rsquo;t invent electronic tools. Others can invent tools, but for programmers the barriers between imagining a tool and creating the tool are far lower.&rdquo;</p><footer><strong>Allan Kelly</strong> <cite><a href="http://allankelly.blogspot.ca/2014/04/the-prototype-of-future-knowledge.html">http://allankelly.blogspot.ca/2014/04/the-prototype-of-future-knowledge.html</a> the Prototype of Future Knowledge Workers</cite></footer></blockquote></p>
 
 <p><a href="https://github.com/">GitHub</a> is a popular Web-based social code sharing service that utilizes the Git distributed version control system. The software development community has embraced GitHub as an essential platform for managing their software projects. Similarly, tools such as <a href="https://bitbucket.org/">BitBucket</a> and <a href="https://about.gitlab.com/">GitLab</a> gain popularity in hosting software projects.</p>
 
-<blockquote><p>"After just seven years on the net, GitHub now boasts almost 9 million registered users. Each month, about 20 million others visit without registering. According to web traffic monitor Alexa, GitHub is now among the top 100 most popular sites on earth."</p><footer><strong>wired.com,</strong> <cite><a href='http://www.wired.com/2015/03/github-conquered-google-microsoft-everyone-else'>How GitHub Conquered Google, Microsoft, and Everyone Else</a></cite></footer></blockquote>
-
+<p><blockquote><p>&ldquo;After just seven years on the net, GitHub now boasts almost 9 million registered users. Each month, about 20 million others visit without registering. According to web traffic monitor Alexa, GitHub is now among the top 100 most popular sites on earth.&rdquo;</p><footer><strong>wired.com</strong> <cite><a href="http://www.wired.com/2015/03/github-conquered-google-microsoft-everyone-else">http://www.wired.com/2015/03/github-conquered-google-microsoft-everyone-else</a> How GitHub Conquered Google</cite></footer></blockquote></p>
 
 <p>However more importantly, GitHub is far more than a code repository, it is a social meeting place, that supports <a href="http://wenger-trayner.com/introduction-to-communities-of-practice/">communities of practice</a> and fosters collaboration. Groups of people use it as a virtual meeting place, that supports discussions, and allows everyone to maintain awareness.</p>
 
@@ -69,13 +66,11 @@ An unexpected area where GitHub&rsquo;s collaborative workflow holds the potenti
 
 <p>By using GitHub, educators can share and collaborate on course material. When a fellow educator wants to teach a similar course, all that she needs to do is <a href="https://help.github.com/articles/fork-a-repo/">fork</a> the original course on GitHub. And if she improves it, other educators are aware of the changes and can integrate them back to their courses as well.</p>
 
-<blockquote><p>"Some of the material is shared with the world and some of it is shared with other instructors of other universities...We're versioning all of it."</p></blockquote>
-
+<p><blockquote><p>&ldquo;Some of the material is shared with the world and some of it is shared with other instructors of other universities&hellip;We&rsquo;re versioning all of it.&rdquo;</p></blockquote></p>
 
 <p>Furthermore, one of the interviewees shared the following unexpected situation:</p>
 
-<blockquote><p>"I think the repository has something like 200 stars on GitHub right now and as far as I can tell most of those stars are from people who didn't take the course."</p></blockquote>
-
+<p><blockquote><p>&ldquo;I think the repository has something like 200 stars on GitHub right now and as far as I can tell most of those stars are from people who didn&rsquo;t take the course.&rdquo;</p></blockquote></p>
 
 <p>Suddenly, the course grows beyond the classroom, allowing the exchange of ideas and knowledge among students and external people (e.g., practitioners and experts from the industry).</p>
 
@@ -83,22 +78,19 @@ An unexpected area where GitHub&rsquo;s collaborative workflow holds the potenti
 
 <p>Using GitHub as a submission platform also makes it easy for educators to monitor student progress, activity and participation. GitHub has numerous features that support transparency of student activities, e.g., <a href="https://help.github.com/articles/about-repository-graphs/">graphs</a> and the <a href="https://help.github.com/articles/news-feed/">news-feed</a> that aggregates all the activity in one place.</p>
 
-<blockquote><p>"You really see the full history of how the document comes into being, including all the discussions, the former versions. I can monitor who's active, working in certain teams, which is also handy, practical."</p></blockquote>
-
+<p><blockquote><p>&ldquo;You really see the full history of how the document comes into being, including all the discussions, the former versions. I can monitor who&rsquo;s active, working in certain teams, which is also handy, practical.&rdquo;</p></blockquote></p>
 
 <h3>Encourage Participation</h3>
 
 <p>By using GitHub educators were able to encourage participation. In one case, the instructor used student logs as material for discussion in class. Another example was where students submitted an <a href="https://guides.github.com/features/issues/">issue</a> followed by a <a href="https://guides.github.com/introduction/flow/">Pull-Request</a>, mechanisms that are usually used to discuss bugs or code changes, in order to change a deadline.</p>
 
-<blockquote><p>"Last year, I introduced a number of deadlines in between, and the time of the deadline was always Friday evening. And the students didn't like it, so they opened an issue on GitHub - "Can we move it?". So I said, I'm open to suggestions, please discuss it. Everyone responded to that issue on GitHub, and then at the end I said "based on the discussion, it is going to be on Sunday". And then I asked the student who initiated this discussion "Please, open a Pull Request where you provide the fix to the assignment, so the Friday now changed to Sunday". And that worked really nicely."</p></blockquote>
-
+<p><blockquote><p>&ldquo;Last year, I introduced a number of deadlines in between, and the time of the deadline was always Friday evening. And the students didn&rsquo;t like it, so they opened an issue on GitHub - "Can we move it?&rdquo;. So I said, I&rsquo;m open to suggestions, please discuss it. Everyone responded to that issue on GitHub, and then at the end I said &ldquo;based on the discussion, it is going to be on Sunday&rdquo;. And then I asked the student who initiated this discussion &ldquo;Please, open a Pull Request where you provide the fix to the assignment, so the Friday now changed to Sunday&rdquo;. And that worked really nicely.&ldquo;</p></blockquote></p>
 
 <h3>Industry Relevance</h3>
 
 <p>Educators also use GitHub to provide their students with industry relevant skills and tools.</p>
 
-<blockquote><p>"This is very much what people use these days in [statistics], and so I actually consider it a completely valid pedagogical goal in and of itself."</p></blockquote>
-
+<p><blockquote><p>&ldquo;This is very much what people use these days in [statistics], and so I actually consider it a completely valid pedagogical goal in and of itself.&rdquo;</p></blockquote></p>
 
 <p>Furthermore, GitHub can also be used as a portfolio showcasing the student&rsquo;s work. It is common for employers to evaluate candidates based on their existing projects and activity on GitHub.</p>
 
@@ -110,7 +102,7 @@ An unexpected area where GitHub&rsquo;s collaborative workflow holds the potenti
 
 <p>With <strong>course material hosted on GitHub</strong>, students (or other educators) can discuss and suggest corrections to the material with the use of Pull-Requests or issues. For example, in a course I taught, <a href="https://github.com/alexeyza/startup-programming/pulls?utf8=%E2%9C%93&amp;q=is%3Apr">students submitted corrections</a> to the material by using pull requests. We didn&rsquo;t require them to do so, and it was not part of the grade - they did it on their own. Some educators even give extra credit for accepted pull requests. This is a game changer benefit of using a system like GitHub - it improves quality and encourages collaboration, benefiting everyone.</p>
 
-<p><img src="http://alexeyza.com/images/student_pr.png" title="Students contribute to the course material" alt="alt text" /></p>
+<p><img src="/images/student_pr.png" title="Students contribute to the course material" alt="alt text" /></p>
 
 <p>Additionally, <strong>educators use GitHub is as a submission platform</strong>. And there are two main ways to do it. One is more similar to the traditional LMS, where you create a separate repository per student, and it&rsquo;s private. The second way is having a single repository for the assignment, and the students will fork or branch it. This way all of the students can see each others work, allowing them to collaborate and build on the work of others.</p>
 
@@ -120,8 +112,7 @@ An unexpected area where GitHub&rsquo;s collaborative workflow holds the potenti
 
 <p>It should be mentioned that GitHub was not designed as an LMS, and even though it can be used as such, there are several challenges involved. The main challenges are the lack of a shared knowledge base of suggested and best practices, and educators facing barriers to entry (i.e., an understand of Git is required). I also strongly recommend reading <a href="http://www.infoworld.com/article/2886828/collaboration-software/github-for-the-rest-of-us.html">GitHub for the rest of us</a> by Jon Udell.</p>
 
-<blockquote><p>"To get the most out of GitHub, you need to understand Git... if you use it the right way it is simple, but somehow with Git you end up with conflicts, and if you don't understand it, it's magic!"</p></blockquote>
-
+<p><blockquote><p>&ldquo;To get the most out of GitHub, you need to understand Git&hellip; if you use it the right way it is simple, but somehow with Git you end up with conflicts, and if you don&rsquo;t understand it, it&rsquo;s magic!&rdquo;</p></blockquote></p>
 
 <p>Have you used GitHub (or a similar system) to support teaching or learning? Was it successful? What was the biggest challenge for you?</p>
 
@@ -130,60 +121,6 @@ An unexpected area where GitHub&rsquo;s collaborative workflow holds the potenti
 <h2>Additional Details</h2>
 
 <p>Additional details on this study can be found in <a href="http://alexeyza.com/pdf/cscw15.pdf">our paper</a> that was presented at the international <a href="http://cscw.acm.org/2015/">CSCW 2015 conference</a>, with the <a href="https://speakerdeck.com/alexeyza/the-emergence-of-github-as-a-collaborative-platform-for-education">slides available online</a> as well. We are extremely grateful to all the interview and survey participants.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[5 Tips for Successfully Meeting People at Academic Conferences]]></title>
-    <link href="http://alexeyza.com/blog/2015/02/06/5-tips-for-successfully-meeting-people-at-academic-conferences/"/>
-    <updated>2015-02-06T11:34:07-08:00</updated>
-    <id>http://alexeyza.com/blog/2015/02/06/5-tips-for-successfully-meeting-people-at-academic-conferences</id>
-    <content type="html"><![CDATA[<p><img style="float:right; margin: 8px 20px" src="http://alexeyza.com/images/zurich2012.jpg" widht="240" height="360" title="Zurich, Switzerland, 2012"/>
-As a <a href="http://alexeyza.com/">Ph.D. student</a>, I have the opportunity to attend many cool conferences and co-located events (e.g., <a href="http://2014.icse-conferences.org/">ICSE</a>, <a href="http://cscw.acm.org/2015/">CSCW</a>, <a href="http://www.icsme.org/">ICSME</a>). However, beyond visiting beautiful places around the world (<a href="https://500px.com/photo/20248433/zurich-at-night-by-alexey-zagalsky">Switzerland</a>, <a href="https://500px.com/photo/73282511/the-heart-of-hyderbad-by-alexey-zagalsky">India</a>, <a href="https://500px.com/photo/52266254/victoria-lights-by-alexey-zagalsky">Canada</a>, and <a href="https://www.youtube.com/watch?v=I_57gjvek7Q">Italy</a> soon), I really enjoy meeting and connecting with people. In my experience, most people I&rsquo;ve met at conferences were really great, super nice, and were very happy to talk to me, even though they didn&rsquo;t actually know me or had any immediate outcome in mind. In this post I provide pointers&mdash;especially intended for new grad students&mdash;for meeting people at conferences.</p>
-
-<!--more-->
-
-
-<h2>1. Stop &ldquo;Networking&rdquo; and Just Meet People</h2>
-
-<p>At one of the conferences I attended recently, I was approached by another Ph.D. student. After he introduced himself, he allowed me to introduce myself, and then asked about my research topic. After describing my research topic, he politely left. The problem here, in my opinion, was that except getting to know my name and my research topic, we didn&rsquo;t actually have a real conversation. And to be honest, the encounter didn&rsquo;t leave enough of an impression and in the future, it would be hard for me to remember meeting him.</p>
-
-<p>My main takeaway is that you should not focus on networking at conferences. I feel this is one the biggest mistakes people do, as they approach networking in a technical and goal oriented manner (saying things like <em>&ldquo;I have to talk to 50 strangers at this conference&rdquo;</em>). The goal should not be to (shallowly) meet X people in Y amount of time. Instead I suggest to <strong>genuinely</strong> be interested in meeting and connecting with other people. Have a proper conversation - you may never know where this conversation will go. I have had many amazing conversations (not necessarily research related) with people I just met, people who later became my colleagues or dear friends.</p>
-
-<h2>2. Don&rsquo;t Be Afraid to Approach People</h2>
-
-<p>A good way to meet people, especially for new students, is through an introduction. An introduction can be done either by your supervisor, one of your colleagues, or one of the newly met people. However, since not all supervisors might do this, you should <strong>introduce yourself</strong>. If you already have some experience and know the community, make sure to help newcomers.</p>
-
-<p>A very common way to meet people at conferences is to just approach them. I suggest the following: Start by introducing yourself, and get to know their name and where they come from (you can use the conference-issued name tags). Next, ask if they are presenting or have presented a paper at the conference. If they have a paper, you can ask them to tell you about the paper. If not, you can ask about their research interests. If you attended their talk, you should definitely mention that, and use their presentation as a way to start a conversation. Notice that this is not a script, but rather suggested guidelines to start a conversation.</p>
-
-<p>Remember that the main point of conferences is meeting people from your research area. This means that everyone has a common goal, so there is no reason to be afraid to approach people! Most are probably anxious as well, and would be thankful for a conversation.</p>
-
-<blockquote><p>"Students are sometimes afraid to talk to professors, but they shouldn't be. Many professors are very approachable. Some may be busy, so if they seem distracted don't take it personally. On the other hand, some students only approach well-known people, rather than being open to meeting anyone."</p><footer><strong><a href="https://margaretannestorey.wordpress.com/">Margaret-Anne Storey</a></strong></footer></blockquote>
-
-
-<h2>3. Attend Social Events, Not Just The Conference</h2>
-
-<p>When attending conferences, I recommend taking part in the various social events (official and unofficial). Most conferences will arrange a least a few organized social events: a dinner, a banquet, a hike, a bicycle trip, etc. However, there are also unofficial social meetings, such as groups of people gathering together for dinner. Attending these events will allow you to better connect with and get to know various people. Besides, these events are extremely fun (and usually lead to memorable moments).</p>
-
-<h2>4. Take Advantage of Social Media</h2>
-
-<p>Following and participating in the discussions happening on Twitter is another good way to get to know people in the community, and its research themes. The basic information on Twitter can allow you to know the names and faces of some of the people, and make it easier to approach them. In some cases, Twitter may also be used for coordinating social gatherings (e.g., when a group is organizing to go for dinner). However, using Twitter should not be a replacement for meeting people face-to-face.</p>
-
-<p>Most conferences nowadays have a presence on Twitter, and often people are live-tweeting during the conference. Using the conference or event hashtags (e.g., <a href="https://twitter.com/hashtag/icse14?src=hash">#icse14</a>, <a href="https://twitter.com/hashtag/icsme14?src=hash">#icsme14</a>) and tools like <a href="https://tweetdeck.twitter.com/">TweetDeck</a> are a very convenient way to track all the related tweets.</p>
-
-<h2>5. Don&rsquo;t Be Afraid of Lack of Experience</h2>
-
-<p>A common fear among newcomers is the lack of experience in research or in published papers. However, this should not be an issue at all. The <strong>research community is very welcoming</strong>, and the people you&rsquo;ll meet will most likely give you some suggestions and guidelines. Moreover, they probably had similar challenges before and know how you feel. Don&rsquo;t hesitate to be open about your lack of experience or the fact that you are a newcomer (e.g., a new student). Remember to be yourself.</p>
-
-<blockquote><p>"One thing that worked <strong>very well</strong> for me at <a href="http://2011.icse-conferences.org/">ICSE 2011</a> was that I knew in advance which cool people would be there. I was interested in and impressed by their research, and made it a point to try to meet and talk to them. When you're interested in what someone does it's also much easier to come up with questions to ask them. This leads to much better conversations."</p><footer><strong><a href="http://leif.me/">Leif Singer</a></strong></footer></blockquote>
-
-
-<p><br>
-I hope you&rsquo;ll find this post useful. <strong>If you see me at a conference, please come by and say hello</strong>. Also, a recommended book is <a href="http://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People">&ldquo;How to Win Friends and Influence People&rdquo;</a> by Dale Carnegie.</p>
-
-<p>How was your own experience with meeting people at conferences? Do you have a cool story where something happened only because you pushed yourself out there?</p>
-
-<p><strong>P.S.</strong> <a href="https://twitter.com/alexeyzagalsky">I&rsquo;d love to meet you on Twitter.</a></p>
 ]]></content>
   </entry>
   
