@@ -4,7 +4,7 @@
   <title><![CDATA[Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-11T16:52:32-07:00</updated>
+  <updated>2015-09-11T16:56:05-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -150,7 +150,9 @@ I would also like to <strong>strongly recommend</strong> reading <a href="http:/
 
 <p>The first part brings the content, in quiet mode, to allow piping into <code>grep</code>. The second part extracts all the episode file names and paths, in my case they are all mp3 files. And finally, the last part downloads all the files. I used the RSS feed instead of the podcast homepage as a way to have all the content in a single file.</p>
 
-<p>Also, a useful tool for experimenting with regular expressions is <a href="http://regexr.com/">RegExr</a>.</p>
+<p>I wonder, can this be done with a single <code>wget</code> command?</p>
+
+<p>BTW, a useful tool for experimenting with regular expressions is <a href="http://regexr.com/">RegExr</a>.</p>
 ]]></content>
   </entry>
   
