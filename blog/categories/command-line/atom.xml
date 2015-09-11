@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Command Line | Alexey Zagalsky]]></title>
+  <link href="http://alexeyza.com/blog/categories/command-line/atom.xml" rel="self"/>
+  <link href="http://alexeyza.com/"/>
+  <updated>2015-09-11T16:47:44-07:00</updated>
+  <id>http://alexeyza.com/</id>
+  <author>
+    <name><![CDATA[Alexey Zagalsky]]></name>
+    <email><![CDATA[alexeyza@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Download Podcasts in Command-Line]]></title>
+    <link href="http://alexeyza.com/blog/2015/09/02/download-podcasts-commandline/"/>
+    <updated>2015-09-02T15:42:19-07:00</updated>
+    <id>http://alexeyza.com/blog/2015/09/02/download-podcasts-commandline</id>
+    <content type="html"><![CDATA[<p>I recently discovered a superb <a href="http://www.shavua.net/">podcast on startups</a> (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each episode, with a download link at the bottom.</p>
+
+<p>However, instead of downloading each episode manually, I challenged myself to find an easier way, with the use of the command line. And to make it more interesting, I wanted to accomplish this with a single command line.</p>
+
+<pre><code class="bash">wget -q -O - "$@" http://simplecast.fm/podcasts/173/rss | grep -o "http://.*.mp3" | xargs wget
+</code></pre>
+
+<p>The first part brings the content, in quiet mode to allow piping into <code>grep</code>. The second part extracts all the episode file names and paths, in my case they are all mp3 files. And finally, the last part downloads all the files. I used the RSS feed instead of the podcast homepage as a way to have all the content in a single file.</p>
+
+<p>A useful tool for experimenting with regular expressions is <a href="http://regexr.com/">RegExr</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

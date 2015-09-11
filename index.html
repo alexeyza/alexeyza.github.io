@@ -166,6 +166,71 @@ in
           <div class="row">
             <div class="col-md-offset-3 col-md-6">
               <article>
+  <h2><a href="/blog/2015/09/02/download-podcasts-commandline/">Download Podcasts in Command-Line</a></h2>
+  
+  <p>
+    <p>I recently discovered a superb <a href="http://www.shavua.net/">podcast on startups</a> (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each episode, with a download link at the bottom.</p>
+
+
+
+
+<p>However, instead of downloading each episode manually, I challenged myself to find an easier way, with the use of the command line. And to make it more interesting, I wanted to accomplish this with a single command line.</p>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>wget -q -O - <span class="s2">&quot;$@&quot;</span> http://simplecast.fm/podcasts/173/rss <span class="p">|</span> grep -o <span class="s2">&quot;http://.*.mp3&quot;</span> <span class="p">|</span> xargs wget
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<p>The first part brings the content, in quiet mode to allow piping into <code>grep</code>. The second part extracts all the episode file names and paths, in my case they are all mp3 files. And finally, the last part downloads all the files. I used the RSS feed instead of the podcast homepage as a way to have all the content in a single file.</p>
+
+
+
+
+<p>A useful tool for experimenting with regular expressions is <a href="http://regexr.com/">RegExr</a>.</p>
+
+
+  </p>
+  <span class="meta">
+    written 
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-09-02T15:42:19-07:00" pubdate data-updated="true">September 2, 2015</time>
+    
+
+in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/command-line/'>command line</a>, <a class='category' href='/blog/categories/script/'>script</a>
+  
+</span>
+
+
+  </span>
+
+  
+</article>
+
+            </div>
+          </div>
+        
+          
+          <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+              <article>
   <h2><a href="/blog/2015/02/06/5-tips-for-successfully-meeting-people-at-academic-conferences/">5 Tips for Successfully Meeting People at Academic Conferences</a></h2>
   
   <p>
