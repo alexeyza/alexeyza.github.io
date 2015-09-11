@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Social Media | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/social-media/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-10T19:26:49-07:00</updated>
+  <updated>2015-09-11T08:57:03-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -56,7 +56,7 @@ An unexpected area where GitHub&rsquo;s collaborative workflow holds the potenti
 
 <h2>Why Educators Use GitHub</h2>
 
-<p>Traditional learning management systems (LMS) are a pain point for many educators (including myself). The basic purpose of these systems is to allow educators to share course material with the students, and to allow access to the students' submitted assignments. However, in reality, we end up using a combination of LMSs, and external services, while somehow most of the communication happens over email. On top of that, access to the course material or the assignments is limited to current students only. Which doesn&rsquo;t include students who completed the course and want to reuse the material, other educators, or industry people who may share their own experience. This is not a hypothetical situation, I&rsquo;ve seen this happen first hand, more than once (both as a student and as an educator).</p>
+<p>Traditional learning management systems (LMS) are a pain point for many educators (including myself). The basic purpose of these systems is to allow educators to share course material with the students, and to host student assignments. However, in reality, we end up using a combination of LMSs, and external services, while somehow most of the communication happens over email. On top of that, access to the course material or the assignments is limited to current students only. Which doesn&rsquo;t include students who completed the course and want to reuse the material, other educators, or industry people who may share their own experience. This is not a hypothetical situation, I&rsquo;ve seen this happen first hand, more than once (both as a student and as an educator).</p>
 
 <p><img style="float:center; margin: 8px 20px" src="http://alexeyza.com/images/traditional_lms.png" widht="240" height="360" title="Typical case"/></p>
 
