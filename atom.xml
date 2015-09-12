@@ -4,7 +4,7 @@
   <title><![CDATA[Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-11T17:04:19-07:00</updated>
+  <updated>2015-09-11T21:29:10-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -141,7 +141,7 @@ I would also like to <strong>strongly recommend</strong> reading <a href="http:/
     <id>http://alexeyza.com/blog/2015/09/02/download-podcasts-commandline</id>
     <content type="html"><![CDATA[<p>I recently discovered a superb <a href="http://www.shavua.net/">podcast on startups</a> (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each episode, with a download link at the bottom.</p>
 
-<p>However, instead of downloading each episode manually, I challenged myself to find an easier way, with the use of the command line. And to make it more interesting, I wanted to accomplish this with a single command line.</p>
+<p>However, instead of downloading each episode manually, I decided to find an easier way, with the use of the command line. And to make it more interesting, I wanted to accomplish this with a single command line.</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>wget -q -O - <span class="s2">&quot;$@&quot;</span> http://simplecast.fm/podcasts/173/rss <span class="p">|</span> grep -o <span class="s2">&quot;http://.*.mp3&quot;</span> <span class="p">|</span> xargs wget

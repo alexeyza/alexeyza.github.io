@@ -72,7 +72,7 @@
   <p>
     <p>I recently discovered a superb <a href="http://www.shavua.net/">podcast on startups</a> (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each episode, with a download link at the bottom.</p>
 
-<p>However, instead of downloading each episode manually, I challenged myself to find an easier way, with the use of the command line. And to make it more interesting, I wanted to accomplish this with a single command line.</p>
+<p>However, instead of downloading each episode manually, I decided to find an easier way, with the use of the command line. And to make it more interesting, I wanted to accomplish this with a single command line.</p>
 
 <pre><code class="bash">wget -q -O - "$@" http://simplecast.fm/podcasts/173/rss | grep -o "http://.*.mp3" | xargs wget
 </code></pre>
