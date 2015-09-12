@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Script | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/script/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-11T21:29:10-07:00</updated>
+  <updated>2015-09-11T21:42:33-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Download Podcasts in Command-Line]]></title>
-    <link href="http://alexeyza.com/blog/2015/09/02/download-podcasts-commandline/"/>
+    <title type="html"><![CDATA[Download Podcasts in Command Line]]></title>
+    <link href="http://alexeyza.com/blog/2015/09/02/download-podcasts-in-command-line/"/>
     <updated>2015-09-02T15:42:19-07:00</updated>
-    <id>http://alexeyza.com/blog/2015/09/02/download-podcasts-commandline</id>
+    <id>http://alexeyza.com/blog/2015/09/02/download-podcasts-in-command-line</id>
     <content type="html"><![CDATA[<p>I recently discovered a superb <a href="http://www.shavua.net/">podcast on startups</a> (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each episode, with a download link at the bottom.</p>
 
 <p>However, instead of downloading each episode manually, I decided to find an easier way, with the use of the command line. And to make it more interesting, I wanted to accomplish this with a single command line.</p>
