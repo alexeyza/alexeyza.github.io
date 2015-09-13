@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Script | Alexey Zagalsky]]></title>
-  <link href="http://alexeyza.com/blog/categories/script/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Hacks | Alexey Zagalsky]]></title>
+  <link href="http://alexeyza.com/blog/categories/hacks/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-11T22:23:06-07:00</updated>
+  <updated>2015-09-12T18:48:18-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
