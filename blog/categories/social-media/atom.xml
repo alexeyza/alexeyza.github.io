@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Social Media | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/social-media/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-12T18:48:18-07:00</updated>
+  <updated>2015-09-17T09:45:26-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -38,13 +38,13 @@ An unexpected area where GitHub&rsquo;s collaborative workflow holds the potenti
 
 <p><blockquote><p>&ldquo;After just seven years on the net, GitHub now boasts almost 9 million registered users. Each month, about 20 million others visit without registering. According to web traffic monitor Alexa, GitHub is now among the top 100 most popular sites on earth.&rdquo;</p><footer><strong>wired.com</strong> <cite><a href="http://www.wired.com/2015/03/github-conquered-google-microsoft-everyone-else">http://www.wired.com/2015/03/github-conquered-google-microsoft-everyone-else</a> How GitHub Conquered Google</cite></footer></blockquote></p>
 
-<p>However more importantly, GitHub is far more than a code repository, it is a social meeting place, that supports <a href="http://wenger-trayner.com/introduction-to-communities-of-practice/">communities of practice</a> and fosters collaboration. Groups of people use it as a virtual meeting place, that supports discussions, and allows everyone to maintain awareness.</p>
+<p>More importantly, GitHub is far more than a code repository, it is a social meeting place, that supports <a href="http://wenger-trayner.com/introduction-to-communities-of-practice/">communities of practice</a> and fosters collaboration. People use it as a virtual meeting place, that supports discussions, and allows everyone to maintain awareness.</p>
 
 <h2>Beyond Software Development</h2>
 
 <p>However, GitHub is not just for software development. Early adopters use it to <a href="http://readwrite.com/2013/11/08/seven-ways-to-use-github-that-arent-coding">compose music</a>, to <a href="http://venturebeat.com/2013/01/30/github-for-recipes-brings-open-source-into-the-kitchen/">share recipes</a>, and even for legal documents. For example, Stefan Wehrmeyer, a German software developer and activist has posted the <a href="https://github.com/bundestag/gesetze">German federal government&rsquo;s laws and regulations</a> to GitHub. Allowing anyone to track changes, see who made the changes, and why. Thus, not only providing traceability of the changes, but with the use of GitHub&rsquo;s diff functionality showing what exactly has been changed. Similarly, the <a href="https://github.com/divegeek/uscode">US federal code</a> and the <a href="https://github.com/steeve/france.code-civil">French civil code</a> have been published to GitHub as well.</p>
 
-<p>In addition to these marvelous uses, GitHub is used for educational purposes as well.</p>
+<p>In addition to these marvelous uses, GitHub is used for educational purposes.</p>
 
 <h2>GitHub for Education</h2>
 
@@ -104,13 +104,13 @@ An unexpected area where GitHub&rsquo;s collaborative workflow holds the potenti
 
 <p><img src="/images/student_pr.png" title="Students contribute to the course material" alt="alt text" /></p>
 
-<p>Additionally, <strong>educators use GitHub is as a submission platform</strong>. And there are two main ways to do it. One is more similar to the traditional LMS, where you create a separate repository per student, and it&rsquo;s private. The second way is having a single repository for the assignment, and the students will fork or branch it. This way all of the students can see each others work, allowing them to collaborate and build on the work of others.</p>
+<p>Additionally, <strong>educators use GitHub as a submission platform</strong>. And there are two main ways to do it. One is more similar to the traditional LMS, where you create a separate repository per student, and it&rsquo;s private. The second way is having a single repository for the assignment, and the students will fork or branch it. This way all of the students can see each others work, allowing them to collaborate and build on the work of others.</p>
 
 <h2>Summary</h2>
 
 <p>Our study uncovered how educators use GitHub to support learning and teaching, while extending or even replacing traditional LMSs. However, the implications of our findings go beyond GitHub itself. The emergence of GitHub&rsquo;s workflow within education is transforming the traditional e-learning model and will better support socio-collaborative learning environments of the future.</p>
 
-<p>It should be mentioned that GitHub was not designed as an LMS, and even though it can be used as such, there are several challenges involved. The main challenges are the lack of a shared knowledge base with suggested and best practices, and the barriers to entry educators face (i.e., an understanding of Git is required).</p>
+<p>It should be mentioned that GitHub was not designed as an LMS, and even though it can be used as such, there are several challenges involved. The main challenges are the lack of a shared knowledge base of suggested and best practices, and the barriers to entry educators face (i.e., an understanding of Git is required).</p>
 
 <p><blockquote><p>&ldquo;To get the most out of GitHub, you need to understand Git&hellip; if you use it the right way it is simple, but somehow with Git you end up with conflicts, and if you don&rsquo;t understand it, it&rsquo;s magic!&rdquo;</p></blockquote></p>
 
