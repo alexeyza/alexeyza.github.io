@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Education | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/education/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-18T14:04:40-07:00</updated>
+  <updated>2015-09-18T14:11:39-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -116,7 +116,7 @@ An unexpected area where GitHub&rsquo;s collaborative <strong>workflow</strong> 
 
 <p><strong>Be creative.</strong> There are additional ways to enhance the teaching and learning experience. For instance, some educators use <a href="https://travis-ci.org/">Travis CI</a> for <a href="https://github.com/education/teachers/issues/3">automated assignment grading</a>.</p>
 
-<p><br></p>
+<hr />
 
 <p>Have you used or plan to use GitHub to support teaching or learning? What was the biggest <strong>challenge</strong> for you? What <strong>recommendations</strong> do you have for other educators? Please <strong>comment</strong> below.</p>
 
