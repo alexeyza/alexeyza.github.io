@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Education | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/education/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-20T10:13:02-07:00</updated>
+  <updated>2015-09-25T13:49:39-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -20,7 +20,7 @@
     <id>http://alexeyza.com/blog/2015/09/10/embracing-participatory-culture-in-education</id>
     <content type="html"><![CDATA[<p><img style="float:right; margin: 8px 20px" src="http://alexeyza.com/images/github_student.png" widht="120" height="180" title="GitHub for Education?"/></p>
 
-<p><blockquote><p>&ldquo;It&rsquo;s always about timing. If it&rsquo;s too soon, no one understands. If it&rsquo;s too late, everyone&rsquo;s forgotten.&rdquo;</p><footer><strong>Anna Wintour</strong></footer></blockquote></p>
+<p><blockquote><p><em>&ldquo;It&rsquo;s always about timing. If it&rsquo;s too soon, no one understands. If it&rsquo;s too late, everyone&rsquo;s forgotten.&rdquo;</em></p><footer><strong>Anna Wintour</strong></footer></blockquote></p>
 
 <p>GitHub is on the brink of growing from a platform for software projects, and into a mainstream collaboration platform for other domains as well.
 An unexpected area where GitHub&rsquo;s collaborative <strong>workflow</strong> holds the potential to bring groundbreaking changes is education and learning. In fact, educators have already begun to use GitHub to support teaching and learning. In some cases using it to replace certain aspects of the traditional learning management systems (e.g., Blackboard, Moodle), while in other cases gaining new benefits and capabilities.</p>
@@ -56,11 +56,11 @@ An unexpected area where GitHub&rsquo;s collaborative <strong>workflow</strong> 
 
 <p>By using GitHub, educators can share and collaborate on course material. When a fellow educator wants to teach a similar course, all that she needs to do is <a href="https://help.github.com/articles/fork-a-repo/">fork</a> the original course on GitHub. And if she improves it, other educators are aware of the changes and can integrate them back to their courses as well.</p>
 
-<p><blockquote><p>&ldquo;Some of the material is shared with the world and some of it is shared with other instructors of other universities&hellip;We&rsquo;re versioning all of it.&rdquo;</p><footer><strong>CS professor from University of California at Berkeley</strong></footer></blockquote></p>
+<p><blockquote><p><em>&ldquo;Some of the material is shared with the world and some of it is shared with other instructors of other universities&hellip;We&rsquo;re versioning all of it.&rdquo;</em></p><footer><strong>CS professor from University of California at Berkeley</strong></footer></blockquote></p>
 
 <p>Furthermore, one of the interviewees shared the following unexpected situation:</p>
 
-<p><blockquote><p>&ldquo;I think the repository has something like 200 stars on GitHub right now and as far as I can tell most of those stars are from people who didn&rsquo;t take the course.&rdquo;</p><footer><strong>CS instructor from Harvard University</strong></footer></blockquote></p>
+<p><blockquote><p><em>&ldquo;I think the repository has something like 200 stars on GitHub right now and as far as I can tell most of those stars are from people who didn&rsquo;t take the course.&rdquo;</em></p><footer><strong>CS instructor from Harvard University</strong></footer></blockquote></p>
 
 <p>Suddenly, the course grows beyond the classroom, allowing the exchange of ideas and knowledge among students and external people (e.g., practitioners and experts from the industry).</p>
 
@@ -68,19 +68,19 @@ An unexpected area where GitHub&rsquo;s collaborative <strong>workflow</strong> 
 
 <p>Using GitHub as a submission platform also makes it easier for educators to monitor student progress, activity, and participation. GitHub has numerous features that support transparency of student activities, e.g., <a href="https://help.github.com/articles/about-repository-graphs/">graphs</a> and the <a href="https://help.github.com/articles/news-feed/">news-feed</a> that aggregates all the activity in one place.</p>
 
-<p><blockquote><p>&ldquo;[As an educator] you really see the full history of how the document comes into being, including all the discussions, the former versions. I can monitor who&rsquo;s active, working in certain teams, which is also handy, practical.&rdquo;</p><footer><strong>CS professor from Delft University of Technology</strong></footer></blockquote></p>
+<p><blockquote><p><em>&ldquo;[As an educator] you really see the full history of how the document comes into being, including all the discussions, the former versions. I can monitor who&rsquo;s active, working in certain teams, which is also handy, practical.&rdquo;</em></p><footer><strong>CS professor from Delft University of Technology</strong></footer></blockquote></p>
 
 <h3>Encourage Participation</h3>
 
 <p>By using GitHub educators were able to encourage participation. In one case, the instructor used student logs as material for discussion in class. Another example was where students submitted an <a href="https://guides.github.com/features/issues/">issue</a> followed by a <a href="https://guides.github.com/introduction/flow/">Pull-Request</a>, mechanisms that are usually used to discuss bugs or code changes, in order to change a deadline.</p>
 
-<p><blockquote><p>&ldquo;Last year, I introduced a number of deadlines in between, and the time of the deadline was always Friday evening. And the students didn&rsquo;t like it, so they opened an issue on GitHub - "Can we move it?&rdquo;. So I said, I&rsquo;m open to suggestions, please discuss it. Everyone responded to that issue on GitHub, and then at the end I said &ldquo;based on the discussion, it is going to be on Sunday&rdquo;. And then I asked the student who initiated this discussion &ldquo;Please, open a Pull Request where you provide the fix to the assignment, so the Friday now changed to Sunday&rdquo;. And that worked really nicely.&ldquo;</p><footer><strong>CS professor from Delft University of Technology</strong></footer></blockquote></p>
+<p><blockquote><p><em>&ldquo;Last year, I introduced a number of deadlines in between, and the time of the deadline was always Friday evening. And the students didn&rsquo;t like it, so they opened an issue on GitHub - "Can we move it?&rdquo;. So I said, I&rsquo;m open to suggestions, please discuss it. Everyone responded to that issue on GitHub, and then at the end I said &ldquo;based on the discussion, it is going to be on Sunday&rdquo;. And then I asked the student who initiated this discussion &ldquo;Please, open a Pull Request where you provide the fix to the assignment, so the Friday now changed to Sunday&rdquo;. And that worked really nicely.&ldquo;</em></p><footer><strong>CS professor from Delft University of Technology</strong></footer></blockquote></p>
 
 <h3>Industry Relevance</h3>
 
 <p>Educators also use GitHub to provide their students with industry relevant skills and tools.</p>
 
-<p><blockquote><p>&ldquo;This is very much what people use these days in [statistics], and so I actually consider it a completely valid pedagogical goal in and of itself. And the fact that it makes our work together easier is a beautiful byproduct.&rdquo;</p><footer><strong>Statistics professor from University of British Colombia</strong></footer></blockquote></p>
+<p><blockquote><p><em>&ldquo;This is very much what people use these days in [statistics], and so I actually consider it a completely valid pedagogical goal in and of itself. And the fact that it makes our work together easier is a beautiful byproduct.&rdquo;</em></p><footer><strong>Statistics professor from University of British Colombia</strong></footer></blockquote></p>
 
 <p>Furthermore, GitHub can also be used as a portfolio showcasing the student&rsquo;s work. It is common for employers to evaluate candidates based on their existing projects and activity on GitHub.</p>
 
@@ -102,7 +102,7 @@ An unexpected area where GitHub&rsquo;s collaborative <strong>workflow</strong> 
 
 <p>It should be mentioned that GitHub was not designed as an LMS, and even though it can be used as such, there are several challenges involved. The main challenges are the lack of a shared knowledge base of suggested and best practices, and the barriers to entry educators face (i.e., an understanding of Git is required).</p>
 
-<p><blockquote><p>&ldquo;To get the most out of GitHub, you need to understand Git&hellip; if you use it the right way it is simple, but somehow with Git you end up with conflicts, and if you don&rsquo;t understand it, it&rsquo;s magic!&rdquo;</p><footer><strong>CS professor from Delft University of Technology</strong></footer></blockquote></p>
+<p><blockquote><p><em>&ldquo;To get the most out of GitHub, you need to understand Git&hellip; if you use it the right way it is simple, but somehow with Git you end up with conflicts, and if you don&rsquo;t understand it, it&rsquo;s magic!&rdquo;</em></p><footer><strong>CS professor from Delft University of Technology</strong></footer></blockquote></p>
 
 <h2>Planning to Use GitHub? Here&rsquo;s What You Should Do</h2>
 
