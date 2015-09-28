@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scripts | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/scripts/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-28T15:00:05-07:00</updated>
+  <updated>2015-09-28T15:01:54-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -37,7 +37,7 @@
 
 <h2>Removing the older version of Node</h2>
 
-<p>First, create a backup list of the NPM packages which you installed globaly:
+<p>First, create a <strong>backup</strong> list of the previously globally installed NPM packages:
 <code>bash
 npm ls -gp &gt; node_packages.txt
 </code></p>
