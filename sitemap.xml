@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://alexeyza.com/blog/2015/09/28/starting-with-node-dot-js/</loc>
+    <lastmod>2015-09-28T13:21:02-07:00</lastmod>
+  </url>
+  <url>
     <loc>http://alexeyza.com/blog/2015/09/10/embracing-participatory-culture-in-education/</loc>
     <lastmod>2015-09-10T11:41:54-07:00</lastmod>
   </url>
@@ -56,5 +60,8 @@
   </url>
   <url>
     <loc>http://alexeyza.com/blog/categories/social-media/</loc>
+  </url>
+  <url>
+    <loc>http://alexeyza.com/blog/categories/nodejs/</loc>
   </url>
 </urlset>

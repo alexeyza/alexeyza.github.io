@@ -4,7 +4,7 @@
   <title><![CDATA[Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-25T13:49:39-07:00</updated>
+  <updated>2015-09-28T14:52:24-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -12,6 +12,98 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Starting With Node.js]]></title>
+    <link href="http://alexeyza.com/blog/2015/09/28/starting-with-node-dot-js/"/>
+    <updated>2015-09-28T13:21:02-07:00</updated>
+    <id>http://alexeyza.com/blog/2015/09/28/starting-with-node-dot-js</id>
+    <content type="html"><![CDATA[<p><img style="float:left; margin: 8px 20px" src="http://alexeyza.com/images/nodejs.png" widht="180" height="180" title="Node.js"/></p>
+
+<p>The <a href="https://nodejs.org/en/">Node.js</a> project and its community have undergone major changes in the recent years, among which is the forking of the project (and perhaps the community itself). This situation causes confusion for newcomers, who find themselves with compatibility issues and difficulties in setting up a working and up-to-date environment.</p>
+
+<p>In this post, I present how to get the recent version of Node.js on a Linux OS in a sustainable way.</p>
+
+<!--more-->
+
+
+<h2>What is Node.JS</h2>
+
+<p>Node.js is an event-driven I/O <strong>server-side</strong> (backend) JavaScript environment based on Chrome&rsquo;s V8 JavaScript engine. It is considered a very popular backend environment, and it uses <a href="https://www.npmjs.com/">NPM</a>, the best package manager in my opinion (however, we&rsquo;ll leave the discussion on what makes NPM so good for a different post).</p>
+
+<p>At some point, Node.js <a href="http://anandmanisankar.com/posts/nodejs-iojs-why-the-fork/">was forked</a> into two projects: <strong>Node.js</strong> and <strong>IO.js</strong>, causing compatibility issues and disputes in the community. And recently, these projects have been <a href="http://www.infoworld.com/article/2960452/javascript/unforked-iojs-v3-sets-stage-for-nodejs-merger.html">merged back</a> with Node v4.x.</p>
+
+<p>However, not everyone have caught on with the recent changes (which at some point should be a thing of the past). My OS of choice, Ubuntu, only supports <a href="https://nodejs.org/en/download/releases/">Node.js 0.12.7</a> through the official repositories. Where version 0.12.7 is the latest stable version <strong>prior</strong> to the forking of the project. Thus, the best way to get the current version of Node.js on Linux is through <a href="https://github.com/creationix/nvm">NVM</a>.</p>
+
+<h2>Removing the older version of Node</h2>
+
+<p>If you installed Node.js through <code>apt-get</code>, use the following:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo apt-get remove nodejs
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Additionally, your home folder may contain a <code>.npm</code> folder that can be removed (since NVM will use its own path for NPM packages).</p>
+
+<h2>Installing Node.js with NVM</h2>
+
+<p>Grab the latest copy of NVM (you may need to <code>sudo apt-get install curl</code> first):</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.27.1/install.sh <span class="p">|</span> bash
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Update NVM to latest version:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">cd</span> ~/.nvm
+</span><span class='line'>git pull origin master
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then restart your terminal window, and install the latest node version:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>nvm install stable
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>or if you want a specific version (e.g., version 4.1.1):</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>nvm install 4.1.1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And tell nvm which version of Node you want to use (when a specific version is needed):</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>nvm use 4.1.1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Define a default version, so that you don&rsquo;t have to pick a node version each time you start your terminal. This will activate the specified version each time the terminal starts, and it will do it silently.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>nvm <span class="nb">alias </span>default stable
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And lastly, check the installed version of node:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>node --version
+</span></code></pre></td></tr></table></div></figure>
+
+
+<hr />
+
+<p>The above steps were mostly taken from <a href="http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046">Stack Overflow</a> and <a href="https://github.com/creationix/nvm">NVM docs</a>, with minor changes to make it more sustainable for future updates.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Embracing Participatory Culture in Education]]></title>

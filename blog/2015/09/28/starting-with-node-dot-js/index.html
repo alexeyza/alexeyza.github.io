@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Starting With Node.js - Alexey Zagalsky</title>
+  <meta name="author" content="Alexey Zagalsky">
+
+  
+  <meta name="description" content="Starting With Node.js written September 28, 2015 in nodejs, scripts The Node.js project and its community have undergone major changes in the recent &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://alexeyza.com/blog/2015/09/28/starting-with-node-dot-js">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Alexey Zagalsky" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-54265697-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+  <body>
+    <a href="/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
+
+    <article role="article" class="full-single-article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Starting With Node.js</h1>
+        <div class="meta">
+          written 
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-09-28T13:21:02-07:00" pubdate data-updated="true">September 28, 2015</time>
+          
+
+in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>, <a class='category' href='/blog/categories/scripts/'>scripts</a>
+  
+</span>
+
+
+        </div>
+        <p><img style="float:left; margin: 8px 20px" src="/images/nodejs.png" widht="180" height="180" title="Node.js"/></p>
+
+<p>The <a href="https://nodejs.org/en/">Node.js</a> project and its community have undergone major changes in the recent years, among which is the forking of the project (and perhaps the community itself). This situation causes confusion for newcomers, who find themselves with compatibility issues and difficulties in setting up a working and up-to-date environment.</p>
+
+<p>In this post, I present how to get the recent version of Node.js on a Linux OS in a sustainable way.</p>
+
+<!--more-->
+
+
+<h2>What is Node.JS</h2>
+
+<p>Node.js is an event-driven I/O <strong>server-side</strong> (backend) JavaScript environment based on Chrome&rsquo;s V8 JavaScript engine. It is considered a very popular backend environment, and it uses <a href="https://www.npmjs.com/">NPM</a>, the best package manager in my opinion (however, we&rsquo;ll leave the discussion on what makes NPM so good for a different post).</p>
+
+<p>At some point, Node.js <a href="http://anandmanisankar.com/posts/nodejs-iojs-why-the-fork/">was forked</a> into two projects: <strong>Node.js</strong> and <strong>IO.js</strong>, causing compatibility issues and disputes in the community. And recently, these projects have been <a href="http://www.infoworld.com/article/2960452/javascript/unforked-iojs-v3-sets-stage-for-nodejs-merger.html">merged back</a> with Node v4.x.</p>
+
+<p>However, not everyone have caught on with the recent changes (which at some point should be a thing of the past). My OS of choice, Ubuntu, only supports <a href="https://nodejs.org/en/download/releases/">Node.js 0.12.7</a> through the official repositories. Where version 0.12.7 is the latest stable version <strong>prior</strong> to the forking of the project. Thus, the best way to get the current version of Node.js on Linux is through <a href="https://github.com/creationix/nvm">NVM</a>.</p>
+
+<h2>Removing the older version of Node</h2>
+
+<p>If you installed Node.js through <code>apt-get</code>, use the following:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo apt-get remove nodejs
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Additionally, your home folder may contain a <code>.npm</code> folder that can be removed (since NVM will use its own path for NPM packages).</p>
+
+<h2>Installing Node.js with NVM</h2>
+
+<p>Grab the latest copy of NVM (you may need to <code>sudo apt-get install curl</code> first):</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.27.1/install.sh <span class="p">|</span> bash
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Update NVM to latest version:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">cd</span> ~/.nvm
+</span><span class='line'>git pull origin master
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then restart your terminal window, and install the latest node version:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>nvm install stable
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>or if you want a specific version (e.g., version 4.1.1):</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>nvm install 4.1.1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And tell nvm which version of Node you want to use (when a specific version is needed):</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>nvm use 4.1.1
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Define a default version, so that you don&rsquo;t have to pick a node version each time you start your terminal. This will activate the specified version each time the terminal starts, and it will do it silently.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>nvm <span class="nb">alias </span>default stable
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And lastly, check the installed version of node:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>node --version
+</span></code></pre></td></tr></table></div></figure>
+
+
+<hr />
+
+<p>The above steps were mostly taken from <a href="http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046">Stack Overflow</a> and <a href="https://github.com/creationix/nvm">NVM docs</a>, with minor changes to make it more sustainable for future updates.</p>
+
+
+        <hr class="divider-short"/>
+
+        
+        <section>
+          <h1>Comments</h1>
+          <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        </section>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<hr class="divider-short"/>
+
+<div class="archive-link">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+          <a class="pull-left" href="/blog/2015/09/10/embracing-participatory-culture-in-education/" title="Previous Post: Embracing Participatory Culture in Education">&laquo; Previous: Embracing Participatory Culture in Education</a>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/"><h4>Home</h4></a>
+</div>
+
+<div class="col-md-2">
+  <div class="social-icon-list">
+    
+    <a href="mailto:alexeyza@gmail.com"><img src="/images/glyphicons_social_39_e-mail.png"/></a>
+    
+
+    
+    <a href="https://twitter.com/alexeyzagalsky"><img src="/images/glyphicons_social_31_twitter.png"/></a>
+    
+
+    
+    <a href="https://github.com/alexeyza"><img src="/images/glyphicons_social_21_github.png"/></a>
+    
+
+    
+    <a href="https://linkedin.com/in/alexeyza"><img src="/images/glyphicons_social_17_linked_in.png"/></a>
+    
+
+    
+    <a title="Google Scholar" href="http://scholar.google.ca/citations?user=WWYRn7AAAAAJ"><img src="/images/glyphicons_social_22_google_scholar.png"/></a>
+    
+
+    
+    <a title="PeerJ Computer Science" href="https://peerj.com/alexeyza"><img src="/images/glyphicons_351_book_open.png"/></a>
+    
+
+    
+    <a title="Speaker Deck" href="https://speakerdeck.com/alexeyza"><img src="/images/glyphicons-394-speakerdeck.png"/></a>
+    
+
+    
+    <a title="500px" href="http://500px.com/alexeyza"><img src="/images/glyphicons_social_18_500px.png"/></a>
+    
+
+    
+    <a title="Kaggle" href="http://www.kaggle.com/alexeyza"><img src="/images/glyphicons_social_20_kaggle.png"/></a>
+    
+  </div>
+</div>
+
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+    
+      
+
+<script type="text/javascript">
+      var disqus_shortname = 'alexeyzablog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://alexeyza.com/blog/2015/09/28/starting-with-node-dot-js/';
+        var disqus_url = 'http://alexeyza.com/blog/2015/09/28/starting-with-node-dot-js/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+    
+  </body>
+</html>
