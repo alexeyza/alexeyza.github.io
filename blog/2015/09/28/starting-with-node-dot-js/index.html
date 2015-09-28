@@ -169,6 +169,13 @@ in
 </span></code></pre></td></tr></table></div></figure>
 
 
+<p>If you encounter errors with installing packages <em>globaly</em>, make sure your <code>NODE_PATH</code> is defined. You can do so by adding the following to <code>.bashrc</code> or <code>.zshrc</code>:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">export </span><span class="nv">NODE_PATH</span><span class="o">=</span><span class="nv">$NODE_PATH</span>:/home/alexeyza/.nvm/versions/node/v4.1.1/lib/node_modules
+</span></code></pre></td></tr></table></div></figure>
+
+
 <hr />
 
 <p>The above steps were mostly taken from <a href="http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046">Stack Overflow</a> and <a href="https://github.com/creationix/nvm">NVM docs</a>, with minor changes to make it more sustainable for future updates.</p>

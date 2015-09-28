@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scripts | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/scripts/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-28T15:55:28-07:00</updated>
+  <updated>2015-09-28T16:09:51-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -81,6 +81,11 @@ nvm alias default stable
 <p>And lastly, check the installed version of node:
 <code>bash
 node --version
+</code></p>
+
+<p>If you encounter errors with installing packages <em>globaly</em>, make sure your <code>NODE_PATH</code> is defined. You can do so by adding the following to <code>.bashrc</code> or <code>.zshrc</code>:
+<code>
+export NODE_PATH=$NODE_PATH:/home/alexeyza/.nvm/versions/node/v4.1.1/lib/node_modules
 </code></p>
 
 <hr />
