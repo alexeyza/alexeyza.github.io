@@ -4,7 +4,7 @@
   <title><![CDATA[Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-28T14:58:27-07:00</updated>
+  <updated>2015-09-28T15:00:05-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -36,6 +36,13 @@
 <p>However, not everyone have caught on with the recent changes (which at some point should be a thing of the past). My OS of choice, Ubuntu, only supports <a href="https://nodejs.org/en/download/releases/">Node.js 0.12.7</a> through the official repositories. Where version 0.12.7 is the latest stable version <strong>prior</strong> to the forking of the project. Thus, the best way to get the current version of Node.js on Linux is through <a href="https://github.com/creationix/nvm">NVM</a>.</p>
 
 <h2>Removing the older version of Node</h2>
+
+<p>First, create a backup list of the NPM packages which you installed globaly:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>npm ls -gp &gt; node_packages.txt
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>If you installed Node.js through <code>apt-get</code>, use the following:</p>
 
