@@ -4,7 +4,7 @@
   <title><![CDATA[Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-28T15:01:54-07:00</updated>
+  <updated>2015-09-28T15:03:59-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -22,7 +22,7 @@
 
 <p>The <a href="https://nodejs.org/en/">Node.js</a> project and its community have undergone major changes in the recent years, among which is the forking of the project (and perhaps the community itself). This situation causes confusion for newcomers, who find themselves with compatibility issues and difficulties in setting up a working and up-to-date environment.</p>
 
-<p>In this post, I present how to get the recent version of Node.js on a Linux OS in a sustainable way.</p>
+<p>In this post, I show how to get the recent version of Node.js on a Linux OS in a sustainable way.</p>
 
 <!--more-->
 
