@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scripts | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/scripts/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-28T15:05:19-07:00</updated>
+  <updated>2015-09-28T15:55:28-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -20,7 +20,7 @@
     <id>http://alexeyza.com/blog/2015/09/28/starting-with-node-dot-js</id>
     <content type="html"><![CDATA[<p><img style="float:left; margin: 8px 20px" src="http://alexeyza.com/images/nodejs.png" widht="180" height="180" title="Node.js"/></p>
 
-<p>The <a href="https://nodejs.org/en/">Node.js</a> project and its community have undergone major changes in the recent years, among which is the forking of the project (and perhaps the community itself). This situation causes confusion for newcomers, who find themselves with compatibility issues and difficulties in setting up a working and up-to-date environment.</p>
+<p>The <a href="https://nodejs.org/en/">Node.js</a> project and its community have undergone major changes in recent years, among which is the forking of the project (and perhaps the community itself). This situation causes confusion for newcomers, who find themselves with compatibility issues and difficulties in setting up a working and up-to-date environment.</p>
 
 <p>In this post, I show how to get the recent version of Node.js on a Linux OS in an easy way.</p>
 
