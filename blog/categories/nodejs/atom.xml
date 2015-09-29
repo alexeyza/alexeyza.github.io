@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Nodejs | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-28T18:51:36-07:00</updated>
+  <updated>2015-09-28T18:54:49-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -93,7 +93,7 @@ export NODE_PATH=$NODE_PATH:/home/alexeyza/.nvm/versions/node/v4.1.1/lib/node_mo
 
 <hr />
 
-<p>The above steps were mostly taken from <a href="http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046">Stack Overflow</a> and <a href="https://github.com/creationix/nvm">NVM docs</a>, with minor changes to make it more sustainable for future updates.</p>
+<p>The above steps are mostly based on a <a href="http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046">Stack Overflow answer</a> and the <a href="https://github.com/creationix/nvm">NVM docs</a>, with minor changes to make it more sustainable for future updates.</p>
 ]]></content>
   </entry>
   
