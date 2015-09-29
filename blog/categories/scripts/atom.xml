@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scripts | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/scripts/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-28T16:27:42-07:00</updated>
+  <updated>2015-09-28T18:35:54-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Starting With Node.js]]></title>
-    <link href="http://alexeyza.com/blog/2015/09/28/starting-with-node-dot-js/"/>
+    <title type="html"><![CDATA[Getting Started With Node.js]]></title>
+    <link href="http://alexeyza.com/blog/2015/09/28/getting-started-with-node-dot-js/"/>
     <updated>2015-09-28T13:21:02-07:00</updated>
-    <id>http://alexeyza.com/blog/2015/09/28/starting-with-node-dot-js</id>
+    <id>http://alexeyza.com/blog/2015/09/28/getting-started-with-node-dot-js</id>
     <content type="html"><![CDATA[<p><img style="float:left; margin: 8px 20px" src="http://alexeyza.com/images/nodejs.png" widht="180" height="180" title="Node.js"/></p>
 
 <p>The <a href="https://nodejs.org/en/">Node.js</a> project and its community have undergone major changes in recent years, among which is the forking of the project (and perhaps the community itself). This situation causes confusion for newcomers, who find themselves with compatibility issues and difficulties in setting up a working and up-to-date environment.</p>
