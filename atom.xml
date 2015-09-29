@@ -4,7 +4,7 @@
   <title><![CDATA[Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-28T18:54:49-07:00</updated>
+  <updated>2015-09-29T15:33:56-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -31,7 +31,7 @@
 
 <p>Node.js is an event-driven I/O <strong>server-side</strong> (backend) JavaScript environment based on Chrome&rsquo;s V8 JavaScript engine. It is considered a very popular backend environment, and it uses <a href="https://www.npmjs.com/">NPM</a>, the best package manager in my opinion (however, we&rsquo;ll leave the discussion on what makes NPM so good for a different post).</p>
 
-<p>At some point, Node.js <a href="http://anandmanisankar.com/posts/nodejs-iojs-why-the-fork/">was forked</a> into two projects: <strong>Node.js</strong> and <strong>IO.js</strong>, causing compatibility issues and disputes in the community. And recently, these projects have been <a href="http://www.infoworld.com/article/2960452/javascript/unforked-iojs-v3-sets-stage-for-nodejs-merger.html">merged back</a> with Node v4.x.</p>
+<p>At some point, Node.js <a href="http://anandmanisankar.com/posts/nodejs-iojs-why-the-fork/">was forked</a> into two projects: <strong>Node.js</strong> and <strong>IO.js</strong>, causing compatibility issues and disputes in the community. While recently, these projects have been <a href="http://www.infoworld.com/article/2960452/javascript/unforked-iojs-v3-sets-stage-for-nodejs-merger.html">merged back</a> with Node v4.x.</p>
 
 <p>However, not everyone have caught on with the recent changes (which at some point should be a thing of the past). My OS of choice, Ubuntu, only supports <a href="https://nodejs.org/en/download/releases/">Node.js 0.12.7</a> through the official repositories. Where version 0.12.7 is the latest stable version <strong>prior</strong> to the forking of the project. Thus, the best way to get the current version of Node.js on Linux is through <a href="https://github.com/creationix/nvm">NVM</a>.</p>
 
