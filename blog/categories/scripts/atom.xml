@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scripts | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/scripts/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-09-30T11:12:52-07:00</updated>
+  <updated>2015-09-30T11:16:06-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -42,7 +42,7 @@
 npm ls -gp &gt; node_packages.txt
 </code></p>
 
-<p>If you installed Node.js through <code>apt-get</code>, use the following:
+<p>If you installed Node.js through <code>apt-get</code>, uninstall by using the following:
 <code>bash
 sudo apt-get remove nodejs
 </code></p>
@@ -60,7 +60,7 @@ Update NVM to latest version:
 cd ~/.nvm
 git pull origin master
 </code>
-Then restart your terminal window, and install the latest node version:
+Then restart your terminal window, and install the latest Node version:
 <code>bash
 nvm install stable
 </code>
@@ -68,17 +68,17 @@ or if you want a specific version (e.g., version 4.1.1):
 <code>bash
 nvm install 4.1.1
 </code>
-And tell nvm which version of Node you want to use (when a specific version is needed):
+And tell NVM which version of Node you want to use (when a specific version is needed):
 <code>bash
 nvm use 4.1.1
 </code></p>
 
-<p>Define a default version, so that you don&rsquo;t have to pick a node version each time you start your terminal. This will activate the specified version each time the terminal starts, and it will do it silently.
+<p>Define a default version, so that you don&rsquo;t have to pick a Node version each time you start your terminal. This will <strong>activate</strong> the specified version each time the terminal starts, and it will do it <strong>silently</strong>.
 <code>bash
 nvm alias default stable
 </code></p>
 
-<p>And lastly, check the installed version of node:
+<p>And lastly, check the installed version of Node:
 <code>bash
 node --version
 </code></p>
@@ -93,7 +93,7 @@ export NODE_PATH=$NODE_PATH:/home/alexeyza/.nvm/versions/node/v4.1.1/lib/node_mo
 
 <hr />
 
-<p>The above steps are mostly based on a <a href="http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046">Stack Overflow answer</a> and the <a href="https://github.com/creationix/nvm">NVM docs</a>, with minor changes to make it more sustainable for future updates.</p>
+<p>The above steps are mostly based on a Stack Overflow <a href="http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046">answer</a> and the NVM <a href="https://github.com/creationix/nvm">docs</a>, with minor changes to make it more sustainable for future updates.</p>
 ]]></content>
   </entry>
   
