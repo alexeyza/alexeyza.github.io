@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Nodejs | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-10-01T11:17:14-07:00</updated>
+  <updated>2015-11-09T11:22:10-08:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -81,6 +81,14 @@ nvm alias default stable
 <p>And lastly, check the installed version of Node:
 <code>bash
 node --version
+</code></p>
+
+<p>Later, when updating to newer versions:
+<code>bash
+nvm ls
+nvm install stable
+nvm ls
+nvm uninstall 4.1.1
 </code></p>
 
 <p>If later on you encounter errors with installing packages <em>globaly</em>, make sure your <code>NODE_PATH</code> is defined. You can do so by adding the following to <code>~/.bashrc</code> or <code>~/.zshrc</code>:
