@@ -4,7 +4,7 @@
   <title><![CDATA[Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2015-11-09T11:22:10-08:00</updated>
+  <updated>2015-11-09T11:23:47-08:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -106,7 +106,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Later, when updating to newer versions:</p>
+<p>When updating to a newer version:</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
