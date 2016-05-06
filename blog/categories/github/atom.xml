@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Github | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2016-05-06T10:59:24-07:00</updated>
+  <updated>2016-05-06T11:00:33-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -12,114 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Supporting the Contributing Student]]></title>
-    <link href="http://alexeyza.com/blog/2016/05/04/student-experiences-using-github-in-se-courses/"/>
-    <updated>2016-05-04T21:26:38-07:00</updated>
-    <id>http://alexeyza.com/blog/2016/05/04/student-experiences-using-github-in-se-courses</id>
-    <content type="html"><![CDATA[<p>The modern ecosystem of tools and channels students use to support their learning is quite elaborate. For example, in a course we recently taught, <em>GitHub</em> was used to host and disseminate the course material; <em>Moodle</em> was used for assignment submission and for posting grades; For private communication students used <em>email</em>, and for group communication and class discussion they used <em>Slack</em>; For collaborating on files <em>Google Drive</em> or <em>Dropbox</em> were used; and for managing and coordinating tasks students used <em>Trello</em>.</p>
-
-<center><img style="margin: 8px 20px" src="http://alexeyza.com/images/student_ecosystem_tools.png" height="360" title="Student ecosystem of tools and channels"/></center>
-
-
-<p>If we consider the learner&rsquo;s needs, we could say that the most <strong>basic needs</strong> (i.e., hosting and disseminating course materials, facilitating communication, and supporting evaluation) can be satisfied by Moodle and email. And then tools like <em>Google Drive</em>, <em>Dropbox</em>, <em>Slack</em>, and <em>Trello</em> support the learner&rsquo;s <strong>collaborative needs</strong>, while tools like <em>GitHub</em> and <em>Stack Overflow</em> support the learner&rsquo;s <strong>participatory needs</strong>.</p>
-
-<p>In this post, we&rsquo;d like to focus on <em>GitHub</em>.</p>
-
-<!--more-->
-
-
-<h2>Student Experiences Using GitHub in SE Courses</h2>
-
-<p>We <a href="/pdf/cscw15.pdf">previously studied</a> <strong>How</strong> and <strong>Why</strong> educators use GitHub and we found that the use of GitHub provides many benefits. GitHub supports and encourages <strong>knowledge co-construction</strong> and allows reuse and sharing of materials. It provides transparency of activity, and promotes collaboration while fostering a <strong>participatory culture</strong> where students act not only as &ldquo;consumers&rdquo; but also as &ldquo;contributors&rdquo;. And the use of GitHub also provides <strong>applied benefits</strong>, in the form of industry relevant skills and practices.</p>
-
-<p>We <a href="/blog/2015/09/10/embracing-participatory-culture-in-education/">shared these findings with the community</a> and discovered that many other educators have adopted the use of GitHub (each in their own way). However, until now we haven&rsquo;t considered the student&rsquo;s perspective. More specifically <strong>how do students benefit</strong> from using GitHub in their courses, <strong>what challenges do students face</strong> when GitHub is used, and <strong>what recommendations can we give instructors</strong> who plan to use GitHub.</p>
-
-<p>Thus, we set out to explore the student experiences when using GitHub in software engineering courses.</p>
-
-<h2>Our Study</h2>
-
-<p>We recruited a university instructor that was about to teach two different software engineering courses offered in the same semester: a Distributed Systems course aimed at both undergraduate and graduate students, and a Software Evolution course for senior undergraduate students. The distributed systems course covered topics surrounding distributed systems and included concepts such as design considerations, fault tolerance, and cloud computing. The software evolution course covered the development of large-scale systems and how software evolves over its lifetime.</p>
-
-<center><img style="margin: 8px 20px" src="http://alexeyza.com/images/icse_seet_16_participants.png" height="300" title="Study participants"/></center>
-
-
-<p>Both courses were similar in size (34 in distributed systems, 29 in software evolution) and learning activities (weekly labs, two course projects). The course projects were done either individually or collaboratively with others (in groups of 2-4 students). Projects were open-ended and students could choose what they created, what topics they addressed, and what technologies and languages they utilized. Students were required to make their work publicly available so that other people, both inside and outside the course, could view their projects. While not mandated, the overwhelming majority of students opted to use GitHub to host their projects. The instructor did not formally introduce GitHub to the students, so those unfamiliar with the tool had to learn from others or teach themselves.</p>
-
-<p>For the first phase of the study, we conducted a preliminary interview with the instructor in order to obtain context on how they were planning to use GitHub. Then, after the students have submitted their first course project, we conducted the main part of our study where we interviewed students. In total, we interviewed 19 students &mdash; 12 students from the distributed systems course, 6 from the software evolution course, and 1 student who was taking both courses. We concluded this phase with interviewing the instructor.</p>
-
-<p>Informed by the findings from the previous phase, and by obtaining additional context from the students' project repositories on GitHub, we composed and deployed a validation survey. 33 students answered the survey (not necessarily the same students that were interviewed previously).</p>
-
-<h2>How was GitHub used in these courses?</h2>
-
-<p>In both courses, GitHub was used for hosting and disseminating course materials, and for hosting student projects. Additionally, GitHub &lsquo;issue&rsquo; feature was used to facilitate lab work and discussions.</p>
-
-<p>However, GitHub was NOT used to completely replace the university&rsquo;s learning management system (i.e., Moodle) &mdash; private discussions and grades were still hosted on Moodle. Furthermore, advanced use cases of GitHub to support learning were not utilized, e.g., the use of Pull Requests for assignment submission, or the use of continues integration tools for auto-grading.</p>
-
-<h2>The contributing student</h2>
-
-<p>Enabling cross-team collaboration and contributions:
-<blockquote><p><em>&ldquo;I believe that one other group decided for project 2 to use [our project 1] and they made a couple of pull requests.&rdquo;</em></p><footer><strong>SE10</strong></footer></blockquote></p>
-
-<p><blockquote><p><em>&ldquo;I thought [peer reviews] was the best way to learn&hellip;&rdquo;</em></p><footer><strong>SE11</strong></footer></blockquote></p>
-
-<p>Student contributions to course content:
-<blockquote><p><em>&ldquo;I like being able to fix the mistakes that [the course instructor] might make&hellip; because it makes me feel a little more involved.&rdquo;</em></p><footer><strong>SE1</strong></footer></blockquote></p>
-
-<h2>Breaking the &ldquo;walled garden&rdquo;</h2>
-
-<p>Students find mentors &ldquo;upstream&rdquo; [John Britton 2015]</p>
-
-<p><blockquote><p><em>&ldquo;These are just people in the community I&rsquo;ve been talking to about how to do different things, and they&rsquo;ve been giving me suggestions.&rdquo;</em></p><footer><strong>SE1</strong></footer></blockquote></p>
-
-<p><blockquote><p><em>&ldquo;I need to get them to engage with the community in a broader sense. And I think that&rsquo;s critical, and that&rsquo;s what GitHub has.&rdquo;</em></p><footer><strong>Course Instructor</strong></footer></blockquote></p>
-
-<h2>Gaining and Demonstrating Industry Relevant Skills and Practices</h2>
-
-<p><blockquote><p><em>&ldquo;I think when you go and work in software development, you should get used to [having] lots of eyes being all over your work; that&rsquo;s just the way it&rsquo;s gonna be, so it&rsquo;s practice before real life.&rdquo;</em></p><footer><strong>SE8</strong></footer></blockquote></p>
-
-<p><blockquote><p><em>&ldquo;I think all three companies that I applied to this semester wanted me to link to my GitHub.&rdquo;</em></p><footer><strong>SE6</strong></footer></blockquote></p>
-
-<h2>The Perils of Public Projects</h2>
-
-<p><blockquote><p><em>&ldquo;It would actually be nice if [our projects] were separate or private somehow so I wouldn&rsquo;t have to go through everything and sanitize all the stuff&hellip; &rdquo;</em></p><footer><strong>SE6</strong></footer></blockquote></p>
-
-<p><blockquote><p><em>&ldquo;The final product I&rsquo;m happy to show [employers], but all those steps getting there, they&rsquo;re often filled with pitfalls and horrible programming and badly factored code.&rdquo;</em></p><footer><strong>SE6</strong></footer></blockquote></p>
-
-<h2>Unfamiliarity with Git and GitHub</h2>
-
-<p>Many students were unfamiliar with Git &amp; GitHub&rsquo;s features</p>
-
-<p>The instructor&rsquo;s lack of experience with using GitHub made it difficult to educate the students on its features, causing frustration</p>
-
-<h2>Notification Overload</h2>
-
-<p><blockquote><p><em>&ldquo;It sent me a million emails&hellip; I should have just turned that off, but I was worried about missing something. Because every time someone would post, you would get another email&hellip;<br/>I actually did not read anyone else&rsquo;s feedback because it was just so many emails, to be totally honest.&rdquo;</em></p><footer><strong>SE10</strong></footer></blockquote></p>
-
-<h2>GitHub is Not Designed for Education</h2>
-
-<p>GitHub struggles to meet some basic needs, e.g., gradebook and formal assignment submission features.</p>
-
-<p><blockquote><p><em>&ldquo;I think one drawback of GitHub is that you cannot actually see the diff [of ] commonly used files such as PPTs or PDFs, so you can&rsquo;t really use it for correcting professor&rsquo;s slides, or PDFs.”</em></p><footer><strong>SE12</strong></footer></blockquote></p>
-
-<h2>Planning to use GitHub in your course - here are Recommendations for SE Instructors</h2>
-
-<p><strong>Promote the desired workflow</strong>
-otherwise potential benefits might be missed</p>
-
-<p><strong>Familiarize yourself with GitHub</strong>
-know the possibilities (e.g., private vs. public repos),
-take advantage of existing tools and guides (e.g., GitHub classroom, Elliot Blackburn&rsquo;s guide, or  Paul Hibbitts' course hub CMS package)</p>
-
-<p><strong>Use supported formats</strong>
-such as plain text file formats (e.g., Markdown)</p>
-
-<h2>What is our next step?</h2>
-
-<p>We began to study what <strong>benefits</strong> and <strong>challanges</strong> of using Slack in software engineering courses.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Embracing Participatory Culture in Education]]></title>
