@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scripts | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/scripts/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2016-05-11T22:54:48-07:00</updated>
+  <updated>2016-06-02T14:27:41+02:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Getting Started With Node.js]]></title>
     <link href="http://alexeyza.com/blog/2015/09/28/getting-started-with-node-dot-js/"/>
-    <updated>2015-09-28T13:21:02-07:00</updated>
+    <updated>2015-09-28T22:21:02+02:00</updated>
     <id>http://alexeyza.com/blog/2015/09/28/getting-started-with-node-dot-js</id>
     <content type="html"><![CDATA[<p><img style="float:left; margin: 8px 20px" src="http://alexeyza.com/images/nodejs.png" widht="180" height="180" title="Node.js"/></p>
 
@@ -107,9 +107,9 @@ export NODE_PATH=$NODE_PATH:/home/alexeyza/.nvm/versions/node/v4.1.1/lib/node_mo
   
   <entry>
     <title type="html"><![CDATA[Command Line Fun]]></title>
-    <link href="http://alexeyza.com/blog/2015/09/02/command-line-fun/"/>
-    <updated>2015-09-02T15:42:19-07:00</updated>
-    <id>http://alexeyza.com/blog/2015/09/02/command-line-fun</id>
+    <link href="http://alexeyza.com/blog/2015/09/03/command-line-fun/"/>
+    <updated>2015-09-03T00:42:19+02:00</updated>
+    <id>http://alexeyza.com/blog/2015/09/03/command-line-fun</id>
     <content type="html"><![CDATA[<p>I recently discovered a superb <a href="http://www.shavua.net/">podcast on startups</a> (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each episode, with a download link at the bottom.</p>
 
 <p>However, instead of downloading each episode manually, I decided to find an easier way, with the use of the command line. And to make it more interesting, I wanted to accomplish this with a single command line.</p>
