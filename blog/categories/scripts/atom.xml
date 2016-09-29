@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scripts | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/scripts/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2016-09-28T18:51:01-07:00</updated>
+  <updated>2016-09-28T20:24:46-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -97,7 +97,7 @@ go get -u golang.org/x/tools/cmd/oracle
 go get -u golang.org/x/tools/cmd/goimports
 go get -u golang.org/x/tools/cmd/godoc
 </code>
-Read more <a href="https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/">here</a> on how to configure them to work with GoSublime.</p>
+Read more <a href="https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/">here</a> on how to configure these plugins to work with GoSublime.</p>
 ]]></content>
   </entry>
   
