@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Go | Alexey Zagalsky]]></title>
   <link href="http://alexeyza.com/blog/categories/go/atom.xml" rel="self"/>
   <link href="http://alexeyza.com/"/>
-  <updated>2016-09-28T17:46:28-07:00</updated>
+  <updated>2016-09-28T18:51:01-07:00</updated>
   <id>http://alexeyza.com/</id>
   <author>
     <name><![CDATA[Alexey Zagalsky]]></name>
@@ -62,7 +62,7 @@ mkdir -p ~/go/src/github.com/alexeyza
 
 <p>Install <a href="https://github.com/DisposaBoy/GoSublime">GoSublime</a> through package control (<code>CTRL+Shift+P</code>). It&rsquo;s a Sublime Text plugin that provides Go code completion and other IDE-like features.</p>
 
-<p>Next, set up the PATH environment variables for Sublime Text. This setting has slightly changed over the years (which is why you may find different versions online), but my current set up works with the following settings in <code>Preferences -&gt; Package Settings -&gt; GoSublime -&gt; Settings-User</code>.<br/>
+<p>Next, set up the PATH environment variables for Sublime Text. This setting has slightly changed over the years (which is why you may find different variations online), but my current set up works with the following settings in <code>Preferences -&gt; Package Settings -&gt; GoSublime -&gt; Settings-User</code>.<br/>
 Make sure the GOPATH matches the path configured earlier.
 <code>json
 {
@@ -91,12 +91,13 @@ Make sure the GOPATH matches the path configured earlier.
 
 <p>Popular Go plugins that work well with GoSublime are <a href="https://github.com/waigani/GoOracle">GoOracle</a>, <a href="https://godoc.org/golang.org/x/tools/cmd/goimports">GoImports</a>, and <a href="https://godoc.org/golang.org/x/tools/cmd/godoc">GoDoc</a>.</p>
 
-<p>You can install them in the command line with:
+<p>You can install them with:
 <code>bash
 go get -u golang.org/x/tools/cmd/oracle
 go get -u golang.org/x/tools/cmd/goimports
 go get -u golang.org/x/tools/cmd/godoc
-</code></p>
+</code>
+Read more <a href="https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/">here</a> on how to configure them to work with GoSublime.</p>
 ]]></content>
   </entry>
   
