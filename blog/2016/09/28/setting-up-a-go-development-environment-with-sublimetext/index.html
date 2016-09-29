@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Setting Up a Go Development Environment With Sublime Text - Alexey Zagalsky</title>
+  <meta name="author" content="Alexey Zagalsky">
+
+  
+  <meta name="description" content="Setting Up a Go Development Environment With Sublime Text written September 28, 2016 in go, scripts, sublime text 3 minute read I really love the Go &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://alexeyza.com/blog/2016/09/28/setting-up-a-go-development-environment-with-sublimetext">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Alexey Zagalsky" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-54265697-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+  <body>
+    <a href="/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
+
+    <article role="article" class="full-single-article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Setting Up a Go Development Environment With Sublime Text</h1>
+        <div class="meta">
+          written 
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-09-28T15:44:18-07:00" pubdate data-updated="true">September 28, 2016</time>
+          
+
+in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/go/'>go</a>, <a class='category' href='/blog/categories/scripts/'>scripts</a>, <a class='category' href='/blog/categories/sublime-text/'>sublime text</a>
+  
+</span>
+
+
+        </div>
+        <div class="meta"><span class="reading-time" title="estimated read time">
+  
+  
+    3 minute read
+  
+</span>
+        </div>
+        <p><img style="float:left; margin: 8px 20px" src="/images/gogo.png" widht="180" height="180" title="Go!"/></p>
+
+<p>I really love the <a href="https://golang.org/">Go</a> programming language, it feels like a mix of the best of Java and Python together. But I found that setting a Go development environment can be slightly tricky, mostly in figuring out how to set up the proper path variables.</p>
+
+<p>Here, I provide a short guide on how to set up a Go development environment with Sublime Text 3 on Ubuntu/Linux. I hope it saves you (and my future-self) time when installing, updating, or re-installing the development environment.</p>
+
+<!--more-->
+
+
+<p><br></p>
+
+<h2>Installing / Updating Go</h2>
+
+<p>If you&rsquo;re updating a previously installed Go version, you must first delete the older one:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo rm -r /usr/local/go</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Download the latest version of Go archive from <a href="https://golang.org/dl/">https://golang.org/dl/</a> and extract it:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>sudo tar -C /usr/local -xzf go1.7.1.linux-amd64.tar.gz
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Note: some people use the Go version manager (<a href="https://github.com/moovweb/gvm">GVM</a>) to install and set up Go, a tool similar to <a href="https://github.com/creationix/nvm">NVM</a> which I use highly recommend for Node.js, but for Go I prefer to set up everything myself.</p>
+
+<p>Next, set the PATH environment variables by adding the following to <code>.bashrc</code>:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:/usr/local/go/bin
+</span><span class='line'><span class="nb">export </span><span class="nv">GOPATH</span><span class="o">=</span><span class="nv">$HOME</span>/go
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here I use <code>home/alexeyza/go</code> as my workspace (which is <code>$HOME/go</code>), but feel free to change it according to your preference.</p>
+
+<p>And, create your workspace:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>mkdir -p ~/go/src/github.com/alexeyza
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><br></p>
+
+<h2>Setting up Sublime Text</h2>
+
+<p>Sublime text is my editor of choice for many things, and I highly recommend it for Go. If you don&rsquo;t have it installed, start by installing <a href="http://www.webupd8.org/2013/07/sublime-text-3-ubuntu-ppa-now-available.html">Sublime Text 3</a>, and installing the <a href="https://packagecontrol.io/installation">Package Control</a> plugin.</p>
+
+<p>Install <a href="https://github.com/DisposaBoy/GoSublime">GoSublime</a> through package control (<code>CTRL+Shift+P</code>). It&rsquo;s a Sublime Text plugin that provides Go code completion and other IDE-like features.</p>
+
+<p>Next, set up the PATH environment variables for Sublime Text. This setting has slightly changed over the years (which is why you may find different versions online), but my current set up works with the following settings in <code>Preferences -&gt; Package Settings -&gt; GoSublime -&gt; Settings-User</code>.<br/>
+Make sure the GOPATH matches the path configured earlier.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='json'><span class='line'><span class="p">{</span>
+</span><span class='line'>    <span class="nt">&quot;env&quot;</span><span class="p">:</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nt">&quot;GOPATH&quot;</span><span class="p">:</span> <span class="s2">&quot;$HOME/go&quot;</span><span class="p">,</span>
+</span><span class='line'>        <span class="nt">&quot;GOROOT&quot;</span><span class="p">:</span> <span class="s2">&quot;/usr/local/go&quot;</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, save and restart Sublime Text. When you first restart Sublime Text after installing GoSublime, it may take a few seconds to install and set up MarGo.</p>
+
+<p><br></p>
+
+<h2>Building and Running Go code</h2>
+
+<p>You can build, compile, and run your code directly from Sublime Text. Use <code>CTRL+B</code> or <code>CTRL+9</code> like so:</p>
+
+<p><img src="/images/go_hello_world.gif" alt="hello world example" /></p>
+
+<p>For additional help, type <code># help</code> in the Sublime Text console.</p>
+
+<p><br></p>
+
+<h2>Useful Go Plugins</h2>
+
+<p>Popular Go plugins that work well with GoSublime are <a href="https://github.com/waigani/GoOracle">GoOracle</a>, <a href="https://godoc.org/golang.org/x/tools/cmd/goimports">GoImports</a>, and <a href="https://godoc.org/golang.org/x/tools/cmd/godoc">GoDoc</a>.</p>
+
+<p>You can install them in the command line with:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>go get -u golang.org/x/tools/cmd/oracle
+</span><span class='line'>go get -u golang.org/x/tools/cmd/goimports
+</span><span class='line'>go get -u golang.org/x/tools/cmd/godoc
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+        <hr class="divider-short"/>
+
+        
+        <section>
+          <h1>Comments</h1>
+          <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        </section>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+<hr class="divider-short"/>
+
+<div class="archive-link">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+          <a class="pull-left" href="/blog/2015/09/28/getting-started-with-node-dot-js/" title="Previous Post: Getting Started with Node.js">&laquo; Previous: Getting Started with Node.js</a>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/"><h4>Home</h4></a>
+</div>
+
+<div class="col-md-2">
+  <div class="social-icon-list">
+    
+    <a href="mailto:alexeyza@gmail.com"><img src="/images/glyphicons_social_39_e-mail.png"/></a>
+    
+
+    
+    <a href="https://twitter.com/alexeyzagalsky"><img src="/images/glyphicons_social_31_twitter.png"/></a>
+    
+
+    
+    <a href="https://github.com/alexeyza"><img src="/images/glyphicons_social_21_github.png"/></a>
+    
+
+    
+    <a href="https://linkedin.com/in/alexeyza"><img src="/images/glyphicons_social_17_linked_in.png"/></a>
+    
+
+    
+    <a title="Google Scholar" href="http://scholar.google.ca/citations?user=WWYRn7AAAAAJ"><img src="/images/glyphicons_social_22_google_scholar.png"/></a>
+    
+
+    
+    <a title="PeerJ Computer Science" href="https://peerj.com/alexeyza"><img src="/images/glyphicons_351_book_open.png"/></a>
+    
+
+    
+    <a title="Speaker Deck" href="https://speakerdeck.com/alexeyza"><img src="/images/glyphicons-394-speakerdeck.png"/></a>
+    
+
+    
+    <a title="500px" href="http://500px.com/alexeyza"><img src="/images/glyphicons_social_18_500px.png"/></a>
+    
+
+    
+    <a title="Kaggle" href="http://www.kaggle.com/alexeyza"><img src="/images/glyphicons_social_20_kaggle.png"/></a>
+    
+  </div>
+</div>
+
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+    
+      
+
+<script type="text/javascript">
+      var disqus_shortname = 'alexeyzablog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://alexeyza.com/blog/2016/09/28/setting-up-a-go-development-environment-with-sublimetext/';
+        var disqus_url = 'http://alexeyza.com/blog/2016/09/28/setting-up-a-go-development-environment-with-sublimetext/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+    
+  </body>
+</html>

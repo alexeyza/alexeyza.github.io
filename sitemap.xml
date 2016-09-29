@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://alexeyza.com/blog/2016/09/28/setting-up-a-go-development-environment-with-sublimetext/</loc>
+    <lastmod>2016-09-28T15:44:18-07:00</lastmod>
+  </url>
+  <url>
     <loc>http://alexeyza.com/blog/2015/09/28/getting-started-with-node-dot-js/</loc>
     <lastmod>2015-09-28T13:21:02-07:00</lastmod>
   </url>
@@ -65,6 +69,12 @@
     <loc>http://alexeyza.com/blog/categories/social-media/</loc>
   </url>
   <url>
-    <loc>http://alexeyza.com/blog/categories/nodejs/</loc>
+    <loc>http://alexeyza.com/blog/categories/node-dot-js/</loc>
+  </url>
+  <url>
+    <loc>http://alexeyza.com/blog/categories/go/</loc>
+  </url>
+  <url>
+    <loc>http://alexeyza.com/blog/categories/sublime-text/</loc>
   </url>
 </urlset>
