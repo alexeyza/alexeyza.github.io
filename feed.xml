@@ -4,10 +4,10 @@
     <title>Alexey Zagalsky</title>
     <description>Software Developer, Researcher, Hacker
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Oct 2016 16:33:00 -0700</pubDate>
-    <lastBuildDate>Wed, 05 Oct 2016 16:33:00 -0700</lastBuildDate>
+    <link>http://alexeyza.com/</link>
+    <atom:link href="http://alexeyza.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 05 Oct 2016 16:38:11 -0700</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2016 16:38:11 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -89,8 +89,8 @@ go get -u golang.org/x/tools/cmd/godoc
 &lt;p&gt;Read more &lt;a href=&quot;https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/&quot;&gt;here&lt;/a&gt; on how to configure these plugins to work with GoSublime.&lt;/p&gt;
 </description>
         <pubDate>Wed, 28 Sep 2016 15:44:18 -0700</pubDate>
-        <link>http://localhost:4000/blog/2016/09/28/setting-up-a-go-development-environment-with-sublimetext/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/09/28/setting-up-a-go-development-environment-with-sublimetext/</guid>
+        <link>http://alexeyza.com/blog/2016/09/28/setting-up-a-go-development-environment-with-sublimetext/</link>
+        <guid isPermaLink="true">http://alexeyza.com/blog/2016/09/28/setting-up-a-go-development-environment-with-sublimetext/</guid>
         
         
         <category>Go</category>
@@ -196,8 +196,8 @@ nvm uninstall 4.1.1
 &lt;p&gt;The above steps are mostly based on a Stack Overflow &lt;a href=&quot;http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046&quot;&gt;answer&lt;/a&gt; and the NVM &lt;a href=&quot;https://github.com/creationix/nvm&quot;&gt;docs&lt;/a&gt;, with minor changes to make it more sustainable for future updates.&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 Sep 2015 13:21:02 -0700</pubDate>
-        <link>http://localhost:4000/blog/2015/09/28/getting-started-with-node-dot-js/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2015/09/28/getting-started-with-node-dot-js/</guid>
+        <link>http://alexeyza.com/blog/2015/09/28/getting-started-with-node-dot-js/</link>
+        <guid isPermaLink="true">http://alexeyza.com/blog/2015/09/28/getting-started-with-node-dot-js/</guid>
         
         
         <category>node.js</category>
@@ -339,8 +339,8 @@ An unexpected area where GitHub’s collaborative &lt;strong&gt;workflow&lt;/str
 &lt;p&gt;This post has been shared on &lt;a href=&quot;http://thechiselgroup.org/2015/09/10/embracing-participatory-culture/&quot;&gt;the CHISEL group’s blog&lt;/a&gt;, &lt;a href=&quot;https://thewinnower.com/papers/2740-embracing-participatory-culture-in-education&quot;&gt;The Winnower&lt;/a&gt;, and on &lt;a href=&quot;http://www.storybench.org/use-github-lessons-classroom-newsroom/&quot;&gt;Storybench&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Sep 2015 11:41:54 -0700</pubDate>
-        <link>http://localhost:4000/blog/2015/09/10/embracing-participatory-culture-in-education/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2015/09/10/embracing-participatory-culture-in-education/</guid>
+        <link>http://alexeyza.com/blog/2015/09/10/embracing-participatory-culture-in-education/</link>
+        <guid isPermaLink="true">http://alexeyza.com/blog/2015/09/10/embracing-participatory-culture-in-education/</guid>
         
         <category>featured</category>
         
@@ -372,8 +372,8 @@ An unexpected area where GitHub’s collaborative &lt;strong&gt;workflow&lt;/str
 &lt;p&gt;BTW, a useful tool for experimenting with regular expressions is &lt;a href=&quot;http://regexr.com/&quot;&gt;RegExr&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Sep 2015 15:42:19 -0700</pubDate>
-        <link>http://localhost:4000/blog/2015/09/02/command-line-fun/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2015/09/02/command-line-fun/</guid>
+        <link>http://alexeyza.com/blog/2015/09/02/command-line-fun/</link>
+        <guid isPermaLink="true">http://alexeyza.com/blog/2015/09/02/command-line-fun/</guid>
         
         
         <category>command line</category>
@@ -438,8 +438,8 @@ I hope you’ll find this post useful. &lt;strong&gt;If you see me at a conferen
 &lt;p&gt;&lt;strong&gt;P.S.&lt;/strong&gt; &lt;a href=&quot;https://twitter.com/alexeyzagalsky&quot;&gt;I’d love to meet you on Twitter.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Feb 2015 11:34:07 -0800</pubDate>
-        <link>http://localhost:4000/blog/2015/02/06/5-tips-for-successfully-meeting-people-at-academic-conferences/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2015/02/06/5-tips-for-successfully-meeting-people-at-academic-conferences/</guid>
+        <link>http://alexeyza.com/blog/2015/02/06/5-tips-for-successfully-meeting-people-at-academic-conferences/</link>
+        <guid isPermaLink="true">http://alexeyza.com/blog/2015/02/06/5-tips-for-successfully-meeting-people-at-academic-conferences/</guid>
         
         
         <category>Conferences</category>
