@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexey Zagalsky</title>
+    <description>Software Developer, Researcher, Hacker
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 05 Oct 2016 16:33:00 -0700</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2016 16:33:00 -0700</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Setting up a Go Development Environment with Sublime Text</title>
+        <description>&lt;p&gt;&lt;img style=&quot;float:left; margin: 8px 20px&quot; src=&quot;/assets/article_images/2016-09-28-setting-up-a-go-development-environment-with-sublimetext/gogo.png&quot; widht=&quot;180&quot; height=&quot;180&quot; title=&quot;Go!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I really love the &lt;a href=&quot;https://golang.org/&quot;&gt;Go&lt;/a&gt; programming language, it feels like a mix of the best of Java and Python together. But I found that setting a Go development environment can be slightly tricky, mostly in figuring out how to set up the proper path variables.&lt;/p&gt;
+
+&lt;p&gt;Here, I provide a short guide on how to set up a Go development environment with Sublime Text 3 on Ubuntu/Linux. I hope it saves you (and my future-self) time when installing, updating, or re-installing the development environment.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;installing--updating-go&quot;&gt;Installing / Updating Go&lt;/h2&gt;
+&lt;p&gt;If you’re updating a previously installed Go version, you must first delete the older one:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+sudo rm -r /usr/local/go
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Download the latest version of Go archive from &lt;a href=&quot;https://golang.org/dl/&quot;&gt;https://golang.org/dl/&lt;/a&gt; and extract it:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo tar -C /usr/local -xzf go1.7.1.linux-amd64.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note: some people use the Go version manager (&lt;a href=&quot;https://github.com/moovweb/gvm&quot;&gt;GVM&lt;/a&gt;) to install and set up Go, a tool similar to &lt;a href=&quot;https://github.com/creationix/nvm&quot;&gt;NVM&lt;/a&gt; which I use highly recommend for Node.js, but for Go I prefer to set up everything myself.&lt;/p&gt;
+
+&lt;p&gt;Next, set the PATH environment variables by adding the following to &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Here I use &lt;code class=&quot;highlighter-rouge&quot;&gt;home/alexeyza/go&lt;/code&gt; as my workspace (which is &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/go&lt;/code&gt;), but feel free to change it according to your preference.&lt;/p&gt;
+
+&lt;p&gt;And, create your workspace:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir -p ~/go/src/github.com/alexeyza
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;setting-up-sublime-text&quot;&gt;Setting up Sublime Text&lt;/h2&gt;
+&lt;p&gt;Sublime text is my editor of choice for many things, and I highly recommend it for Go. If you don’t have it installed, start by installing &lt;a href=&quot;http://www.webupd8.org/2013/07/sublime-text-3-ubuntu-ppa-now-available.html&quot;&gt;Sublime Text 3&lt;/a&gt;, and installing the &lt;a href=&quot;https://packagecontrol.io/installation&quot;&gt;Package Control&lt;/a&gt; plugin.&lt;/p&gt;
+
+&lt;p&gt;Install &lt;a href=&quot;https://github.com/DisposaBoy/GoSublime&quot;&gt;GoSublime&lt;/a&gt; through package control (&lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL+Shift+P&lt;/code&gt;). It’s a Sublime Text plugin that provides Go code completion and other IDE-like features.&lt;/p&gt;
+
+&lt;p&gt;Next, set up the PATH environment variables for Sublime Text. This setting has slightly changed over the years (which is why you may find different variations online), but my current set up works with the following settings in &lt;code class=&quot;highlighter-rouge&quot;&gt;Preferences -&amp;gt; Package Settings -&amp;gt; GoSublime -&amp;gt; Settings-User&lt;/code&gt;.&lt;br /&gt;
+Make sure the GOPATH matches the path configured earlier.&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;env&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;GOPATH&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$HOME/go&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;GOROOT&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/usr/local/go&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now, save and restart Sublime Text. When you first restart Sublime Text after installing GoSublime, it may take a few seconds to install and set up MarGo.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-and-running-go-code&quot;&gt;Building and Running Go code&lt;/h2&gt;
+&lt;p&gt;You can build, compile, and run your code directly from Sublime Text. Use &lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL+B&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL+9&lt;/code&gt; like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/article_images/2016-09-28-setting-up-a-go-development-environment-with-sublimetext/go_hello_world.gif&quot; alt=&quot;Compiling and running within Sublime Text example&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For additional help, type &lt;code class=&quot;highlighter-rouge&quot;&gt;# help&lt;/code&gt; in the Sublime Text console.&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-go-plugins&quot;&gt;Useful Go Plugins&lt;/h2&gt;
+&lt;p&gt;Popular Go plugins that work well with GoSublime are &lt;a href=&quot;https://github.com/waigani/GoOracle&quot;&gt;GoOracle&lt;/a&gt;, &lt;a href=&quot;https://godoc.org/golang.org/x/tools/cmd/goimports&quot;&gt;GoImports&lt;/a&gt;, and &lt;a href=&quot;https://godoc.org/golang.org/x/tools/cmd/godoc&quot;&gt;GoDoc&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can install them with:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;go get -u golang.org/x/tools/cmd/oracle
+go get -u golang.org/x/tools/cmd/goimports
+go get -u golang.org/x/tools/cmd/godoc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Read more &lt;a href=&quot;https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/&quot;&gt;here&lt;/a&gt; on how to configure these plugins to work with GoSublime.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Sep 2016 15:44:18 -0700</pubDate>
+        <link>http://localhost:4000/blog/2016/09/28/setting-up-a-go-development-environment-with-sublimetext/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/09/28/setting-up-a-go-development-environment-with-sublimetext/</guid>
+        
+        
+        <category>Go</category>
+        
+        <category>scripts</category>
+        
+        <category>Sublime text</category>
+        
+      </item>
+    
+      <item>
+        <title>Getting Started with Node.js</title>
+        <description>&lt;p&gt;&lt;img style=&quot;float:left; margin: 8px 20px&quot; src=&quot;/assets/article_images/2015-09-28-getting-started-with-node-dot-js/nodejs.png&quot; widht=&quot;180&quot; height=&quot;180&quot; title=&quot;Node.js&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt; project and its community have undergone major changes in recent years, among which is the forking of the project (and perhaps the community itself). This situation causes confusion for newcomers, who find themselves with compatibility issues and difficulties in setting up a working and up-to-date environment.&lt;/p&gt;
+
+&lt;p&gt;In this post, I show how to get the recent version of Node.js on a Linux OS in an easy way.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;what-is-nodejs&quot;&gt;What is Node.JS?&lt;/h2&gt;
+&lt;p&gt;Node.js is an event-driven I/O &lt;strong&gt;server-side&lt;/strong&gt; (backend) JavaScript environment based on Chrome’s V8 JavaScript engine. It is considered a very popular backend environment, and it uses &lt;a href=&quot;https://www.npmjs.com/&quot;&gt;NPM&lt;/a&gt;, the best package manager in my opinion (however, we’ll leave the discussion on what makes NPM so good for a different post).&lt;/p&gt;
+
+&lt;p&gt;At some point, Node.js &lt;a href=&quot;http://anandmanisankar.com/posts/nodejs-iojs-why-the-fork/&quot;&gt;was forked&lt;/a&gt; into two projects: &lt;strong&gt;Node.js&lt;/strong&gt; and &lt;strong&gt;IO.js&lt;/strong&gt;, causing compatibility issues and disputes in the community. While recently, these projects have been &lt;a href=&quot;http://www.infoworld.com/article/2960452/javascript/unforked-iojs-v3-sets-stage-for-nodejs-merger.html&quot;&gt;merged back&lt;/a&gt; with Node v4.x.&lt;/p&gt;
+
+&lt;p&gt;However, not everyone have caught on with the recent changes (which at some point should be a thing of the past). My OS of choice, Ubuntu, only supports &lt;a href=&quot;https://nodejs.org/en/download/releases/&quot;&gt;Node.js 0.12.7&lt;/a&gt; through the official repositories. Where version 0.12.7 is the latest stable version &lt;strong&gt;prior&lt;/strong&gt; to the forking of the project. Thus, the best way to get the current version of Node.js on Linux is through &lt;a href=&quot;https://github.com/creationix/nvm&quot;&gt;NVM&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;removing-the-older-version-of-node&quot;&gt;Removing the older version of Node&lt;/h2&gt;
+&lt;p&gt;First, create a &lt;strong&gt;backup&lt;/strong&gt; list of the previously globally installed NPM packages:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm ls -gp &amp;gt; node_packages.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you installed Node.js through &lt;code class=&quot;highlighter-rouge&quot;&gt;apt-get&lt;/code&gt;, uninstall by using the following:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get remove nodejs
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Additionally, your home folder may contain a &lt;code class=&quot;highlighter-rouge&quot;&gt;.npm&lt;/code&gt; folder that can be removed (since NVM will use its own path for NPM packages).&lt;/p&gt;
+
+&lt;h2 id=&quot;installing-nodejs-with-nvm&quot;&gt;Installing Node.js with NVM&lt;/h2&gt;
+&lt;p&gt;Grab the latest copy of NVM (you may need to &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install curl&lt;/code&gt; first):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.27.1/install.sh | bash
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Update NVM to latest version:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/.nvm
+git pull origin master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then restart your terminal window, and install the latest Node version:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nvm install stable
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;or if you want a specific version (e.g., version 4.1.1):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nvm install 4.1.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And tell NVM which version of Node you want to use (when a specific version is needed):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nvm use 4.1.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Define a default version, so that you don’t have to pick a Node version each time you start your terminal. This will &lt;strong&gt;activate&lt;/strong&gt; the specified version each time the terminal starts, and it will do it &lt;strong&gt;silently&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nvm &lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;default stable
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And lastly, check the installed version of Node:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;node --version
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When updating to a newer version:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nvm ls
+nvm install stable
+nvm ls
+nvm uninstall 4.1.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If later on you encounter errors with installing packages &lt;em&gt;globaly&lt;/em&gt;, make sure your &lt;code class=&quot;highlighter-rouge&quot;&gt;NODE_PATH&lt;/code&gt; is defined. You can do so by adding the following to &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.bashrc&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.zshrc&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export NODE_PATH=$NODE_PATH:/home/alexeyza/.nvm/versions/node/v4.1.1/lib/node_modules
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;The above steps are mostly based on a Stack Overflow &lt;a href=&quot;http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046&quot;&gt;answer&lt;/a&gt; and the NVM &lt;a href=&quot;https://github.com/creationix/nvm&quot;&gt;docs&lt;/a&gt;, with minor changes to make it more sustainable for future updates.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Sep 2015 13:21:02 -0700</pubDate>
+        <link>http://localhost:4000/blog/2015/09/28/getting-started-with-node-dot-js/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/09/28/getting-started-with-node-dot-js/</guid>
+        
+        
+        <category>node.js</category>
+        
+        <category>scripts</category>
+        
+      </item>
+    
+      <item>
+        <title>Embracing Participatory Culture in Education</title>
+        <description>&lt;p&gt;&lt;img style=&quot;float:right; margin: 8px 20px&quot; src=&quot;/assets/article_images/2015-09-10-embracing-participatory-culture-in-education/github_student.png&quot; widht=&quot;120&quot; height=&quot;180&quot; title=&quot;GitHub logo owned by GitHub, Inc.&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s always about timing. If it’s too soon, no one understands. If it’s too late, everyone’s forgotten.”&lt;/p&gt;
+
+  &lt;p&gt;— Anna Wintour&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;GitHub is on the brink of growing from a platform for software projects, and into a mainstream collaboration platform for other domains as well.
+An unexpected area where GitHub’s collaborative &lt;strong&gt;workflow&lt;/strong&gt; holds the potential to bring groundbreaking changes is education and learning. In fact, educators have already begun to use GitHub to support teaching and learning. In some cases using it to replace certain aspects of the traditional learning management systems (e.g., Blackboard, Moodle), while in other cases gaining new benefits and capabilities.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;beyond-software-development&quot;&gt;Beyond Software Development&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; is a popular Web-based social code sharing service that utilizes the Git distributed version control system. The software development community has &lt;a href=&quot;http://www.wired.com/2015/03/github-conquered-google-microsoft-everyone-else&quot;&gt;embraced GitHub&lt;/a&gt; as an essential platform for managing their software projects. After just seven years, GitHub has 9 million registered users, and about 20 million unregistered visitors. Similarly, tools such as &lt;a href=&quot;https://bitbucket.org/&quot;&gt;BitBucket&lt;/a&gt; and &lt;a href=&quot;https://about.gitlab.com/&quot;&gt;GitLab&lt;/a&gt; gain popularity in hosting software projects. More importantly, GitHub is far more than a code repository, it is a social meeting place, that supports &lt;a href=&quot;http://wenger-trayner.com/introduction-to-communities-of-practice/&quot;&gt;communities of practice&lt;/a&gt; and fosters collaboration. People use it as a virtual meeting place, that supports discussions, and allows everyone to maintain awareness.&lt;/p&gt;
+
+&lt;p&gt;However, GitHub is not just for software development. We believe it is similar to other tools that are built for developers (e.g., Wiki, Stack Overflow), but end up being &lt;a href=&quot;http://allankelly.blogspot.ca/2014/04/the-prototype-of-future-knowledge.html&quot;&gt;adopted by other knowledge workers&lt;/a&gt;. Early adopters use GitHub to &lt;a href=&quot;http://readwrite.com/2013/11/08/seven-ways-to-use-github-that-arent-coding&quot;&gt;compose music&lt;/a&gt;, to &lt;a href=&quot;http://venturebeat.com/2013/01/30/github-for-recipes-brings-open-source-into-the-kitchen/&quot;&gt;share recipes&lt;/a&gt;, and even for legal documents. For example, Stefan Wehrmeyer, a German software developer and activist has posted the &lt;a href=&quot;https://github.com/bundestag/gesetze&quot;&gt;German federal government’s laws and regulations&lt;/a&gt; to GitHub. Allowing anyone to track changes, see who made the changes, and why. Thus, not only providing traceability of the changes, but with the use of GitHub’s diff functionality showing what exactly has been changed. Similarly, the &lt;a href=&quot;https://github.com/divegeek/uscode&quot;&gt;US federal code&lt;/a&gt; and the &lt;a href=&quot;https://github.com/steeve/france.code-civil&quot;&gt;French civil code&lt;/a&gt; have been published to GitHub as well.&lt;/p&gt;
+
+&lt;p&gt;In addition to these marvelous uses, GitHub is used for educational purposes.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-study&quot;&gt;Our Study&lt;/h2&gt;
+&lt;p&gt;My fellow researchers and I studied &lt;strong&gt;How&lt;/strong&gt; and &lt;strong&gt;Why&lt;/strong&gt; educators use GitHub. As a first phase, we searched for resources (such as blog posts and discussion groups) that described the personal experiences of educators using GitHub to support learning or teaching.&lt;/p&gt;
+
+&lt;p&gt;Next, we interviewed 15 educators that have used GitHub, including one of the blog authors from the previous phase. We were able to thoroughly investigate the &lt;strong&gt;usefulness&lt;/strong&gt; and &lt;strong&gt;potential&lt;/strong&gt; of GitHub in education. We then proceeded to interview John Britton, a representative from GitHub, in order to gain insights into GitHub’s perspective.&lt;/p&gt;
+
+&lt;p&gt;And finally, we conducted a follow-up survey to get feedback on our interpretation of the interview findings.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-educators-use-github&quot;&gt;Why Educators Use GitHub&lt;/h2&gt;
+&lt;p&gt;Traditional learning management systems (LMS) are a pain point for many educators (including myself). The basic purpose of these systems is to allow educators to share course material with the students, and to host student assignments. However, in reality, we end up using a combination of LMSs, and external services, while somehow most of the communication happens over email.&lt;/p&gt;
+
+&lt;p&gt;On top of that, access to the course material or the assignments is limited to current students only. Which doesn’t include students who completed the course and want to reuse the material, other educators, or industry people who may share their own experience. This is not a hypothetical situation, I’ve seen this happen first hand, more than once (both as a student and as an educator).&lt;/p&gt;
+
+&lt;p&gt;GitHub may not solve all these problems, but our study reveals &lt;strong&gt;extraordinary benefits&lt;/strong&gt; to educators who used it.&lt;/p&gt;
+
+&lt;h3 id=&quot;reuse-and-sharing-of-knowledge&quot;&gt;Reuse and Sharing of Knowledge&lt;/h3&gt;
+&lt;p&gt;By using GitHub, educators can share and collaborate on course material. When a fellow educator wants to teach a similar course, all that she needs to do is &lt;a href=&quot;https://help.github.com/articles/fork-a-repo/&quot;&gt;fork&lt;/a&gt; the original course on GitHub. And if she improves it, other educators are aware of the changes and can integrate them back to their courses as well.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Some of the material is shared with the world and some of it is shared with other instructors of other universities…We’re versioning all of it.”&lt;/p&gt;
+
+  &lt;p&gt;— CS professor from University of California at Berkeley&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Furthermore, one of the interviewees shared the following unexpected situation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I think the repository has something like 200 stars on GitHub right now and as far as I can tell most of those stars are from people who didn’t take the course.”&lt;/p&gt;
+
+  &lt;p&gt;— CS instructor from Harvard University&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Suddenly, the course grows beyond the classroom, allowing the exchange of ideas and knowledge among students and external people (e.g., practitioners and experts from the industry).&lt;/p&gt;
+
+&lt;h3 id=&quot;transparency-of-activity&quot;&gt;Transparency of Activity&lt;/h3&gt;
+&lt;p&gt;Using GitHub as a submission platform also makes it easier for educators to monitor student progress, activity, and participation. GitHub has numerous features that support transparency of student activities, e.g., &lt;a href=&quot;https://help.github.com/articles/about-repository-graphs/&quot;&gt;graphs&lt;/a&gt; and the &lt;a href=&quot;https://help.github.com/articles/news-feed/&quot;&gt;news-feed&lt;/a&gt; that aggregates all the activity in one place.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“[As an educator] you really see the full history of how the document comes into being, including all the discussions, the former versions. I can monitor who’s active, working in certain teams, which is also handy, practical.”&lt;/p&gt;
+
+  &lt;p&gt;— CS professor from Delft University of Technology&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;encourage-participation&quot;&gt;Encourage Participation&lt;/h3&gt;
+&lt;p&gt;By using GitHub educators were able to encourage participation. In one case, the instructor used student logs as material for discussion in class. Another example was where students submitted an &lt;a href=&quot;https://guides.github.com/features/issues/&quot;&gt;issue&lt;/a&gt; followed by a &lt;a href=&quot;https://guides.github.com/introduction/flow/&quot;&gt;Pull-Request&lt;/a&gt;, mechanisms that are usually used to discuss bugs or code changes, in order to change a deadline.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Last year, I introduced a number of deadlines in between, and the time of the deadline was always Friday evening. And the students didn’t like it, so they opened an issue on GitHub - “Can we move it?”. So I said, I’m open to suggestions, please discuss it. Everyone responded to that issue on GitHub, and then at the end I said “based on the discussion, it is going to be on Sunday”. And then I asked the student who initiated this discussion “Please, open a Pull Request where you provide the fix to the assignment, so the Friday now changed to Sunday”. And that worked really nicely.”&lt;/p&gt;
+
+  &lt;p&gt;— CS professor from Delft University of Technology&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;industry-relevance&quot;&gt;Industry Relevance&lt;/h3&gt;
+
+&lt;p&gt;Educators also use GitHub to provide their students with industry relevant skills and tools.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This is very much what people use these days in [statistics], and so I actually consider it a completely valid pedagogical goal in and of itself. And the fact that it makes our work together easier is a beautiful byproduct.”&lt;/p&gt;
+
+  &lt;p&gt;— Statistics professor from University of British Colombia&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Furthermore, GitHub can also be used as a portfolio showcasing the student’s work. It is common for employers to evaluate candidates based on their existing projects and activity on GitHub.&lt;/p&gt;
+
+&lt;h3 id=&quot;incidental-benefits&quot;&gt;Incidental Benefits&lt;/h3&gt;
+
+&lt;p&gt;There are incidental benefits as well. Educators mentioned the ease of use, where you don’t have to use complex university systems, instead you can use your existing tools and just “push the changes”. Additionally, GitHub provides &lt;a href=&quot;https://education.github.com/discount_requests/new&quot;&gt;free academic licenses&lt;/a&gt;, both at the “student level” and at the “organization level”.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-educators-use-github&quot;&gt;How Educators Use GitHub&lt;/h2&gt;
+&lt;p&gt;With &lt;strong&gt;course material hosted on GitHub&lt;/strong&gt;, students (or other educators) can discuss and suggest corrections to the material with the use of Pull-Requests or issues. For example, in a course I taught, &lt;a href=&quot;https://github.com/alexeyza/startup-programming/pulls?utf8=%E2%9C%93&amp;amp;q=is%3Apr&quot;&gt;students submitted corrections&lt;/a&gt; to the material by using pull requests. We didn’t require them to do so, and it was not part of the grade - they did it on their own. Some educators even give extra credit for accepted pull requests. This is a game changer benefit of using a system like GitHub - it improves quality and encourages collaboration, benefiting everyone.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/article_images/2015-09-10-embracing-participatory-culture-in-education/student_pr.png&quot; alt=&quot;Students contribute to the course material&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Additionally, &lt;strong&gt;educators use GitHub as a submission platform&lt;/strong&gt;. And there are two main ways to do it. One is more similar to the traditional LMS, where you create a separate repository per student, and it’s private. The second way is having a single repository for the assignment, and the students will fork or branch it. This way all of the students can see each others work, allowing them to collaborate and build on the work of others.&lt;/p&gt;
+
+&lt;h2 id=&quot;not-quite-ready-for-prime-time-yet&quot;&gt;Not Quite Ready for Prime-time, Yet&lt;/h2&gt;
+&lt;p&gt;Our study uncovered how educators use GitHub to support learning and teaching, while extending or even replacing traditional LMSs. However, the implications of our findings go beyond GitHub itself. The emergence of GitHub’s workflow within education is transforming the traditional e-learning model and will better support socio-collaborative learning environments of the future. I would also like to &lt;strong&gt;strongly recommend&lt;/strong&gt; reading &lt;a href=&quot;http://www.infoworld.com/article/2886828/collaboration-software/github-for-the-rest-of-us.html&quot;&gt;&lt;strong&gt;GitHub for the rest of us&lt;/strong&gt;&lt;/a&gt; by Jon Udell.&lt;/p&gt;
+
+&lt;p&gt;It should be mentioned that GitHub was not designed as an LMS, and even though it can be used as such, there are several challenges involved. The main challenges are the lack of a shared knowledge base of suggested and best practices, and the barriers to entry educators face (i.e., an understanding of Git is required).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“To get the most out of GitHub, you need to understand Git… if you use it the right way it is simple, but somehow with Git you end up with conflicts, and if you don’t understand it, it’s magic!”&lt;/p&gt;
+
+  &lt;p&gt;— CS professor from Delft University of Technology&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;planning-to-use-github-heres-what-you-should-do&quot;&gt;Planning to Use GitHub? Here’s What You Should Do&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Privacy is not all or nothing.&lt;/strong&gt; GitHub allows for various visibility levels, depending on how you &lt;a href=&quot;https://education.github.com/guide/repository_setup&quot;&gt;set up the repository&lt;/a&gt;. Make sure to explore these possibilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use Markdown when possible.&lt;/strong&gt; A plain text file format will enable you to take advantage of the &lt;code class=&quot;highlighter-rouge&quot;&gt;diff&lt;/code&gt; and line-commenting functionalities. And Markdown’s markup language is very &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;simple to learn&lt;/a&gt;, while supporting stylized documents.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Share your experience, and learn how others use GitHub.&lt;/strong&gt; We, as a community, need your help in contributing to and shaping a shared knowledge base.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Learn Git’s workflow.&lt;/strong&gt; Understanding &lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;Git’s workflow&lt;/a&gt; (commits, branches, conflicts) will give you a better understanding how GitHub works and how it can be best used.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be creative.&lt;/strong&gt; There are additional ways to enhance the teaching and learning experience. For instance, some educators use &lt;a href=&quot;https://travis-ci.org/&quot;&gt;Travis CI&lt;/a&gt; for &lt;a href=&quot;https://github.com/education/teachers/issues/3&quot;&gt;automated assignment grading&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Have you used or plan to use GitHub to support teaching or learning? What was the biggest &lt;strong&gt;challenge&lt;/strong&gt; for you? What &lt;strong&gt;recommendations&lt;/strong&gt; do you have for other educators? Please &lt;strong&gt;comment&lt;/strong&gt; below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;P.S.&lt;/strong&gt; &lt;a href=&quot;https://twitter.com/alexeyzagalsky&quot;&gt;I’d love to meet you on Twitter.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;published-research&quot;&gt;Published Research&lt;/h2&gt;
+&lt;p&gt;Additional details on this study can be found in &lt;a href=&quot;http://alexeyza.com/pdf/cscw15.pdf&quot;&gt;our paper&lt;/a&gt; that was presented at the &lt;a href=&quot;http://cscw.acm.org/2015/&quot;&gt;CSCW 2015 conference&lt;/a&gt;, with the &lt;a href=&quot;https://speakerdeck.com/alexeyza/the-emergence-of-github-as-a-collaborative-platform-for-education&quot;&gt;slides available online&lt;/a&gt; as well. We are extremely grateful to all the interview and survey participants.&lt;/p&gt;
+
+&lt;p&gt;I would also like to thank &lt;a href=&quot;https://margaretannestorey.wordpress.com/&quot;&gt;Margaret-Anne Storey&lt;/a&gt;, &lt;a href=&quot;http://leif.me/&quot;&gt;Leif Singer&lt;/a&gt;, and Maryi Arciniegas Méndez for providing feedback on early versions of this post.&lt;/p&gt;
+
+&lt;p&gt;This post has been shared on &lt;a href=&quot;http://thechiselgroup.org/2015/09/10/embracing-participatory-culture/&quot;&gt;the CHISEL group’s blog&lt;/a&gt;, &lt;a href=&quot;https://thewinnower.com/papers/2740-embracing-participatory-culture-in-education&quot;&gt;The Winnower&lt;/a&gt;, and on &lt;a href=&quot;http://www.storybench.org/use-github-lessons-classroom-newsroom/&quot;&gt;Storybench&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Sep 2015 11:41:54 -0700</pubDate>
+        <link>http://localhost:4000/blog/2015/09/10/embracing-participatory-culture-in-education/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/09/10/embracing-participatory-culture-in-education/</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>GitHub</category>
+        
+        <category>Learning</category>
+        
+        <category>Education</category>
+        
+        <category>Social Media</category>
+        
+      </item>
+    
+      <item>
+        <title>Command Line Fun</title>
+        <description>&lt;p&gt;I recently discovered a superb &lt;a href=&quot;http://www.shavua.net/&quot;&gt;podcast on startups&lt;/a&gt; (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each episode, with a download link at the bottom.&lt;/p&gt;
+
+&lt;p&gt;However, instead of downloading each episode manually, I decided to find an easier way, with the use of the command line. And to make it more interesting, I wanted to accomplish this with a single command line.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget -q -O - &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$@&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; http://simplecast.fm/podcasts/173/rss | grep -o &lt;span class=&quot;s2&quot;&gt;&quot;http://.*.mp3&quot;&lt;/span&gt; | xargs wget
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The first part brings the content, in quiet mode, to allow piping into &lt;code class=&quot;highlighter-rouge&quot;&gt;grep&lt;/code&gt;. The second part extracts the episode file names and paths, in my case they are all mp3 files. And the last part downloads all the files. I used the RSS feed instead of the podcast homepage as a way to have all the content in a single file.&lt;/p&gt;
+
+&lt;p&gt;I wonder, can this be done with a single &lt;code class=&quot;highlighter-rouge&quot;&gt;wget&lt;/code&gt; command?&lt;/p&gt;
+
+&lt;p&gt;BTW, a useful tool for experimenting with regular expressions is &lt;a href=&quot;http://regexr.com/&quot;&gt;RegExr&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Sep 2015 15:42:19 -0700</pubDate>
+        <link>http://localhost:4000/blog/2015/09/02/command-line-fun/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/09/02/command-line-fun/</guid>
+        
+        
+        <category>command line</category>
+        
+        <category>scripts</category>
+        
+        <category>hacks</category>
+        
+      </item>
+    
+      <item>
+        <title>5 Tips for Successfully Meeting People at Academic Conferences</title>
+        <description>&lt;p&gt;As a &lt;a href=&quot;/about/&quot;&gt;Ph.D. student&lt;/a&gt;, I have the opportunity to attend many cool conferences and co-located events (e.g., &lt;a href=&quot;http://2014.icse-conferences.org/&quot;&gt;ICSE&lt;/a&gt;, &lt;a href=&quot;http://cscw.acm.org/2015/&quot;&gt;CSCW&lt;/a&gt;, &lt;a href=&quot;http://www.icsme.org/&quot;&gt;ICSME&lt;/a&gt;). However, beyond visiting beautiful places around the world (&lt;a href=&quot;https://500px.com/photo/20248433/zurich-at-night-by-alexey-zagalsky&quot;&gt;Switzerland&lt;/a&gt;, &lt;a href=&quot;https://500px.com/photo/73282511/the-heart-of-hyderbad-by-alexey-zagalsky&quot;&gt;India&lt;/a&gt;, &lt;a href=&quot;https://500px.com/photo/52266254/victoria-lights-by-alexey-zagalsky&quot;&gt;Canada&lt;/a&gt;, and &lt;a href=&quot;https://www.youtube.com/watch?v=I_57gjvek7Q&quot;&gt;Italy&lt;/a&gt; soon), I really enjoy meeting and connecting with people. In my experience, most people I’ve met at conferences were really great, super nice, and were very happy to talk to me, even though they didn’t actually know me or had any immediate outcome in mind. In this post I provide pointers—especially intended for new grad students—for meeting people at conferences.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;stop-networking-and-just-meet-people&quot;&gt;1. Stop “Networking” and Just Meet People&lt;/h2&gt;
+
+&lt;p&gt;At one of the conferences I attended recently, I was approached by another Ph.D. student. After he introduced himself, he allowed me to introduce myself, and then asked about my research topic. After describing my research topic, he politely left. The problem here, in my opinion, was that except getting to know my name and my research topic, we didn’t actually have a real conversation. And to be honest, the encounter didn’t leave enough of an impression and in the future, it would be hard for me to remember meeting him.&lt;/p&gt;
+
+&lt;p&gt;My main takeaway is that you should not focus on networking at conferences. I feel this is one the biggest mistakes people do, as they approach networking in a technical and goal oriented manner (saying things like &lt;em&gt;“I have to talk to 50 strangers at this conference”&lt;/em&gt;). The goal should not be to (shallowly) meet X people in Y amount of time. Instead I suggest to &lt;strong&gt;genuinely&lt;/strong&gt; be interested in meeting and connecting with other people. Have a proper conversation - you may never know where this conversation will go. I have had many amazing conversations (not necessarily research related) with people I just met, people who later became my colleagues or dear friends.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-be-afraid-to-approach-people&quot;&gt;2. Don’t Be Afraid to Approach People&lt;/h2&gt;
+
+&lt;p&gt;A good way to meet people, especially for new students, is through an introduction. An introduction can be done either by your supervisor, one of your colleagues, or one of the newly met people. However, since not all supervisors might do this, you should &lt;strong&gt;introduce yourself&lt;/strong&gt;. If you already have some experience and know the community, make sure to help newcomers.&lt;/p&gt;
+
+&lt;p&gt;A very common way to meet people at conferences is to just approach them. I suggest the following: Start by introducing yourself, and get to know their name and where they come from (you can use the conference-issued name tags). Next, ask if they are presenting or have presented a paper at the conference. If they have a paper, you can ask them to tell you about the paper. If not, you can ask about their research interests. If you attended their talk, you should definitely mention that, and use their presentation as a way to start a conversation. Notice that this is not a script, but rather suggested guidelines to start a conversation.&lt;/p&gt;
+
+&lt;p&gt;Remember that the main point of conferences is meeting people from your research area. This means that everyone has a common goal, so there is no reason to be afraid to approach people! Most are probably anxious as well, and would be thankful for a conversation.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Students are sometimes afraid to talk to professors, but they shouldn’t be. Many professors are very approachable. Some may be busy, so if they seem distracted don’t take it personally. On the other hand, some students only approach well-known people, rather than being open to meeting anyone.”&lt;/p&gt;
+
+  &lt;p&gt;— &lt;a href=&quot;https://margaretannestorey.wordpress.com/&quot;&gt;Margaret-Anne Storey&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;attend-social-events-not-just-the-conference&quot;&gt;3. Attend Social Events, Not Just The Conference&lt;/h2&gt;
+
+&lt;p&gt;When attending conferences, I recommend taking part in the various social events (official and unofficial). Most conferences will arrange a least a few organized social events: a dinner, a banquet, a hike, a bicycle trip, etc. However, there are also unofficial social meetings, such as groups of people gathering together for dinner. Attending these events will allow you to better connect with and get to know various people. Besides, these events are extremely fun (and usually lead to memorable moments).&lt;/p&gt;
+
+&lt;h2 id=&quot;take-advantage-of-social-media&quot;&gt;4. Take Advantage of Social Media&lt;/h2&gt;
+
+&lt;p&gt;Following and participating in the discussions happening on Twitter is another good way to get to know people in the community, and its research themes. The basic information on Twitter can allow you to know the names and faces of some of the people, and make it easier to approach them. In some cases, Twitter may also be used for coordinating social gatherings (e.g., when a group is organizing to go for dinner). However, using Twitter should not be a replacement for meeting people face-to-face.&lt;/p&gt;
+
+&lt;p&gt;Most conferences nowadays have a presence on Twitter, and often people are live-tweeting during the conference. Using the conference or event hashtags (e.g., &lt;a href=&quot;https://twitter.com/hashtag/icse14?src=hash&quot;&gt;#icse14&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/hashtag/icsme14?src=hash&quot;&gt;#icsme14&lt;/a&gt;) and tools like &lt;a href=&quot;https://tweetdeck.twitter.com/&quot;&gt;TweetDeck&lt;/a&gt; are a very convenient way to track all the related tweets.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-be-afraid-of-lack-of-experience&quot;&gt;5. Don’t Be Afraid of Lack of Experience&lt;/h2&gt;
+
+&lt;p&gt;A common fear among newcomers is the lack of experience in research or in published papers. However, this should not be an issue at all. The &lt;strong&gt;research community is very welcoming&lt;/strong&gt;, and the people you’ll meet will most likely give you some suggestions and guidelines. Moreover, they probably had similar challenges before and know how you feel. Don’t hesitate to be open about your lack of experience or the fact that you are a newcomer (e.g., a new student). Remember to be yourself.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“One thing that worked &lt;strong&gt;very well&lt;/strong&gt; for me at &lt;a href=&quot;http://2011.icse-conferences.org/&quot;&gt;ICSE 2011&lt;/a&gt; was that I knew in advance which cool people would be there. I was interested in and impressed by their research, and made it a point to try to meet and talk to them. When you’re interested in what someone does it’s also much easier to come up with questions to ask them. This leads to much better conversations.”&lt;/p&gt;
+
+  &lt;p&gt;— &lt;a href=&quot;http://leif.me/&quot;&gt;Leif Singer&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+I hope you’ll find this post useful. &lt;strong&gt;If you see me at a conference, please come by and say hello&lt;/strong&gt;. Also, a recommended book is &lt;a href=&quot;http://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People&quot;&gt;“How to Win Friends and Influence People”&lt;/a&gt; by Dale Carnegie.&lt;/p&gt;
+
+&lt;p&gt;How was your own experience with meeting people at conferences? Do you have a cool story where something happened only because you pushed yourself out there?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;P.S.&lt;/strong&gt; &lt;a href=&quot;https://twitter.com/alexeyzagalsky&quot;&gt;I’d love to meet you on Twitter.&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Feb 2015 11:34:07 -0800</pubDate>
+        <link>http://localhost:4000/blog/2015/02/06/5-tips-for-successfully-meeting-people-at-academic-conferences/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2015/02/06/5-tips-for-successfully-meeting-people-at-academic-conferences/</guid>
+        
+        
+        <category>Conferences</category>
+        
+        <category>Networking</category>
+        
+        <category>Grad Students</category>
+        
+      </item>
+    
+  </channel>
+</rss>

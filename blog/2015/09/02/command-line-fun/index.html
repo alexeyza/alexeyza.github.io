@@ -1,217 +1,207 @@
-
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
+<html>
+  <head>
   <meta charset="utf-8">
-  <title>Command Line Fun - Alexey Zagalsky</title>
-  <meta name="author" content="Alexey Zagalsky">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <title>Command Line Fun</title>
+  <meta name="description" content="I recently discovered a superb podcast on startups (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each e..." />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   
-  <meta name="description" content="Command Line Fun written September 2, 2015 in command line, hacks, scripts 1 minute read I recently discovered a superb podcast on startups (in &hellip;">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@alexeyzagalsky" />
+    <meta name="twitter:title" content="Command Line Fun" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/az_logo.png" />
+    
+    <meta name="twitter:description"  content="I recently discovered a superb podcast on startups (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each e..." />
+    
   
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   
-  <link rel="canonical" href="http://alexeyza.com/blog/2015/09/02/command-line-fun">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Alexey Zagalsky" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <meta property="og:site_name" content="Alexey Zagalsky" />
+  <meta property="og:title" content="Command Line Fun"/>
   
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-54265697-1']);
-    _gaq.push(['_trackPageview']);
+  <meta property="og:description" content="I recently discovered a superb podcast on startups (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each e..." />
+  
+  <meta property="og:image" content="http://localhost:4000/assets/images/az_logo.png" />
+  <meta property="og:url" content="http://localhost:4000/blog/2015/09/02/command-line-fun/" >
+  <meta property="og:type" content="blog" />
+  <meta property="article:published_time" content="2015-09-02T15:42:19-07:00">
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+  <link rel="canonical" href="http://localhost:4000/blog/2015/09/02/command-line-fun/"/>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/academicons.min.css"/>
 
-
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
 </head>
 
-  <body>
-    <a href="/" class="home-icon">
-      <img src="/images/home.png"/>
-    </a>
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
 
-    <article role="article" class="full-single-article">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <h1>Command Line Fun</h1>
-        <div class="meta">
-          written 
+<a href="http://localhost:4000" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/az_logo.png)"></span></a>
 
+<!-- header end -->
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-09-02T15:42:19-07:00" pubdate data-updated="true">September 2, 2015</time>
-          
-
-in
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/command-line/'>command line</a>, <a class='category' href='/blog/categories/hacks/'>hacks</a>, <a class='category' href='/blog/categories/scripts/'>scripts</a>
-  
-</span>
-
-
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title">Command Line Fun</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"></h4>
+              on
+              <time datetime="2015-09-02T15:42:19-07:00">02 Sep 2015</time>
+            </div>
+          </div>
         </div>
-        <div class="meta"><span class="reading-time" title="estimated read time">
-  
-  
-    1 minute read
-  
-</span>
-        </div>
-        <p>I recently discovered a superb <a href="http://www.shavua.net/">podcast on startups</a> (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each episode, with a download link at the bottom.</p>
+        <br>
+        <br>
+        <br>
+        
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <p>I recently discovered a superb <a href="http://www.shavua.net/">podcast on startups</a> (in Hebrew). And, I wanted to download the episodes, so that I can listen to it when I commute to work. The podcast homepage has a page for each episode, with a download link at the bottom.</p>
 
 <p>However, instead of downloading each episode manually, I decided to find an easier way, with the use of the command line. And to make it more interesting, I wanted to accomplish this with a single command line.</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>wget -q -O - <span class="s2">&quot;$@&quot;</span> http://simplecast.fm/podcasts/173/rss <span class="p">|</span> grep -o <span class="s2">&quot;http://.*.mp3&quot;</span> <span class="p">|</span> xargs wget
-</span></code></pre></td></tr></table></div></figure>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>wget -q -O - <span class="s2">"</span><span class="nv">$@</span><span class="s2">"</span> http://simplecast.fm/podcasts/173/rss | grep -o <span class="s2">"http://.*.mp3"</span> | xargs wget
+</code></pre>
+</div>
 
+<p>The first part brings the content, in quiet mode, to allow piping into <code class="highlighter-rouge">grep</code>. The second part extracts the episode file names and paths, in my case they are all mp3 files. And the last part downloads all the files. I used the RSS feed instead of the podcast homepage as a way to have all the content in a single file.</p>
 
-<p>The first part brings the content, in quiet mode, to allow piping into <code>grep</code>. The second part extracts the episode file names and paths, in my case they are all mp3 files. And the last part downloads all the files. I used the RSS feed instead of the podcast homepage as a way to have all the content in a single file.</p>
-
-<p>I wonder, can this be done with a single <code>wget</code> command?</p>
+<p>I wonder, can this be done with a single <code class="highlighter-rouge">wget</code> command?</p>
 
 <p>BTW, a useful tool for experimenting with regular expressions is <a href="http://regexr.com/">RegExr</a>.</p>
 
-
-        <hr class="divider-short"/>
-
-        
-        <section>
-          <h1>Comments</h1>
-          <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
         </section>
+        <footer class="post-footer">
+          <section class="share">
+            
+              
+                <a class="icon-twitter" href="http://twitter.com/share?text=Command+Line+Fun&amp;url=http://localhost:4000/blog/2015/09/02/command-line-fun"
+                  onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+                <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+                </a>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          </section>
+        </footer>
+        <div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
+              <h4>Alexey Zagalsky</h4>
+              <p class="bio"></p>
+              <hr>
+              <p class="published">Published <time datetime="2015-09-02 15:42">02 Sep 2015</time></p>
+            </section>
+          </div>
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>Powered by</span></h5>
+            <footer class="site-footer">
+              <section class="poweredby">Published with <a href="http://jekyllrb.com"> Jekyll</a></section>
+              <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe to my feed.</span></a>
+              <div class="inner">
+                <section class="copyright">All content copyright <a href="/">Alexey Zagalsky</a> &copy; 2016<br>All rights reserved.</section>
+              </div>
+            </footer>
+          </div>
+        </div>
         
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'alexeyzablog'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image"  style="background-image: url(/assets/images/background.jpg)">
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">Alexey Zagalsky</h1>
+        <h2 class="blog-description">Software Developer, Researcher, Hacker
+</h2>
+        <a href="/" class="btn">Back to Overview</a>
       </div>
     </div>
-  </div>
-</article>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
 
-<hr class="divider-short"/>
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+    
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
 
-<div class="archive-link">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        
-          <a class="pull-left" href="/blog/2015/02/06/5-tips-for-successfully-meeting-people-at-academic-conferences/" title="Previous Post: 5 Tips for Successfully Meeting People at Academic Conferences">&laquo; Previous: 5 Tips for Successfully Meeting People at Academic Conferences</a>
-        
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+      });
+      $window.trigger('scroll');
 
-        
-          <a class="pull-right" href="/blog/2015/09/10/embracing-participatory-culture-in-education/" title="Next Post: Embracing Participatory Culture in Education">Next: Embracing Participatory Culture in Education &raquo;</a>
-        
-      </div>
-    </div>
-  </div>
-</div>
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
 
-    <footer id="footer" class="her-row">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-1">
-  <a href="/"><h4>Home</h4></a>
-</div>
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
 
-<div class="col-md-2">
-  <div class="social-icon-list">
-    
-    <a href="mailto:alexeyza@gmail.com"><img src="/images/glyphicons_social_39_e-mail.png"/></a>
-    
-
-    
-    <a href="https://twitter.com/alexeyzagalsky"><img src="/images/glyphicons_social_31_twitter.png"/></a>
-    
-
-    
-    <a href="https://github.com/alexeyza"><img src="/images/glyphicons_social_21_github.png"/></a>
-    
-
-    
-    <a href="https://linkedin.com/in/alexeyza"><img src="/images/glyphicons_social_17_linked_in.png"/></a>
-    
-
-    
-    <a title="Google Scholar" href="http://scholar.google.ca/citations?user=WWYRn7AAAAAJ"><img src="/images/glyphicons_social_22_google_scholar.png"/></a>
-    
-
-    
-    <a title="PeerJ Computer Science" href="https://peerj.com/alexeyza"><img src="/images/glyphicons_351_book_open.png"/></a>
-    
-
-    
-    <a title="Speaker Deck" href="https://speakerdeck.com/alexeyza"><img src="/images/glyphicons-394-speakerdeck.png"/></a>
-    
-
-    
-    <a title="500px" href="http://500px.com/alexeyza"><img src="/images/glyphicons_social_18_500px.png"/></a>
-    
-
-    
-    <a title="Kaggle" href="http://www.kaggle.com/alexeyza"><img src="/images/glyphicons_social_20_kaggle.png"/></a>
-    
-  </div>
-</div>
-
-<div class="pull-right">
-  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
-</div>
-
-
-    </div>
-  </div>
-</footer>
-
-    
-      
-
-<script type="text/javascript">
-      var disqus_shortname = 'alexeyzablog';
-      
-        
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://alexeyza.com/blog/2015/09/02/command-line-fun/';
-        var disqus_url = 'http://alexeyza.com/blog/2015/09/02/command-line-fun/';
-        var disqus_script = 'embed.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
+  });
+}(jQuery));
 </script>
 
 
-    
   </body>
 </html>
