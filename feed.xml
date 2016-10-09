@@ -6,8 +6,8 @@
 </description>
     <link>http://alexeyza.com/</link>
     <atom:link href="http://alexeyza.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 08 Oct 2016 15:04:01 -0700</pubDate>
-    <lastBuildDate>Sat, 08 Oct 2016 15:04:01 -0700</lastBuildDate>
+    <pubDate>Sat, 08 Oct 2016 22:06:05 -0700</pubDate>
+    <lastBuildDate>Sat, 08 Oct 2016 22:06:05 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -201,9 +201,9 @@ nvm uninstall 4.1.1
         <guid isPermaLink="true">http://alexeyza.com/blog/2015/09/28/getting-started-with-node-dot-js/</guid>
         
         
-        <category>node.js</category>
+        <category>Node.js</category>
         
-        <category>scripts</category>
+        <category>guide</category>
         
       </item>
     
