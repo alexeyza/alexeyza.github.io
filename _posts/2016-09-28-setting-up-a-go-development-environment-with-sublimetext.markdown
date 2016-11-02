@@ -27,7 +27,7 @@ Download the latest version of Go archive from [https://golang.org/dl/](https://
 sudo tar -C /usr/local -xzf go1.7.1.linux-amd64.tar.gz
 ```
 
-Note: some people use the Go version manager ([GVM](https://github.com/moovweb/gvm)) to install and set up Go, a tool similar to [NVM](https://github.com/creationix/nvm) which I use highly recommend for Node.js, but for Go I prefer to set up everything myself.
+Note: some people use the Go version manager ([GVM](https://github.com/moovweb/gvm)) to install and set up Go, a tool similar to [NVM](https://github.com/creationix/nvm) which I highly recommend for Node.js, but for Go I prefer to set up everything myself.
 
 Next, set the PATH environment variables by adding the following to `.bashrc`:
 
