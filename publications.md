@@ -16,7 +16,7 @@ Transactions on Software Engineering journal ([TSE](https://www.computer.org/web
 **Using the Model of Regulation to Understand Software Development Collaboration Practices and Tool Support**  
 Maryi Arciniegas-Mendez, Alexey Zagalsky, Margaret-Anne Storey, Allyson F. Hadwin,  
 20th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2017/)), 2017, ACM.  
-[Preprint soon](/pdf/cscw2017.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2998181.2998360)
+[Preprint](/pdf/cscw2017.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2998181.2998360)
 
 **Disrupting Developer Productivity One Bot at a Time**  
 Margaret-Anne Storey, Alexey Zagalsky,  
