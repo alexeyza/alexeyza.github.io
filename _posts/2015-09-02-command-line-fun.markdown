@@ -10,6 +10,8 @@ I recently discovered a superb [podcast on startups](http://www.shavua.net/) (in
 
 However, instead of downloading each episode manually, I decided to find an easier way, with the use of the command line. And to make it more interesting, I wanted to accomplish this with a single command line.
 
+<!--more-->
+
 ```bash
 wget -q -O - "$@" http://simplecast.fm/podcasts/173/rss | grep -o "http://.*.mp3" | xargs wget
 ```

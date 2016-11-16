@@ -8,14 +8,14 @@ categories: [GitHub, Learning, Education, 'Social Media']
 ---
 <img style="float:right; margin: 8px 20px" src="/assets/article_images/2015-09-10-embracing-participatory-culture-in-education/github_student.png" widht="120" height="180" title="GitHub logo owned by GitHub, Inc."/>
 
->"It's always about timing. If it's too soon, no one understands. If it's too late, everyone's forgotten."
->
->--- Anna Wintour
-
 GitHub is on the brink of growing from a platform for software projects, and into a mainstream collaboration platform for other domains as well.
 An unexpected area where GitHub's collaborative **workflow** holds the potential to bring groundbreaking changes is education and learning. In fact, educators have already begun to use GitHub to support teaching and learning. In some cases using it to replace certain aspects of the traditional learning management systems (e.g., Blackboard, Moodle), while in other cases gaining new benefits and capabilities.
 
 <!--more-->
+
+>"It's always about timing. If it's too soon, no one understands. If it's too late, everyone's forgotten."
+>
+>--- Anna Wintour
 
 ## Beyond Software Development
 [GitHub](https://github.com/) is a popular Web-based social code sharing service that utilizes the Git distributed version control system. The software development community has [embraced GitHub](http://www.wired.com/2015/03/github-conquered-google-microsoft-everyone-else) as an essential platform for managing their software projects. After just seven years, GitHub has 9 million registered users, and about 20 million unregistered visitors. Similarly, tools such as [BitBucket](https://bitbucket.org/) and [GitLab](https://about.gitlab.com/) gain popularity in hosting software projects. More importantly, GitHub is far more than a code repository, it is a social meeting place, that supports [communities of practice](http://wenger-trayner.com/introduction-to-communities-of-practice/) and fosters collaboration. People use it as a virtual meeting place, that supports discussions, and allows everyone to maintain awareness.
