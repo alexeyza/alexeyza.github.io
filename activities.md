@@ -73,12 +73,12 @@ March 31<sup>st</sup>, 2015, University of Victoria, BC, Canada
 <br>
 **Startup Programming - Sessional Lecturer**  
 Students acquire the tools and skills to rapidly develop innovative ideas into working projects utilizing advanced mobile, social, cloud, and web technologies.  
-2 Semesters, 2014,2016, University of Victoria, BC, Canada  
+2 Semesters, 2014/2016, University of Victoria, BC, Canada  
 [More info](http://startup-programming.com)
 
 **Human Computer Interaction - Teaching Assistant**  
 This course provides a comprehensive introduction to the field of human computer interaction (HCI) and interaction design (IxD). It focuses on the design and evaluation of usable computer interfaces.  
-Spring 2015/2016, University of Victoria, BC, Canada  
+Spring 2016, University of Victoria, BC, Canada  
 [More info](https://courses1.csc.uvic.ca/courses/2016/spring/seng/310)
 
 **Google Technologies for Cloud and Web Development Workshop**  
@@ -97,4 +97,4 @@ The course introduces object-oriented programming methodology and the Java progr
 
 **Web Application Security - Teaching Assistant**  
 Introduce the threats to network and infrastructure and how to mitigate them using firewalls, network and host intrusion detection systems and other OS based countermeasures. In addition, present security aspects that are unique to Web applications.  
-Spring 2010/2011, Tel-Aviv University, Israel
+Spring 2011, Tel-Aviv University, Israel
