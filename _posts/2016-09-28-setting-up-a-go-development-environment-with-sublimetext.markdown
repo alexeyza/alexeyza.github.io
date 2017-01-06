@@ -82,3 +82,6 @@ go get -u golang.org/x/tools/cmd/godoc
 ```
 
 Read more [here](https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/) on how to configure these plugins to work with GoSublime.
+
+## A New Upcoming Go IDE
+There is a new and cool looking Go IDE, [Gogland](https://www.jetbrains.com/go/), created by Jetbrains (the company behind the awesome IntelliJ and PyCharm). Check out the early build on their website.
