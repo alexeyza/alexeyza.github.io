@@ -52,7 +52,7 @@ May 16-24, 2015, Florence, Italy
 <br>
 **Research Seminar: Advanced Software Engineering Topics**  
 Co-organize a research seminar focusing on advanced topics in software engineering,  
-2016, University of Victoria, Canada  
+2016-2017, University of Victoria, Canada  
 [More info](https://research-seminar.github.io/)
 
 **CSD 2015 Workshop Session Chair**  
