@@ -39,7 +39,7 @@ Alexey Zagalsky, Joseph Feliciano, Margaret-Anne Storey, Yiyun Zhao, Weiliang Wa
 18th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2015/)), 2015, ACM.  
 [PDF](/pdf/cscw15.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2675133.2675284) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/the-emergence-of-github-as-a-collaborative-platform-for-education) &nbsp;·&nbsp; [Blog](http://alexeyza.com/blog/2015/09/10/embracing-participatory-culture-in-education/)
 
-**The \(R\) Evolution of social media in software engineering**  
+**The \(R\) Evolution of Social Media in Software Engineering**  
 Margaret-Anne Storey, Leif Singer, Brendan Cleary, Fernando Figueira Filho, Alexey Zagalsky,  
 In Future of Software Engineering ([FOSE](http://2014.icse-conferences.org/fose)) track of the 36th International Conference on Software Engineering [ICSE](http://2014.icse-conferences.org/), 2014, ACM.  
 [PDF](/pdf/fose14.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2593882.2593887)
