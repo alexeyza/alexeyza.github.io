@@ -7,7 +7,7 @@ permalink: /publications/
 <br>
 **How Social and Communication Channels Shape and Challenge a Participatory Culture in Software Development**  
 Margaret-Anne Storey, Alexey Zagalsky, Fernando Figueira Filho, Leif Singer, Daniel M. German,  
-Transactions on Software Engineering journal ([TSE](https://www.computer.org/web/tse)), 2016, IEEE.  
+Transactions on Software Engineering ([TSE](https://www.computer.org/web/tse)) journal, 2016, IEEE.  
 [PDF](/pdf/tse2016.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/TSE.2016.2584053) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/tse-2016-how-communication-channels-challenge-a-participatory-culture-in-software-development)
 
 
@@ -16,7 +16,7 @@ Transactions on Software Engineering journal ([TSE](https://www.computer.org/web
 **Using the Model of Regulation to Understand Software Development Collaboration Practices and Tool Support**  
 Maryi Arciniegas-Mendez, Alexey Zagalsky, Margaret-Anne Storey, Allyson F. Hadwin,  
 20th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2017/)), 2017, ACM.  
-[Preprint](/pdf/cscw2017.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2998181.2998360)
+[PDF](/pdf/cscw2017.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2998181.2998360)
 
 **Disrupting Developer Productivity One Bot at a Time**  
 Margaret-Anne Storey, Alexey Zagalsky,  
