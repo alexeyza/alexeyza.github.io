@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Startups: Operations and Speed"
-date: 2017-01-26 14:44:18 -0700
+date: 2017-02-07 14:44:18 -0700
 comments: true
 published: true
 categories: [Startups, Operations, Speed]
