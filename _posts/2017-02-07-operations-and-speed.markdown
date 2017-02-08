@@ -29,8 +29,8 @@ Startups tackle big problems, but it's very hard to tackle the whole problem. Ty
 
 - **Culture of shipping**
 - Infrastructure that supports **continuous deployment and shipping**
-- **Efficient decision making process:** sometimes people believe they have to do more research on the topic, that they don't have enough input, that they need to reach agreement or consensus in the team --- eventually ending up delaying the decision. In most cases, it's better to make a decision and change your mind later, than not making a decision
-- **Focus:** work on most important thing. Dissemble the most important thing to it's basic layers, and focus on the most important one
+- **Efficient decision making process:** sometimes people believe they have to do more research on a topic, that they don't have enough input, that they need to reach an agreement or consensus in the team --- eventually ending up delaying their decisions. In most cases, it's better to make a decision and change your mind later, than not making a decision
+- **Focus:** work on the most important thing. Dissemble the most important thing to it's basic layers, and focus on the most important one
 - **Delegation and ownership**: allow people in your team to take decisions without the need to seek agreement with everyone
 
 * * *
