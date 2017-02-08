@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Startups: Operations and Speed"
+title: "Operations and Speed in Startups"
 date: 2017-02-07 14:44:18 -0700
 comments: true
 published: true
