@@ -118,6 +118,6 @@ Have you used or plan to use GitHub to support teaching or learning? What was th
 ## Published Research
 Additional details on this study can be found in [our paper](http://alexeyza.com/pdf/cscw15.pdf) that was presented at the [CSCW 2015 conference](http://cscw.acm.org/2015/), with the [slides available online](https://speakerdeck.com/alexeyza/the-emergence-of-github-as-a-collaborative-platform-for-education) as well. We are extremely grateful to all the interview and survey participants.
 
-I would also like to thank [Margaret-Anne Storey](https://margaretannestorey.wordpress.com/), [Leif Singer](http://leif.me/), and Maryi Arciniegas Méndez for providing feedback on early versions of this post.
+I would also like to thank [Margaret-Anne Storey](http://margaretstorey.com/), [Leif Singer](http://leif.me/), and Maryi Arciniegas Méndez for providing feedback on early versions of this post.
 
 This post has been shared on [the CHISEL group's blog](http://thechiselgroup.org/2015/09/10/embracing-participatory-culture/), [The Winnower](https://thewinnower.com/papers/2740-embracing-participatory-culture-in-education), and on [Storybench](http://www.storybench.org/use-github-lessons-classroom-newsroom/).
