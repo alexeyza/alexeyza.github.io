@@ -29,7 +29,7 @@ Remember that the main point of conferences is meeting people from your research
 
 >"Students are sometimes afraid to talk to professors, but they shouldn't be. Many professors are very approachable. Some may be busy, so if they seem distracted don't take it personally. On the other hand, some students only approach well-known people, rather than being open to meeting anyone."
 >
->--- <a href="https://margaretannestorey.wordpress.com/">Margaret-Anne Storey</a>
+>--- <a href="http://margaretstorey.com/">Margaret-Anne Storey</a>
 
 ## 3. Attend Social Events, Not Just The Conference
 
