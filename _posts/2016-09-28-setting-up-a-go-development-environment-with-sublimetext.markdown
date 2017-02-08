@@ -49,7 +49,7 @@ Sublime text is my editor of choice for many things, and I highly recommend it f
 
 Install [GoSublime](https://github.com/DisposaBoy/GoSublime) through package control (`CTRL+Shift+P`). It's a Sublime Text plugin that provides Go code completion and other IDE-like features.
 
-Next, set up the PATH environment variables for Sublime Text. This setting has slightly changed over time (which is why you may find different variations of these instructions online), but my current set up works with the following settings in `Preferences -> Package Settings -> GoSublime -> Settings-User`.  
+Next, set up the PATH environment variables for Sublime Text. This setting has slightly changed over time (which is why you may find different instruction variations online), but my current set up works with the following settings in `Preferences -> Package Settings -> GoSublime -> Settings-User`.  
 Make sure the GOPATH matches the path configured earlier.
 
 ```json
