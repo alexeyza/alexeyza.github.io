@@ -24,7 +24,7 @@ Reviewer, 2015 (1 paper)
 [More info](/pdf/jss15_certificate.pdf)
 
 **IEEE Software**  
-Theme Issue on Crowdsourcing for Software Engineering ([More info](https://www.computer.org/web/computingnow/swcfp2))  
+Theme Issue on [Crowdsourcing for Software Engineering](https://www.computer.org/web/computingnow/swcfp2) ([More info](https://www.computer.org/software-magazine/2017/02/03/2016-reviewers/))  
 Reviewer, 2016 (1 paper)
 
 **External reviewer**  
