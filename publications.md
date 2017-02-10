@@ -47,7 +47,7 @@ In Future of Software Engineering ([FOSE](http://2014.icse-conferences.org/fose)
 
 ## Workshop papers (peer reviewed)
 <br>
-**How Software Developers Mitigate Collaboration Friction Points with Chatbots**  
+**How Software Developers Mitigate Collaboration Friction with Chatbots**  
 Carlene Lebeuf, Margaret-Anne Storey, Alexey Zagalsky,  
 [Talking with Conversational Agents in Collaborative Action](https://talkingwithagents.wordpress.com/) workshop at the 20th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2017/)), 2017, ACM.  
 [Preprint](/pdf/cscw2017-workshop.pdf)
