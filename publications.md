@@ -50,7 +50,7 @@ In Future of Software Engineering ([FOSE](http://2014.icse-conferences.org/fose)
 **How Software Developers Mitigate Collaboration Friction with Chatbots**  
 Carlene Lebeuf, Margaret-Anne Storey, Alexey Zagalsky,  
 [Talking with Conversational Agents in Collaborative Action](https://talkingwithagents.wordpress.com/) workshop at the 20th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2017/)), 2017, ACM.  
-[PDF](/pdf/cscw2017-workshop.pdf)
+[PDF](/pdf/cscw2017-workshop.pdf) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/1702.07011)
 
 **Regulation as an Enabler for Collaborative Software Development**  
 Maryi Arciniegas-Mendez, Alexey Zagalsky, Margaret-Anne Storey, Allyson F. Hadwin,  
