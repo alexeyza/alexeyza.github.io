@@ -72,7 +72,8 @@ March 31<sup>st</sup>, 2015, University of Victoria, BC, Canada
 ## Teaching
 <br>
 **Startup Programming - Sessional Lecturer**  
-Students acquire the tools and skills to rapidly develop innovative ideas into working projects utilizing advanced mobile, social, cloud, and web technologies.  
+Students work in small teams to develop the skills needed to transform innovative ideas into working software projects utilizing current advanced technologies in mobile, cloud, social, and Web applications--combining technological competence with human-centered design and creative endeavor.  
+
 2 Semesters, 2014/2016, University of Victoria, BC, Canada  
 [More info](http://startup-programming.com)
 
