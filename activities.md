@@ -36,7 +36,7 @@ Served as a sub-reviewer for [CHI 2016](http://chi2016.acm.org/wp/), [MSR 2016](
 
 ## Visiting Researcher
 <br>
-**Software Engineering Research Group ([SERG](http://swerl.tudelft.nl/bin/view/Main/WebHome/))**  
+**Software Engineering Research Group ([SERG](http://swerl.tudelft.nl/bin/view/Main/WebHome))**  
 Delft University of Technology, June-July, 2016
 
 

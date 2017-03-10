@@ -8,7 +8,7 @@ I'm a Ph.D. candidate under the guidance of [Margaret-Anne Storey](https://marga
 
 Prior to that, under the guidance of [Amiram Yehudai](http://www.cs.tau.ac.il/~amiramy/) and the mentorship of [Ohad Barzilay](http://www.barzilab.com/), I studied _opportunistic software development_ by building and evaluating a social media code recommendation system.
 
-During summer of 2016, I've visited the Software Engineering Research Group ([SERG](http://swerl.tudelft.nl/bin/view/Main/WebHome/)) at Delft University of Technology.
+During summer of 2016, I've visited the Software Engineering Research Group ([SERG](http://swerl.tudelft.nl/bin/view/Main/WebHome)) at Delft University of Technology.
 
 I'm also very much interested in early-stage startups.
 
