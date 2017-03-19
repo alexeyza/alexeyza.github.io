@@ -3,37 +3,6 @@ layout: page
 title: "Activities"
 permalink: /activities/
 ---
-## Program Committee
-<br>
-**VisSoft 2016**  
-The 4th IEEE Working Conference on Software Visualization ([VISSOFT 2016](http://vissoft16.ysu.edu/))  
-Program Committee member  
-[More info](http://vissoft16.ysu.edu/committee.html)
-
-
-## Reviewing
-<br>
-**TOSEM journal**  
-ACM Transactions on Software Engineering and Methodology ([TOSEM](http://tosem.acm.org/))  
-Referee, 2015-2016 (2 papers)  
-[More info](http://tosem.acm.org/past-reviewers.cfm)
-
-**JSS**  
-Journal of Systems and Software ([JSS](http://ees.elsevier.com/jss/mainpage.html))  
-Reviewer, 2015 (1 paper)  
-[More info](/pdf/jss15_certificate.pdf)
-
-**IEEE Software**  
-Theme Issue on [Crowdsourcing for Software Engineering](https://www.computer.org/web/computingnow/swcfp2) ([More info](https://www.computer.org/software-magazine/2017/02/03/2016-reviewers/))  
-Reviewer, 2016 (1 paper)
-
-**External reviewer**  
-Served as an external reviewer for [CSCW 2017](https://cscw.acm.org/2017/)
-
-**Sub-reviewing**  
-Served as a sub-reviewer for [CHI 2016](http://chi2016.acm.org/wp/), [MSR 2016](http://2016.msrconf.org/#/home), and [FSE 2016](http://www.cs.ucdavis.edu/fse2016/)
-
-
 ## Visiting Researcher
 <br>
 **Software Engineering Research Group ([SERG](http://swerl.tudelft.nl/bin/view/Main/WebHome))**  
@@ -73,6 +42,42 @@ May 19<sup>th</sup>, 2015, Florence, Italy
 As part of a judging panel for [UVic's](https://www.uvic.ca/) PitchIt elevator pitch competition,  
 March 31<sup>st</sup>, 2015, University of Victoria, BC, Canada  
 [More info](http://www.uvic.ca/innovation/services/competitions/pitchit/index.php)
+
+
+## Program Committee
+<br>
+**VisSoft 2017 NIER and Tool Tracks**  
+The 5th IEEE Working Conference on Software Visualization ([VISSOFT 2017](http://vissoft17.dcc.uchile.cl/))  
+Program Committee member  
+[More info](http://vissoft17.dcc.uchile.cl/committee.html)
+
+**VisSoft 2016**  
+The 4th IEEE Working Conference on Software Visualization ([VISSOFT 2016](http://vissoft16.ysu.edu/))  
+Program Committee member  
+[More info](http://vissoft16.ysu.edu/committee.html)
+
+
+## Reviewing
+<br>
+**TOSEM journal**  
+ACM Transactions on Software Engineering and Methodology ([TOSEM](http://tosem.acm.org/))  
+Referee, 2015-2016 (2 papers)  
+[More info](http://tosem.acm.org/past-reviewers.cfm)
+
+**JSS**  
+Journal of Systems and Software ([JSS](http://ees.elsevier.com/jss/mainpage.html))  
+Reviewer, 2015 (1 paper)  
+[More info](/pdf/jss15_certificate.pdf)
+
+**IEEE Software**  
+Theme Issue on [Crowdsourcing for Software Engineering](https://www.computer.org/web/computingnow/swcfp2) ([More info](https://www.computer.org/software-magazine/2017/02/03/2016-reviewers/))  
+Reviewer, 2016 (1 paper)
+
+**External reviewer**  
+Served as an external reviewer for [CSCW 2017](https://cscw.acm.org/2017/)
+
+**Sub-reviewing**  
+Served as a sub-reviewer for [CHI 2016](http://chi2016.acm.org/wp/), [MSR 2016](http://2016.msrconf.org/#/home), and [FSE 2016](http://www.cs.ucdavis.edu/fse2016/)
 
 
 ## Teaching
