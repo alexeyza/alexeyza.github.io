@@ -46,7 +46,7 @@ March 31<sup>st</sup>, 2015, University of Victoria, BC, Canada
 
 ## Program Committee
 <br>
-**VisSoft 2017 NIER and Tool Tracks**  
+**VisSoft 2017 NIER and Tools Track**  
 The 5th IEEE Working Conference on Software Visualization ([VISSOFT 2017](http://vissoft17.dcc.uchile.cl/))  
 Program Committee member  
 [More info](http://vissoft17.dcc.uchile.cl/committee.html)
