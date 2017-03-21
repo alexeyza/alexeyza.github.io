@@ -73,8 +73,8 @@ Reviewer, 2015 (1 paper)
 Theme Issue on [Crowdsourcing for Software Engineering](https://www.computer.org/web/computingnow/swcfp2) ([More info](https://www.computer.org/software-magazine/2017/02/03/2016-reviewers/))  
 Reviewer, 2016 (1 paper)
 
-**External reviewer**  
-Served as an external reviewer for [CSCW 2017](https://cscw.acm.org/2017/)
+**Reviewer**  
+Served as a reviewer for [CSCW 2017](https://cscw.acm.org/2017/)
 
 **Sub-reviewing**  
 Served as a sub-reviewer for [CHI 2016](http://chi2016.acm.org/wp/), [MSR 2016](http://2016.msrconf.org/#/home), and [FSE 2016](http://www.cs.ucdavis.edu/fse2016/)
