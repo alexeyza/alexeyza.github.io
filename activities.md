@@ -91,7 +91,7 @@ Students work in small teams to develop the skills needed to transform innovativ
 **Human Computer Interaction - Teaching Assistant**  
 This course provides a comprehensive introduction to the field of human computer interaction (HCI) and interaction design (IxD). It focuses on the design and evaluation of usable computer interfaces.  
 Spring 2016, University of Victoria, BC, Canada  
-[More info](https://courses1.csc.uvic.ca/courses/2016/spring/seng/310)
+[More info](https://heat.csc.uvic.ca/coview/outline/2016/Spring/seng/310)
 
 **Google Technologies for Cloud and Web Development Workshop**  
 Students acquire the tools and skills to rapidly develop innovative ideas into working projects utilizing advanced mobile, social, cloud, and web technologies (an earlier version of the Startup Programming course).  
