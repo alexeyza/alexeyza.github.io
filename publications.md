@@ -60,7 +60,7 @@ Maryi Arciniegas-Mendez, Alexey Zagalsky, Margaret-Anne Storey, Allyson F. Hadwi
 **Example overflow: Using social media for code recommendation**  
 Alexey Zagalsky, Ohad Barzilay, Amiram Yehudai,  
 3rd International Workshop on Recommendation Systems for Software Engineering ([RSSE 2012](https://sites.google.com/site/rsseresearch/rsse-2012)), an [ICSE 2012](https://files.ifi.uzh.ch/icseweb/) Workshop, IEEE.  
-[PDF](/pdf/rsse12.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/RSSE.2012.6233407) &nbsp;·&nbsp; [Poster](/pdf/rsse12_poster.pdf)
+[PDF](/pdf/rsse12.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/RSSE.2012.6233407) &nbsp;·&nbsp; [Poster](/pdf/rsse12_poster.pdf) &nbsp;·&nbsp; [Tool](http://www.exampleoverflow.net/)
 
 
 ## Book chapters (peer reviewed)
