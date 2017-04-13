@@ -25,11 +25,15 @@ Consider the **unit of execution** you aim for (e.g., 1 week, 2 weeks, 1 month) 
 
 Startups tackle big problems, but it's very hard to tackle the whole problem. Typically, these big problems consist of many smaller things --- so choosing what to focus on is critical. Equally important is to be able to **gauge your speed**.
 
+>"Most decisions should probably be made with somewhere around 70% of the information you wish you had. If you wait for 90%, in most cases, you’re probably being slow. Plus, either way, you need to be good at quickly recognizing and correcting bad decisions."
+>
+>--- Jeff Bezos
+
 ## Tools and Practices that Help with Speed
 
 - **Culture of shipping**.
 - Infrastructure that supports **continuous deployment and shipping**.
-- **Efficient decision making process:** Sometimes people believe they have to do more research on a topic, that they don't have enough input, or that they need to reach an agreement or consensus in the team, eventually ending up delaying their decisions. In most cases it's better to make a decision and change your mind later than to not make a decision.
+- **Efficient decision making process:** Sometimes people believe they have to do more research on a topic, that they don't have enough input, or that they need to reach an agreement or consensus in the team, eventually ending up delaying their decisions. In most cases it's better to make a decision and change your mind later than to not make a decision. [Jeff Bezos describes this](http://www.businessinsider.com/jeff-bezos-explains-the-perfect-way-to-make-risky-business-decisions-2017-4) perfectly in his annual shareholder's letter.
 - **Focus:** Work on the most important thing first. Break down the most important thing to its basic layers and focus on the most important component.
 - **Delegation and ownership**: Allow people on your team to make decisions without the need to seek agreement with everyone.
 
