@@ -9,7 +9,7 @@ image: /assets/article_images/2017-02-07-operations-and-speed/background.jpg
 image2: /assets/article_images/2017-02-07-operations-and-speed/background-mobile.jpg
 ---
 
-In the wonderful and demanding world of startups, you may find yourself working hard for many hours, feeling busy but actually accomplishing little and barely "moving the needle". Operations is not about the hours spent, but on how you work and which things you choose to work on. Many people see two dimensions here: **Strategy** and **Execution**. For early stage startups, execution is more about speed, while the strategy is about quality. Speed increases your chance of success and gives you more opportunities for learning before you run out of resources.
+In the challenging and demanding world of startups, you may find yourself working hard for many hours, feeling busy but actually accomplishing little and barely "moving the needle". Operations is not about the hours spent, but on how you work and which things you choose to work on. Many people see two dimensions here: **Strategy** and **Execution**. For early stage startups, execution is more about speed, while the strategy is about quality. Speed increases your chance of success and gives you more opportunities for learning before you run out of resources.
 
 <!--more-->
 
