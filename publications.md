@@ -10,7 +10,6 @@ Margaret-Anne Storey, Alexey Zagalsky, Fernando Figueira Filho, Leif Singer, Dan
 Transactions on Software Engineering ([TSE](https://www.computer.org/web/tse)) journal, 2016, IEEE.  
 [PDF](/pdf/tse2016.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/TSE.2016.2584053) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/tse-2016-how-communication-channels-challenge-a-participatory-culture-in-software-development)
 
-* * *
 
 ## Conference papers (peer reviewed)
 <br>
@@ -45,7 +44,6 @@ Margaret-Anne Storey, Leif Singer, Brendan Cleary, Fernando Figueira Filho, Alex
 In Future of Software Engineering ([FOSE](http://2014.icse-conferences.org/fose)) track of the 36th International Conference on Software Engineering [ICSE](http://2014.icse-conferences.org/), 2014, ACM.  
 [PDF](/pdf/fose14.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2593882.2593887)
 
-* * *
 
 ## Workshop papers (peer reviewed)
 <br>
@@ -64,7 +62,6 @@ Alexey Zagalsky, Ohad Barzilay, Amiram Yehudai,
 3rd International Workshop on Recommendation Systems for Software Engineering ([RSSE 2012](https://sites.google.com/site/rsseresearch/rsse-2012)), an [ICSE 2012](https://files.ifi.uzh.ch/icseweb/) Workshop, IEEE.  
 [PDF](/pdf/rsse12.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/RSSE.2012.6233407) &nbsp;·&nbsp; [Poster](/pdf/rsse12_poster.pdf) &nbsp;·&nbsp; [Tool](http://www.exampleoverflow.net/)
 
-* * *
 
 ## Book chapters (peer reviewed)
 <br>
@@ -73,7 +70,6 @@ Ohad Barzilay, Christoph Treude, Alexey Zagalsky,
 In [Finding Source Code on the Web for Remix and Reuse](http://www.springer.com/computer/swe/book/978-1-4614-6595-9), 2013, Springer.  
 [PDF](/pdf/fcsse13.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1007/978-1-4614-6596-6_15)
 
-* * *
 
 ## Other
 <br>
@@ -87,7 +83,6 @@ Margaret-Anne Storey, Alexey Zagalsky, Leif Singer,
 Keynote Extended Abstract at the 19th International Conference on Evaluation and Assessment ([EASE](http://emse.nju.edu.cn/ease2015/program/keynote-speakers/)), 2015, ACM.  
 [PDF](/pdf/ease15.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2745802.2747957)
 
-* * *
 
 ## Talks
 <br>
@@ -95,7 +90,6 @@ Keynote Extended Abstract at the 19th International Conference on Evaluation and
 Programming Languages and Software Engineering ([PLSE](http://www.research.ibm.com/haifa/Workshops/plse2012/)) Seminar, 2012, IBM Research, Haifa, Israel  
 [Slides](https://speakerdeck.com/alexeyza/example-overflow-using-social-media-for-code-recommendation)
 
-* * *
 
 ## Theses & Candidacy Proposal
 <br>
