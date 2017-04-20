@@ -10,7 +10,7 @@
     var $window = $(window),
     $image = $('.post-image-image, .teaserimage-image');
     
-      $window.on('scroll resize', function() {
+      $window.on('scroll', function() {
         var top = $window.scrollTop();
 
         if (top < 0 || top > 1500) { return; }
