@@ -5,7 +5,7 @@ permalink: /activities/
 ---
 ## Visiting Researcher
 <br>
-**Software Engineering Research Group ([SERG](http://swerl.tudelft.nl/bin/view/Main/WebHome))**  
+**Visit the Software Engineering Research Group ([SERG](http://swerl.tudelft.nl/bin/view/Main/WebHome))**  
 Delft University of Technology, June-July, 2016
 
 
@@ -84,7 +84,7 @@ Served as a sub-reviewer for [CHI 2016](http://chi2016.acm.org/wp/), [MSR 2016](
 <br>
 **Startup Programming - Sessional Lecturer**  
 Students work in small teams to develop the skills needed to transform innovative ideas into working software projects utilizing current advanced technologies in mobile, cloud, social, and Web applications--combining technological competence with human-centered design and creative endeavor.  
-2 Semesters, 2014/2016, University of Victoria, BC, Canada  
+2 Semesters, Fall 2014 & 2016, University of Victoria, BC, Canada  
 [More info](http://startup-programming.com)
 
 **Human Computer Interaction - Teaching Assistant**  
