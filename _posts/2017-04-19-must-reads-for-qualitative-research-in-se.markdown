@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Must-Reads for Doing Qualitative Research in SE"
+title: "Must-Reads for Doing Qualitative Research in Software Engineering"
 date: 2017-04-19 10:44:18 -0700
 comments: true
 published: true
