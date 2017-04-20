@@ -5,6 +5,8 @@ date: 2017-04-19 10:44:18 -0700
 comments: true
 published: true
 categories: [Software Engineering, Research, Recommended Reading]
+image: /assets/article_images/2017-04-19-must-reads-for-qualitative-research-in-se/background.jpg
+image2: /assets/article_images/2017-04-19-must-reads-for-qualitative-research-in-se/background-mobile.jpg
 ---
 
 What papers and books would you consider as *must-reads* for software engineering researchers, especially for researchers that do qualitative studies? I share a list of readings that I feel are important, seminal, or fundamental for conducting, communicating, and understanding software engineering research.
