@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Must-Reads for Doing Qualitative Research in SE"
+date: 2017-04-19 10:44:18 -0700
+comments: true
+published: true
+categories: [Software Engineering, Research, Recommended Reading]
+---
+
+What papers and books would you consider as *must-reads* for software engineering researchers, especially for researchers that do qualitative studies? I share a list of readings that I feel are important, seminal, or fundamental for conducting, communicating, and understanding software engineering research.
+
+<!--more-->
+In no particular order:
+
+- [Preliminary Guidelines for Empirical Research in Software Engineering](http://ieeexplore.ieee.org/abstract/document/1027796/)<br>by Barbara A. Kitchenham *et al.*
+- [Selecting Empirical Methods for Software Engineering Research](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_11)<br>by Steve Easterbrook *et al.*
+- [Qualitative Methods in Empirical Studies of Software Engineering](http://ieeexplore.ieee.org/abstract/document/799955/)<br>by Carolyn B. Seaman
+- Methodology Matters: Doing research in the Behavioral and Social Sciences<br>by Joseph E. Mcgrath
+- [Research Design: Qualitative, Quantitative, and Mixed Methods Approaches](https://www.amazon.ca/Research-Design-Qualitative-Quantitative-Approaches/dp/1452226105) (4th edition)<br>by John W. Creswell
+- [The Sage Handbook of Qualitative Research](https://www.amazon.ca/Sage-Handbook-Qualitative-Research/dp/1483349802) (5th edition)<br>by Norman K. Denzin, Yvonna S. Lincoln
+- [Constructing Grounded Theory](https://www.amazon.ca/Constructing-Grounded-Theory-Kathy-Charmaz/dp/0857029142) (2nd edition)<br>by Kathy Charmaz
+- [Grounded Theory in Software Engineering Research: A Critical Review and Guidelines](http://dl.acm.org/citation.cfm?id=2884833)<br>by Klaas-Jan Stol *et al.*
+- [Case Study Research in Software Engineering: Guidelines and Examples](https://www.amazon.com/Case-Study-Research-Software-Engineering/dp/1118104358)<br>by   Per Runeson *et al.*
+- [The Role of Ethnographic Studies in Empirical Software Engineering](http://ieeexplore.ieee.org/abstract/document/7387744/)<br>by Helen Sharp *et al.*
+- [Building Theories in Software Engineering](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_12#page-1)<br>by Dag I.K. Sjøberg *et al.*
+- [Taxonomies in Software Engineering: A Systematic Mapping Study and
+a Revised Taxonomy Development Method](http://www.sciencedirect.com/science/article/pii/S0950584917300472)<br>by Muhammad Usman *et al.*
+- [Views on Internal and External Validity in Empirical Software Engineering](http://dl.acm.org/citation.cfm?id=2818759)<br>by Janet Siegmund *et al.*
+- [‘Unsatisfactory Saturation’: A Critical Exploration of the Notion of Saturated Sample Sizes in Qualitative Research](http://journals.sagepub.com/doi/abs/10.1177/1468794112446106)<br>by Michelle O’Reilly and Nicola Parker
+
+There are many other recommended papers and books (too many to fit in a single blog post), so I tried to give a general and short list as possible. I may have unintentionally forgotten to mention papers that I take for granted.
+
+What papers or books do **you** feel are *must-reads*?  
+What would **you** recommend to new software engineering grad students?  
+
+**P.S.** [I'd love to meet you on Twitter.](https://twitter.com/alexeyzagalsky)
