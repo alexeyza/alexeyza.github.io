@@ -19,7 +19,7 @@ In no particular order:
 - [Qualitative Methods in Empirical Studies of Software Engineering](http://ieeexplore.ieee.org/abstract/document/799955/)<br>by Carolyn B. Seaman
 - Methodology Matters: Doing research in the Behavioral and Social Sciences<br>by Joseph E. Mcgrath
 - [Research Design: Qualitative, Quantitative, and Mixed Methods Approaches](https://www.amazon.ca/Research-Design-Qualitative-Quantitative-Approaches/dp/1452226105) (4th edition)<br>by John W. Creswell
-- [The Sage Handbook of Qualitative Research](https://www.amazon.ca/Sage-Handbook-Qualitative-Research/dp/1483349802) (5th edition)<br>by Norman K. Denzin, Yvonna S. Lincoln
+- [The Sage Handbook of Qualitative Research](https://www.amazon.ca/Sage-Handbook-Qualitative-Research/dp/1483349802) (5th edition)<br>by Norman K. Denzin and Yvonna S. Lincoln
 - [Constructing Grounded Theory](https://www.amazon.ca/Constructing-Grounded-Theory-Kathy-Charmaz/dp/0857029142) (2nd edition)<br>by Kathy Charmaz
 - [Grounded Theory in Software Engineering Research: A Critical Review and Guidelines](http://dl.acm.org/citation.cfm?id=2884833)<br>by Klaas-Jan Stol *et al.*
 - [Case Study Research in Software Engineering: Guidelines and Examples](https://www.amazon.com/Case-Study-Research-Software-Engineering/dp/1118104358)<br>by   Per Runeson *et al.*
