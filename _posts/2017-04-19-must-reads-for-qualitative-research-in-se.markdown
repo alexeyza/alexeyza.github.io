@@ -30,7 +30,7 @@ a Revised Taxonomy Development Method](http://www.sciencedirect.com/science/arti
 - [Views on Internal and External Validity in Empirical Software Engineering](http://dl.acm.org/citation.cfm?id=2818759)<br>by Janet Siegmund *et al.*
 - [‘Unsatisfactory Saturation’: A Critical Exploration of the Notion of Saturated Sample Sizes in Qualitative Research](http://journals.sagepub.com/doi/abs/10.1177/1468794112446106)<br>by Michelle O’Reilly and Nicola Parker
 
-There are many other recommended papers and books (too many to fit in a single blog post), so I tried to give a general and short list as possible. I may have unintentionally forgotten to mention papers that I take for granted.
+There are many other recommended papers and books (too many to fit in a single blog post), so I tried to list the papers that should apply to most researchers. Have I forgotten to mention an important paper? Please let me know.
 
 What papers or books do **you** feel are *must-reads*?  
 What would **you** recommend to new software engineering grad students?  
