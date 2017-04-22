@@ -20,9 +20,7 @@ In no particular order:
 - [Preliminary Guidelines for Empirical Research in Software Engineering](http://ieeexplore.ieee.org/abstract/document/1027796/)<br>by Barbara A. Kitchenham *et al.*
 - [Qualitative Methods in Empirical Studies of Software Engineering](http://ieeexplore.ieee.org/abstract/document/799955/)<br>by Carolyn B. Seaman
 - [Research Design: Qualitative, Quantitative, and Mixed Methods Approaches](https://www.amazon.ca/Research-Design-Qualitative-Quantitative-Approaches/dp/1452226105) (4th edition)<br>by John W. Creswell
-- [The Sage Handbook of Qualitative Research](https://www.amazon.ca/Sage-Handbook-Qualitative-Research/dp/1483349802) (5th edition)<br>by Norman K. Denzin and Yvonna S. Lincoln
 - [Case Study Research in Software Engineering: Guidelines and Examples](https://www.amazon.com/Case-Study-Research-Software-Engineering/dp/1118104358)<br>by   Per Runeson *et al.*
-- [Building Theories in Software Engineering](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_12#page-1)<br>by Dag I.K. Sjøberg *et al.*
 - [Views on Internal and External Validity in Empirical Software Engineering](http://dl.acm.org/citation.cfm?id=2818759)<br>by Janet Siegmund *et al.*
 - [‘Unsatisfactory Saturation’: A Critical Exploration of the Notion of Saturated Sample Sizes in Qualitative Research](http://journals.sagepub.com/doi/abs/10.1177/1468794112446106)<br>by Michelle O’Reilly and Nicola Parker
 
@@ -31,6 +29,7 @@ In no particular order:
 - [Constructing Grounded Theory](https://www.amazon.ca/Constructing-Grounded-Theory-Kathy-Charmaz/dp/0857029142) (2nd edition)<br>by Kathy Charmaz
 - [Grounded Theory in Software Engineering Research: A Critical Review and Guidelines](http://dl.acm.org/citation.cfm?id=2884833)<br>by Klaas-Jan Stol *et al.*
 - [Developing a Grounded Theory to Explain the Practices of Self-Organizing Agile Teams](https://link.springer.com/article/10.1007%2Fs10664-011-9161-0)<br>by Rashina Hoda *et al.*
+- [Building Theories in Software Engineering](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_12#page-1)<br>by Dag I.K. Sjøberg *et al.*
 - [The Role of Ethnographic Studies in Empirical Software Engineering](http://ieeexplore.ieee.org/abstract/document/7387744/)<br>by Helen Sharp *et al.*
 - [Taxonomies in Software Engineering: A Systematic Mapping Study and
 a Revised Taxonomy Development Method](http://www.sciencedirect.com/science/article/pii/S0950584917300472)<br>by Muhammad Usman *et al.*
