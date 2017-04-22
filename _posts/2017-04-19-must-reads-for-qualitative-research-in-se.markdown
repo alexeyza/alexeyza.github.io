@@ -16,8 +16,8 @@ What papers and books would you consider as *must-reads* for software engineerin
 In no particular order:
 
 - Methodology Matters: Doing research in the Behavioral and Social Sciences<br>by Joseph E. Mcgrath
-- [Preliminary Guidelines for Empirical Research in Software Engineering](http://ieeexplore.ieee.org/abstract/document/1027796/)<br>by Barbara A. Kitchenham *et al.*
 - [Selecting Empirical Methods for Software Engineering Research](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_11)<br>by Steve Easterbrook *et al.*
+- [Preliminary Guidelines for Empirical Research in Software Engineering](http://ieeexplore.ieee.org/abstract/document/1027796/)<br>by Barbara A. Kitchenham *et al.*
 - [Qualitative Methods in Empirical Studies of Software Engineering](http://ieeexplore.ieee.org/abstract/document/799955/)<br>by Carolyn B. Seaman
 - [Research Design: Qualitative, Quantitative, and Mixed Methods Approaches](https://www.amazon.ca/Research-Design-Qualitative-Quantitative-Approaches/dp/1452226105) (4th edition)<br>by John W. Creswell
 - [The Sage Handbook of Qualitative Research](https://www.amazon.ca/Sage-Handbook-Qualitative-Research/dp/1483349802) (5th edition)<br>by Norman K. Denzin and Yvonna S. Lincoln
