@@ -6,7 +6,7 @@ permalink: /activities/
 ## Visiting Researcher
 <br>
 **Visited the Software Engineering Research Group ([SERG](http://swerl.tudelft.nl/bin/view/Main/WebHome))**  
-Delft University of Technology, June-July, 2016
+[Delft University of Technology](http://www.ewi.tudelft.nl/en/), June-July, 2016
 
 
 ## Supervisory Committee
