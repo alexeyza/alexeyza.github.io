@@ -7,7 +7,7 @@ permalink: /publications/
 <br>
 **How the R Community Creates and Curates Knowledge: An Extended Study of Stack Overflow and Mailing Lists**  
 Alexey Zagalsky, Daniel M. German, Margaret-Anne Storey, Carlos Gómez Teshima, and Germán Poo-Caamaño,  
-Under review for a special issue of the Empirical Software Engineering ([ESEM](http://www.springer.com/computer/swe/journal/10664)) journal, 2017, Springer.  
+**Under review** for a special issue of the Empirical Software Engineering ([ESEM](http://www.springer.com/computer/swe/journal/10664)) journal, 2017, Springer.  
 
 **How Social and Communication Channels Shape and Challenge a Participatory Culture in Software Development**  
 Margaret-Anne Storey, Alexey Zagalsky, Fernando Figueira Filho, Leif Singer, and Daniel M. German,  
@@ -19,7 +19,7 @@ Transactions on Software Engineering ([TSE](https://www.computer.org/web/tse)) j
 <br>
 **A Structured Travelogue Approach for Communicating Qualitative Research in Software Engineering**  
 Alexey Zagalsky, Per Runeson, Gail C. Murphy, and Margaret-Anne Storey,  
-Under review for the 11th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement ([ESEM](https://sravyapolisetty.github.io/ESEM/cfp.html)), 2017, IEEE.  
+**Under review** for the 11th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement ([ESEM](https://sravyapolisetty.github.io/ESEM/cfp.html)), 2017, IEEE.  
 
 **Using the Model of Regulation to Understand Software Development Collaboration Practices and Tool Support**  
 Maryi Arciniegas-Mendez, Alexey Zagalsky, Margaret-Anne Storey, and Allyson F. Hadwin,  
