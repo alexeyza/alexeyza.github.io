@@ -104,7 +104,7 @@ Programming Languages and Software Engineering ([PLSE](http://www.research.ibm.c
 **Beyond Agile: Studying The Participatory Process in Software Development**  
 PhD Candidacy Proposal  
 Alexey Zagalsky, December 2015, University of Victoria  
-[PDF](/pdf/candidacy-proposal.pdf) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/phd-candidacy-exam-studying-the-participatory-process-in-software-development)
+[PDF](/pdf/candidacy-proposal.pdf) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/phd-candidacy-exam-studying-the-participatory-process-in-software-development) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/1705.05450)
 
 **Investigating Opportunistic Software Development Using Social Media Recommendation System**  
 Alexey Zagalsky, 2013, M.Sc., Tel Aviv University  
