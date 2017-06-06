@@ -3,6 +3,10 @@ layout: page
 title: Awards
 permalink: /awards/
 ---
+**UVic Graduate Award 2017**  
+Faculty of Graduate Studies, University of Victoria  
+January 2017  
+
 **ACM SIGSOFT CAPS travel award for attending ICSE 2016**    
 ACM SIGSOFT  
 May 2016  
