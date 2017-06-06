@@ -17,10 +17,6 @@ Transactions on Software Engineering ([TSE](https://www.computer.org/web/tse)) j
 
 ## Conference papers (peer reviewed)
 <br>
-**A Structured Travelogue Approach for Communicating Qualitative Research in Software Engineering**  
-Alexey Zagalsky, Per Runeson, Gail C. Murphy, and Margaret-Anne Storey,  
-**Under review** for the 11th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement ([ESEM](https://sravyapolisetty.github.io/ESEM/cfp.html)), 2017, IEEE.  
-
 **Using the Model of Regulation to Understand Software Development Collaboration Practices and Tool Support**  
 Maryi Arciniegas-Mendez, Alexey Zagalsky, Margaret-Anne Storey, and Allyson F. Hadwin,  
 20th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2017/)), 2017, ACM.  
