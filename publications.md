@@ -82,6 +82,11 @@ Bin Lin, Alexey Zagalsky, Margaret-Anne Storey, and Alexander Serebrenik,
 [Interactive Poster](http://cscw.acm.org/2016/submit/posters.php) at the 19th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2016/index.php)), 2016, ACM.  
 [PDF](/pdf/cscw16.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2818052.2869117) &nbsp;·&nbsp; [Poster](/pdf/cscw16_poster.pdf)
 
+**People Analytics in Software Development**  
+Leif Singer, Margaret-Anne Storey, Fernando Figueira Filho, Alexey Zagalsky, and Daniel M. German,  
+International Summer School on Grand Timely Topics in Software Engineering ([GTTSE](http://gttse.wikidot.com/)), Tutorial Lectures, 2015, Springer.  
+[PDF](/pdf/gttse15.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1007/978-3-319-60074-1)
+
 **Selecting Research Methods for Studying a Participatory Culture in Software Development: Keynote**  
 Margaret-Anne Storey, Alexey Zagalsky, and Leif Singer,  
 Keynote Extended Abstract at the 19th International Conference on Evaluation and Assessment ([EASE](http://emse.nju.edu.cn/ease2015/program/keynote-speakers/)), 2015, ACM.  
