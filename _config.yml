@@ -63,6 +63,13 @@ social:
     share_title:
     share_link:
 
+  - icon:  fa-stack-overflow
+    url: https://stackoverflow.com/users/257760/alexey-zagalsky
+    desc: Check my activity on Stack Overflow
+    share_url:
+    share_title:
+    share_link:
+
   - icon:  500px
     url: http://500px.com/alexeyza
     desc: See my photos on 500px
