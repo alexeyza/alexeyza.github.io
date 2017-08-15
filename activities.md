@@ -73,6 +73,10 @@ Reviewer, 2015 (1 paper)
 Theme Issue on [Crowdsourcing for Software Engineering](https://www.computer.org/web/computingnow/swcfp2) ([More info](https://www.computer.org/software-magazine/2017/02/03/2016-reviewers/))  
 Reviewer, 2016 (1 paper)
 
+**PLOS ONE**  
+A peer-reviewed open access scientific journal published by the Public Library of Science ([PLOS](http://journals.plos.org/plosone/s/journal-information))  
+Reviewer, 2017 (1 paper)
+
 **Reviewer**  
 Served as a reviewer for [CSCW 2017](https://cscw.acm.org/2017/) and [CSCW 2018](https://cscw.acm.org/2018/)
 
