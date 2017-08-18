@@ -7,8 +7,8 @@ permalink: /publications/
 <br>
 **How the R Community Creates and Curates Knowledge: An Extended Study of Stack Overflow and Mailing Lists**  
 Alexey Zagalsky, Daniel M. German, Margaret-Anne Storey, Carlos Gómez Teshima, and Germán Poo-Caamaño,  
-In an MSR special issue of the Empirical Software Engineering ([EMSE](http://www.springer.com/computer/swe/journal/10664)) journal, 2017, Springer.  
-[Preprint](/pdf/emse-msr2017.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1007/s10664-017-9536-y) &nbsp;·&nbsp; [Data](https://zenodo.org/record/831805)
+In journal of Empirical Software Engineering ([EMSE](http://www.springer.com/computer/swe/journal/10664)), 2017, Springer.  
+[PDF](/pdf/emse-msr2017.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1007/s10664-017-9536-y) &nbsp;·&nbsp; [Data](https://zenodo.org/record/831805)
 
 **How Social and Communication Channels Shape and Challenge a Participatory Culture in Software Development**  
 Margaret-Anne Storey, Alexey Zagalsky, Fernando Figueira Filho, Leif Singer, and Daniel M. German,  
