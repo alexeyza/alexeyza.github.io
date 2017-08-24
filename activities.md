@@ -20,7 +20,7 @@ Co-supervise and serve on [Bin Lin](http://www.inf.usi.ch/phd/lin/)'s M.Sc. grad
 **ICSE 2015 Student Volunteer**  
 The 37th International Conference on Software Engineering ([ICSE 2015](http://2015.icse-conferences.org/)),  
 May 16-24, 2015, Florence, Italy  
-[More info](http://2015.icse-conferences.org/student-volunteer)
+[More info](/pdf/icse2015_sv_certificate.pdf)
 
 
 ## Organizational
