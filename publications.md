@@ -8,12 +8,12 @@ permalink: /publications/
 **How the R Community Creates and Curates Knowledge: An Extended Study of Stack Overflow and Mailing Lists**  
 Alexey Zagalsky, Daniel M. German, Margaret-Anne Storey, Carlos Gómez Teshima, and Germán Poo-Caamaño,  
 Journal of Empirical Software Engineering ([EMSE](http://www.springer.com/computer/swe/journal/10664)), 2017, Springer.  
-[PDF](/pdf/emse-msr2017.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1007/s10664-017-9536-y) &nbsp;·&nbsp; [Data](https://zenodo.org/record/831805)
+[PDF](/pdf/emse-msr2017.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1007/s10664-017-9536-y) &nbsp;·&nbsp; [Data](https://zenodo.org/record/831805) &nbsp;·&nbsp; *`Ethics #14-313`*
 
 **How Social and Communication Channels Shape and Challenge a Participatory Culture in Software Development**  
 Margaret-Anne Storey, Alexey Zagalsky, Fernando Figueira Filho, Leif Singer, and Daniel M. German,  
 Transactions on Software Engineering ([TSE](https://www.computer.org/web/tse)) journal, 2016, IEEE.  
-[PDF](/pdf/tse2016.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/TSE.2016.2584053) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/tse-2016-how-communication-channels-challenge-a-participatory-culture-in-software-development)
+[PDF](/pdf/tse2016.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/TSE.2016.2584053) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/tse-2016-how-communication-channels-challenge-a-participatory-culture-in-software-development) &nbsp;·&nbsp; *`Ethics #10-283`*
 
 
 ## Conference papers (peer reviewed)
@@ -21,7 +21,7 @@ Transactions on Software Engineering ([TSE](https://www.computer.org/web/tse)) j
 **Using the Model of Regulation to Understand Software Development Collaboration Practices and Tool Support**  
 Maryi Arciniegas-Mendez, Alexey Zagalsky, Margaret-Anne Storey, and Allyson F. Hadwin,  
 20th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2017/)), 2017, ACM.  
-[PDF](/pdf/cscw2017.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2998181.2998360)
+[PDF](/pdf/cscw2017.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2998181.2998360) &nbsp;·&nbsp; *`Ethics #15-441`*
 
 **Disrupting Developer Productivity One Bot at a Time**  
 Margaret-Anne Storey and Alexey Zagalsky,  
@@ -32,22 +32,22 @@ In [Visions and Reflections](http://www.cs.ucdavis.edu/fse2016/calls/visions-and
 Alexey Zagalsky, Carlos Gómez Teshima, Daniel M. German, Margaret-Anne Storey,
 and Germán Poo-Caamaño,  
 13th International Conference on Mining Software Repositories ([MSR](http://2016.msrconf.org)), 2016, ACM.  
-[PDF](/pdf/msr2016.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2901739.2901772) &nbsp;·&nbsp; [Data](https://github.com/thechiselgroup/R-ML-and-StackOverflow) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/msr16-how-the-r-community-creates-and-curates-knowledge)
+[PDF](/pdf/msr2016.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2901739.2901772) &nbsp;·&nbsp; [Data](https://github.com/thechiselgroup/R-ML-and-StackOverflow) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/msr16-how-the-r-community-creates-and-curates-knowledge) &nbsp;·&nbsp; *`Ethics #14-313`*
 
 **Student Experiences Using GitHub in Software Engineering Courses: A Case Study**  
 Joseph Feliciano, Margaret-Anne Storey, and Alexey Zagalsky,  
 In Software Engineering Education and Training ([SEET](http://2016.icse.cs.txstate.edu/educationTraining)) track of the 38th International Conference on Software Engineering [ICSE](http://2016.icse.cs.txstate.edu/), 2016, ACM.  
-[PDF](/pdf/icse16seet.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2889160.2889195) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/icse16-student-experiences-using-github-in-software-engineering-courses)
+[PDF](/pdf/icse16seet.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2889160.2889195) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/icse16-student-experiences-using-github-in-software-engineering-courses) &nbsp;·&nbsp; *`Ethics #14-120`*
 
 **The Emergence of GitHub as a Collaborative Platform for Education**  
 Alexey Zagalsky, Joseph Feliciano, Margaret-Anne Storey, Yiyun Zhao, and Weiliang Wang,  
 18th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2015/)), 2015, ACM.  
-[PDF](/pdf/cscw15.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2675133.2675284) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/the-emergence-of-github-as-a-collaborative-platform-for-education) &nbsp;·&nbsp; [Blog](http://alexeyza.com/blog/2015/09/10/embracing-participatory-culture-in-education/)
+[PDF](/pdf/cscw15.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2675133.2675284) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/the-emergence-of-github-as-a-collaborative-platform-for-education) &nbsp;·&nbsp; [Blog](http://alexeyza.com/blog/2015/09/10/embracing-participatory-culture-in-education/) &nbsp;·&nbsp; *`Ethics #07-319`*
 
 **The \(R\) Evolution of Social Media in Software Engineering**  
 Margaret-Anne Storey, Leif Singer, Brendan Cleary, Fernando Figueira Filho, and Alexey Zagalsky,  
 In Future of Software Engineering ([FOSE](http://2014.icse-conferences.org/fose)) track of the 36th International Conference on Software Engineering [ICSE](http://2014.icse-conferences.org/), 2014, ACM.  
-[PDF](/pdf/fose14.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2593882.2593887)
+[PDF](/pdf/fose14.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2593882.2593887) &nbsp;·&nbsp; *`Ethics #10-283`*
 
 
 ## Workshop papers (peer reviewed)
@@ -60,7 +60,7 @@ Carlene Lebeuf, Margaret-Anne Storey, and Alexey Zagalsky,
 **Regulation as an Enabler for Collaborative Software Development**  
 Maryi Arciniegas-Mendez, Alexey Zagalsky, Margaret-Anne Storey, and Allyson F. Hadwin,  
 8th International Workshop on Cooperative and Human Aspects of Software Engineering ([CHASE 2015](http://www.chaseresearch.org/workshops/chase2015)), an [ICSE 2015](http://2015.icse-conferences.org/) Workshop, ACM.  
-[PDF](/pdf/chase15.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/CHASE.2015.29)
+[PDF](/pdf/chase15.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/CHASE.2015.29) &nbsp;·&nbsp; *`Ethics #15-441`*
 
 **Example overflow: Using social media for code recommendation**  
 Alexey Zagalsky, Ohad Barzilay, and Amiram Yehudai,  
@@ -81,7 +81,7 @@ In [Finding Source Code on the Web for Remix and Reuse](http://www.springer.com/
 **Why Developers Are Slacking Off: Understanding How Software Teams use Slack**  
 Bin Lin, Alexey Zagalsky, Margaret-Anne Storey, and Alexander Serebrenik,  
 [Interactive Poster](http://cscw.acm.org/2016/submit/posters.php) at the 19th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2016/index.php)), 2016, ACM.  
-[PDF](/pdf/cscw16.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2818052.2869117) &nbsp;·&nbsp; [Poster](/pdf/cscw16_poster.pdf)
+[PDF](/pdf/cscw16.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2818052.2869117) &nbsp;·&nbsp; [Poster](/pdf/cscw16_poster.pdf) &nbsp;·&nbsp; *`Ethics #10-283`*
 
 **People Analytics in Software Development**  
 Leif Singer, Margaret-Anne Storey, Fernando Figueira Filho, Alexey Zagalsky, and Daniel M. German,  
