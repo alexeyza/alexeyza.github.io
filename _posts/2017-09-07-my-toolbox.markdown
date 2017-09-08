@@ -47,7 +47,7 @@ Other tools I typically use:
 
 ### Keeping Up To Date
 
-- [Twitter](https://twitter.com/): following research-related people and products. I try to keep the number of people I follow at a manageable number (~150)
+- [Twitter](https://twitter.com/) + [Buffer](https://buffer.com/): following research-related people and products. I try to keep the number of people I follow at a manageable number (~150)
 - [Google Scholar](https://scholar.google.ca/) updates and alerts
 - [HackerNews](https://news.ycombinator.com/news)
 - [Feedly](https://feedly.com/): to keep up with blogs (e.g., [http://blog.ieeesoftware.org/](http://blog.ieeesoftware.org/)) and tech news
