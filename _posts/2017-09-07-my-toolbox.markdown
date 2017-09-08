@@ -37,7 +37,7 @@ Other tools I typically use:
 
 ### Team Communication
 
-- [Slack](https://slack.com/): most of our group's communication happens on Slack
+- [Slack](https://slack.com/): most of our group's communication happens on Slack, though we may switch to [Mattermost](https://about.mattermost.com/) later this year
 - [Skype](https://www.skype.com/en/): video calls when we're not co-located
 - Email
 
