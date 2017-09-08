@@ -70,11 +70,15 @@ Other tools I typically use:
 
 - In the past I used PowerPoint to create conference posters, but I'm trying to switch to [Inkscape](https://inkscape.org/en/)
 
-### Surveys and Interviews
+### Collecting Data from Surveys and Interviews
 
 - [Google Forms](https://www.google.ca/forms/about/): for conducting surveys
 - [Open Broadcaster Software (OBS)](https://obsproject.com/): for recording interviews. The benefit of using OBS is that it works with any communication channel (Skype, Google Hangouts, etc...)
+
+### Data Analysis
+
 - [Google Sheets](https://www.google.com/sheets/about/) and [R Studio](https://www.rstudio.com/products/rstudio/download/#download): for data exploration and analysis
+- [RQDA](http://rqda.r-forge.r-project.org/): for qualitative data analysis (coding, memoing, generating themes)
 
 ### Coding Tools / IDEs
 
@@ -93,7 +97,6 @@ Other tools I typically use:
 
 - [Balsamiq](https://balsamiq.com/): for low-fidelity mockups
 - [InVision](https://www.invisionapp.com/): for interaction design
-- [Origami Studio](https://origami.design/): for mobile interaction design
 
 ### User Analytics
 
@@ -120,6 +123,7 @@ Other tools I typically use:
 
 - [Sketch](https://www.sketchapp.com/): for high-fidelity design
 - [Screen Flow](https://www.telestream.net/screenflow/overview.htm): for creating and editing app videos and tutorials
+- [Origami Studio](https://origami.design/): for mobile interaction design
 
 ---
 
