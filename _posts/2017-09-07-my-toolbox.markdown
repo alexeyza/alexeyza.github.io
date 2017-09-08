@@ -84,7 +84,7 @@ Other tools I typically use:
 - [WebStorm](https://www.jetbrains.com/webstorm/)
 - [Sublime Text 3](https://www.sublimetext.com/): for coding in Go
 - [DataGrip](https://www.jetbrains.com/datagrip/): for exploring SQL databases
-- [Robo 3T](https://robomongo.org/): for exploring MongoDB databases
+- [Robomongo](https://robomongo.org/): for exploring MongoDB databases
 - [Docker](https://www.docker.com/)
 - [Insomnia](https://insomnia.rest/): for working with REST APIs (better than Postman)
 - [Heroku](https://www.heroku.com/): for deploying projects
