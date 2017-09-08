@@ -54,7 +54,7 @@ Other tools I typically use:
 - [Podcast Addict](https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=en): I subscribe to helpful and related podcasts (e.g., [https://changelog.com/rfc](https://changelog.com/rfc))
 - [YouTube](https://www.youtube.com/): following research-related people and channels
 
-### Knowledge Management + To Do
+### Knowledge Management + To-Dos
 
 - GitHub + Markdown files
 - [Google Keep](https://keep.google.com/)
