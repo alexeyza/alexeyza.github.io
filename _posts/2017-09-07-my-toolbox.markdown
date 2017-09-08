@@ -115,11 +115,13 @@ Other tools I typically use:
 - [GitHub](https://github.com/): I use GitHub for course material hosting and student assignment submission
 - [GitHub Classroom](https://classroom.github.com/)
 
-## Tools I wish I could use, but they're Mac-only
+<br>
+### Tools I wish I could use, but they're Mac-only
 
 - [Sketch](https://www.sketchapp.com/): for high-fidelity design
 - [Screen Flow](https://www.telestream.net/screenflow/overview.htm): for creating and editing app videos and tutorials
 
+---
 
 What tools do **you** use?  
 Any **recommendations** for tools I should try ?  
