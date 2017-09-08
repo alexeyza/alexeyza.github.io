@@ -18,7 +18,7 @@ As a researcher and a member of the [CHISEL research group](http://thechiselgrou
 
 For writing papers, I use [Sublime Text 3](https://www.sublimetext.com/) with the [LaTeXTools](https://latextools.readthedocs.io/en/latest/) package installed. This allows me to edit and compile the document directly from ST3. I have the exact same setup with the [Atom](https://atom.io/) editor as well, and both work well.
 
-For collaborating on papers, I prefer to use [GitHub](https://github.com/) and host the source files (e.g., `tex`,`bib`) in repository dedicated for the paper. I believe this gives each co-author the freedom to choose and set up their own work environment and tools (as opposed to something like [ShareLaTeX](https://www.sharelatex.com/)).
+For collaborating on papers, I prefer to use [GitHub](https://github.com/) and host the source files (e.g., `tex`,`bib`) in a repository dedicated for the paper. I believe this gives each co-author the freedom to choose and set up their own work environment and tools (as opposed to something like [ShareLaTeX](https://www.sharelatex.com/)).
 
 Typically when starting to work on a paper, we use [Google Docs](https://www.google.com/docs/about/) to draft out an outline for the paper and reach an agreement on the direction of the paper. The commenting mechanism on Google Docs works well and supports brainstorming.
 
