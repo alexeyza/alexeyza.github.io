@@ -9,7 +9,7 @@ image: /assets/article_images/2017-09-07-my-toolbox/background.jpeg
 image2: /assets/article_images/2017-09-07-my-toolbox/background-mobile.jpeg
 ---
 
-As a researcher and a member of the [CHISEL research group](http://thechiselgroup.org/), I use many software tools on a regular basis and find useful.
+As a researcher and a member of the [CHISEL research group](http://thechiselgroup.org/), I use many software tools on a regular basis that I find useful.
 
 <!--more-->
 <br>
@@ -54,7 +54,7 @@ Other tools I typically use:
 - [Podcast Addict](https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=en): I subscribe to helpful and related podcasts (e.g., [https://changelog.com/rfc](https://changelog.com/rfc))
 - [YouTube](https://www.youtube.com/): following research-related people and channels
 
-### Knowledge Management + To-Dos
+### Knowledge Management and To-Dos
 
 - GitHub + Markdown files
 - [Google Keep](https://keep.google.com/)
@@ -119,3 +119,9 @@ Other tools I typically use:
 
 - [Sketch](https://www.sketchapp.com/): for high-fidelity design
 - [Screen Flow](https://www.telestream.net/screenflow/overview.htm): for creating and editing app videos and tutorials
+
+
+What tools do **you** use?  
+Any **recommendations** for tools I should try ?  
+
+**P.S.** [I'd love to meet you on Twitter.](https://twitter.com/alexeyzagalsky)
