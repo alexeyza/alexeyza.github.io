@@ -124,6 +124,6 @@ Other tools I typically use:
 ---
 
 What tools do **you** use?  
-Any **recommendations** for tools I should try ?  
+Any **recommendations** for other tools I should try ?  
 
 **P.S.** [I'd love to meet you on Twitter.](https://twitter.com/alexeyzagalsky)
