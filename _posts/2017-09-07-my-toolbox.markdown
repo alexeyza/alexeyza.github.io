@@ -96,7 +96,7 @@ Other tools I typically use:
 ### App / Tool Design
 
 - [Balsamiq](https://balsamiq.com/): for low-fidelity mockups
-- [InVision](https://www.invisionapp.com/): for interaction design
+- [InVision](https://www.invisionapp.com/): for interaction design (they offer academic accounts for students and faculty)
 
 ### User Analytics
 
@@ -115,7 +115,7 @@ Other tools I typically use:
 
 ### Course Teaching and Learning Management System
 
-- [GitHub](https://github.com/): I use GitHub for course material hosting and student assignment submission
+- [GitHub](https://github.com/): I use GitHub for course material hosting and student assignment submission (with a student/teacher account)
 - [GitHub Classroom](https://classroom.github.com/)
 
 <br>
