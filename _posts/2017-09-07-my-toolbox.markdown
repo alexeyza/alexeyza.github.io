@@ -80,6 +80,13 @@ Other tools I typically use:
 - [Google Sheets](https://www.google.com/sheets/about/) and [R Studio](https://www.rstudio.com/products/rstudio/download/#download): for data exploration and analysis
 - [RQDA](http://rqda.r-forge.r-project.org/): for qualitative data analysis (coding, memoing, generating themes)
 
+### Creating Visualizations
+
+- Some visualizations (especially graphs) we create with R and [R Studio](https://www.rstudio.com/products/rstudio/download/#download)
+- [Draw.io](https://download.draw.io/): for diagrams and flowcharts
+- The [data visualization catalogue](http://www.datavizcatalogue.com/): for choosing the type of visualizations to use
+- [Tableau Public](https://public.tableau.com/s/)
+
 ### Coding Tools / IDEs
 
 - [Visual Studio Code](https://code.visualstudio.com/): I recently started using it for learning React, and I really like it, reminds me a lot of SublimeText
@@ -124,6 +131,7 @@ Other tools I typically use:
 - [Sketch](https://www.sketchapp.com/): for high-fidelity design
 - [Screen Flow](https://www.telestream.net/screenflow/overview.htm): for creating and editing app videos and tutorials
 - [Origami Studio](https://origami.design/): for mobile interaction design
+- [OmniGraffle](https://www.omnigroup.com/omnigraffle): for diagrams and visualizations
 
 ---
 
