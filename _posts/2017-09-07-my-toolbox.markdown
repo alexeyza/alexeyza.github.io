@@ -85,6 +85,7 @@ Other tools I typically use:
 - Some visualizations (especially graphs) we create with R and [R Studio](https://www.rstudio.com/products/rstudio/download/#download)
 - [Draw.io](https://download.draw.io/): for diagrams and flowcharts
 - The [data visualization catalogue](http://www.datavizcatalogue.com/): for choosing the type of visualizations to use
+- [D3 library](https://d3js.org/): great library for visualizations, very customizable
 - [Tableau Public](https://public.tableau.com/s/)
 
 ### Coding Tools / IDEs
