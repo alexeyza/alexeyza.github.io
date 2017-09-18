@@ -120,7 +120,7 @@ Other tools I typically use:
 ### Passwords
 
 - [KeePassXC](https://keepassxc.org/) + [chromeIPass](https://chrome.google.com/webstore/detail/chromeipass/ompiailgknfdndiefoaoiligalphfdae?hl=en): for storing and managing my passwords
-- [YubiKey 4](https://www.yubico.com/product/yubikey-4-series/): for two-factor authentication
+- [Free OTP](https://freeotp.github.io/) + [YubiKey 4](https://www.yubico.com/product/yubikey-4-series/): for two-factor authentication
 
 ### Course Teaching and Learning Management System
 
