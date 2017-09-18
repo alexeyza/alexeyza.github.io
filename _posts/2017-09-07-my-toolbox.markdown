@@ -41,7 +41,7 @@ Other tools I typically use:
 - [Skype](https://www.skype.com/en/): video calls when we're not co-located
 - Email
 
-### Schedule
+### Schedule and Time Tracking
 
 - [Google Calendar](https://www.google.com/calendar): we share a group calendar to coordinate our schedule
 
@@ -138,6 +138,6 @@ Other tools I typically use:
 ---
 
 What tools do **you** use?  
-Any **recommendations** for other tools I should try ?  
+Any **recommendations** for other tools I should try?  
 
 **P.S.** [I'd love to meet you on Twitter.](https://twitter.com/alexeyzagalsky)
