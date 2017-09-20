@@ -111,7 +111,8 @@ Other tools I typically use:
 ### User Analytics
 
 - [Google Analytics](https://www.google.com/analytics)
-- [MixPanel](https://mixpanel.com/) 
+- [MixPanel](https://mixpanel.com/)
+- [Hotjar](https://www.hotjar.com/)
 
 ### Website
 
