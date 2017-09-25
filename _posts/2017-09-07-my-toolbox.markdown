@@ -27,6 +27,7 @@ Other tools I typically use:
 - [LatexDiff](https://www.ctan.org/pkg/latexdiff), a command line tool, for generating visual diffs between compiled documents. Very useful when outlining changes to reviewers between revisions. Similarly, [Git-LatexDiff](https://gitlab.com/git-latexdiff/git-latexdiff) aims to generate a diff and simplify the process even further
 - [AbstractFormater](https://abstractformatter.inventitech.com/) for formating text. Very useful, especially for paper submissions
 - [BibTex normalizer](https://hsborges.github.io/bibtex-normalizer/) for cleaning up the bibtex file
+- [doi2bib.org](http://www.doi2bib.org/#/doi)
 - [EZProxy plugin](https://chrome.google.com/webstore/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi?hl=en) for accessing academic papers from outside of the university's network
 - [Octobox](https://octobox.io/) for managing GitHub notifications
 
