@@ -30,6 +30,7 @@ Other tools I typically use:
 - [doi2bib.org](http://www.doi2bib.org/#/doi)
 - [EZProxy plugin](https://chrome.google.com/webstore/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi?hl=en) for accessing academic papers from outside of the university's network
 - [Octobox](https://octobox.io/) for managing GitHub notifications
+- [Draft](https://draftin.com): great writing tool, I find it helpful in overcoming writer's block
 
 ### Preprints and Study Data Sharing
 
