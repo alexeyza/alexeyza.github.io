@@ -125,6 +125,11 @@ Other tools I typically use:
 - [KeePassXC](https://keepassxc.org/) + [chromeIPass](https://chrome.google.com/webstore/detail/chromeipass/ompiailgknfdndiefoaoiligalphfdae?hl=en): for storing and managing my passwords
 - [Free OTP](https://freeotp.github.io/) + [YubiKey 4](https://www.yubico.com/product/yubikey-4-series/): for two-factor authentication
 
+### Running a Research Seminar
+
+- [TinyLetter](https://tinyletter.com/): for managing the seminar's mailing list
+- [Github Pages](https://pages.github.com/): for sharing seminar info and schedule
+
 ### Course Teaching and Learning Management System
 
 - [GitHub](https://github.com/): I use GitHub for course material hosting and student assignment submission
