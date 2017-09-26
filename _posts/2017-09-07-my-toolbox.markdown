@@ -128,7 +128,7 @@ Other tools I typically use:
 ### Running a Research Seminar
 
 - [TinyLetter](https://tinyletter.com/): for managing the seminar's mailing list
-- [Github Pages](https://pages.github.com/): for sharing seminar info and schedule
+- [GitHub Pages](https://pages.github.com/): for sharing seminar info and schedule
 
 ### Course Teaching and Learning Management System
 
