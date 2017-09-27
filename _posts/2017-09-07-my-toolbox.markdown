@@ -83,6 +83,7 @@ Other tools I typically use:
 - [Google Sheets](https://www.google.com/sheets/about/) and [R Studio](https://www.rstudio.com/products/rstudio/download/#download): for data exploration and analysis
 - [RQDA](http://rqda.r-forge.r-project.org/): for qualitative data analysis (coding, memoing, generating themes)
 - [Tidyverse](https://www.tidyverse.org/): a set of packages for data science with R
+- [DataGrip](https://www.jetbrains.com/datagrip/): when data-mining large data sets
 
 ### Creating Visualizations
 
@@ -104,6 +105,7 @@ Other tools I typically use:
 - [Docker](https://www.docker.com/)
 - [Insomnia](https://insomnia.rest/): for working with REST APIs (better than Postman)
 - [Heroku](https://www.heroku.com/): for deploying projects
+- [RegExr](https://regexr.com/): for forming and testing regular expressions
 
 ### App / Tool Design
 
