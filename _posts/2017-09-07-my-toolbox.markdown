@@ -83,7 +83,7 @@ Other tools I typically use:
 - [Google Sheets](https://www.google.com/sheets/about/) and [R Studio](https://www.rstudio.com/products/rstudio/download/#download): for data exploration and analysis
 - [RQDA](http://rqda.r-forge.r-project.org/): for qualitative data analysis (coding, memoing, generating themes)
 - [Tidyverse](https://www.tidyverse.org/): a set of packages for data science with R
-- [DataGrip](https://www.jetbrains.com/datagrip/): when data-mining large data sets
+- [DataGrip](https://www.jetbrains.com/datagrip/): when data-mining large SQL data sets
 
 ### Creating Visualizations
 
