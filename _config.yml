@@ -91,13 +91,6 @@ social:
     share_title:
     share_link:
 
-  - icon:  book
-    url: https://peerj.com/alexeyza
-    desc: See my profile on PeerJ
-    share_url:
-    share_title:
-    share_link:
-
 academics:
   - icon:  google-scholar
     url: http://scholar.google.ca/citations?user=WWYRn7AAAAAJ
