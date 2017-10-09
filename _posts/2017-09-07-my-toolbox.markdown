@@ -128,6 +128,10 @@ Other tools I typically use:
 - [KeePassXC](https://keepassxc.org/) + [chromeIPass](https://chrome.google.com/webstore/detail/chromeipass/ompiailgknfdndiefoaoiligalphfdae?hl=en): for storing and managing my passwords
 - [Free OTP](https://freeotp.github.io/) + [YubiKey 4](https://www.yubico.com/product/yubikey-4-series/): for two-factor authentication
 
+### Backup
+
+- [Duplicity](http://duplicity.nongnu.org/): for encrypted local and remote backups
+
 ### Running a Research Seminar
 
 - [TinyLetter](https://tinyletter.com/): for managing the seminar's mailing list
