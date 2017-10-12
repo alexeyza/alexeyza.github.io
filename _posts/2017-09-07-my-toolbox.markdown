@@ -54,7 +54,7 @@ Other tools I typically use:
 - [Google Scholar](https://scholar.google.ca/) updates and alerts
 - [HackerNews](https://news.ycombinator.com/news)
 - [Feedly](https://feedly.com/): to keep up with blogs (e.g., [http://blog.ieeesoftware.org/](http://blog.ieeesoftware.org/)) and tech news
-- [Podcast Addict](https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=en): I subscribe to helpful and related podcasts (e.g., [https://changelog.com/rfc](https://changelog.com/rfc))
+- [Podcast Addict](https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=en): I subscribe to helpful and related podcasts (e.g., [https://effortreport.libsyn.com/](https://effortreport.libsyn.com/) and [https://changelog.com/rfc](https://changelog.com/rfc))
 - [YouTube](https://www.youtube.com/): following research-related people and channels
 
 ### Knowledge Management and To-Dos
