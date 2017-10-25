@@ -68,8 +68,13 @@ Alexey Zagalsky, Ohad Barzilay, and Amiram Yehudai,
 [PDF](/pdf/rsse12.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/RSSE.2012.6233407) &nbsp;·&nbsp; [Poster](/pdf/rsse12_poster.pdf) &nbsp;·&nbsp; [Tool](http://www.exampleoverflow.net/)
 
 
-## Book chapters (peer reviewed)
+## Magazines and Book chapters
 <br>
+**Software Bots**  
+Carlene Lebeuf, Margaret-Anne Storey, and Alexey Zagalsky,  
+IEEE Software, Software Technology column, Vol. ??, Issue ?, Jan./Feb. 2018.  
+[Coming Soon](/)
+
 **Facilitating Crowd Sourced Software Engineering via Stack Overflow**  
 Ohad Barzilay, Christoph Treude, and Alexey Zagalsky,  
 In [Finding Source Code on the Web for Remix and Reuse](http://www.springer.com/computer/swe/book/978-1-4614-6595-9), 2013, Springer.  
@@ -78,11 +83,6 @@ In [Finding Source Code on the Web for Remix and Reuse](http://www.springer.com/
 
 ## Other
 <br>
-**Software Bots**  
-Carlene Lebeuf, Margaret-Anne Storey, and Alexey Zagalsky,  
-IEEE Software, Software Technology column, Vol. ??, Issue ?, Jan./Feb. 2018.  
-[Coming Soon](/)
-
 **Why Developers Are Slacking Off: Understanding How Software Teams use Slack**  
 Bin Lin, Alexey Zagalsky, Margaret-Anne Storey, and Alexander Serebrenik,  
 [Interactive Poster](http://cscw.acm.org/2016/submit/posters.php) at the 19th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2016/index.php)), 2016, ACM.  
