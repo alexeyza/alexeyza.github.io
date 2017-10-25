@@ -78,6 +78,11 @@ In [Finding Source Code on the Web for Remix and Reuse](http://www.springer.com/
 
 ## Other
 <br>
+**Software Bots**  
+Carlene Lebeuf, Margaret-Anne Storey, and Alexey Zagalsky,  
+IEEE Software, Software Technology column, Vol. ??, Issue ?, Jan./Feb. 2018.  
+[Coming Soon](/)
+
 **Why Developers Are Slacking Off: Understanding How Software Teams use Slack**  
 Bin Lin, Alexey Zagalsky, Margaret-Anne Storey, and Alexander Serebrenik,  
 [Interactive Poster](http://cscw.acm.org/2016/submit/posters.php) at the 19th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](http://cscw.acm.org/2016/index.php)), 2016, ACM.  
