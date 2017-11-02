@@ -3,7 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-## Journal articals (refereed)
+## Journal Articals (refereed)
 <br>
 **How the R Community Creates and Curates Knowledge: An Extended Study of Stack Overflow and Mailing Lists**  
 Alexey Zagalsky, Daniel M. German, Margaret-Anne Storey, Carlos Gómez Teshima, and Germán Poo-Caamaño,  
@@ -16,7 +16,7 @@ Transactions on Software Engineering ([TSE](https://www.computer.org/web/tse)) j
 [PDF](/pdf/tse2016.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/TSE.2016.2584053) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/tse-2016-how-communication-channels-challenge-a-participatory-culture-in-software-development) &nbsp;·&nbsp; *`Ethics #10-283`*
 
 
-## Conference papers (peer reviewed)
+## Conference Papers (peer reviewed)
 <br>
 **Using the Model of Regulation to Understand Software Development Collaboration Practices and Tool Support**  
 Maryi Arciniegas-Mendez, Alexey Zagalsky, Margaret-Anne Storey, and Allyson F. Hadwin,  
@@ -50,7 +50,7 @@ In Future of Software Engineering ([FOSE](http://2014.icse-conferences.org/fose)
 [PDF](/pdf/fose14.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2593882.2593887) &nbsp;·&nbsp; *`Ethics #10-283`*
 
 
-## Workshop papers (peer reviewed)
+## Workshop Papers (peer reviewed)
 <br>
 **How Software Developers Mitigate Collaboration Friction with Chatbots**  
 Carlene Lebeuf, Margaret-Anne Storey, and Alexey Zagalsky,  
@@ -73,7 +73,7 @@ Alexey Zagalsky, Ohad Barzilay, and Amiram Yehudai,
 **Software Bots**  
 Carlene Lebeuf, Margaret-Anne Storey, and Alexey Zagalsky,  
 [IEEE Software](https://www.computer.org/software-magazine/), Software Technology column, Vol. 35, Issue 1, Jan./Feb. 2018.  
-[Coming Soon](/)
+[PDF](/pdf/ieee2018swt.pdf)
 
 **Facilitating Crowd Sourced Software Engineering via Stack Overflow**  
 Ohad Barzilay, Christoph Treude, and Alexey Zagalsky,  
