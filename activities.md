@@ -26,7 +26,7 @@ May 16-24, 2015, Florence, Italy
 ## Organizational
 <br>
 **Research Seminar: Advanced Software Engineering Topics**  
-Co-organize a research seminar focusing on advanced topics in software engineering,  
+Create and co-organize a research seminar focusing on advanced topics in software engineering,  
 2016-2017, University of Victoria, Canada  
 [More info](https://research-seminar.github.io/)
 
