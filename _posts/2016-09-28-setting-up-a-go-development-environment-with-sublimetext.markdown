@@ -8,7 +8,7 @@ categories: [Go, guide, 'Sublime text']
 ---
 <img style="float:left; margin: 8px 20px" src="/assets/article_images/2016-09-28-setting-up-a-go-development-environment-with-sublimetext/gogo.png" widht="180" height="180" title="Go!"/>
 
-I really love the [Go](https://golang.org/) programming language, it feels like a mix of the best of Java and Python together. But I found that setting a Go development environment can be slightly tricky, mostly in figuring out how to set up the proper path variables.
+I really love the [Go](https://golang.org/) programming language, it feels like a mix of the best of Java and Python put together. But I found that setting a Go development environment can be slightly tricky, mostly in figuring out how to set up the proper path variables.
 
 Here, I provide a short guide on how to set up a Go development environment with Sublime Text 3 on Ubuntu/Linux. I hope it saves you (and my future-self) time when installing, updating, or re-installing the development environment.
 
