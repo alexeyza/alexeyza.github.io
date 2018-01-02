@@ -73,7 +73,7 @@ Alexey Zagalsky, Ohad Barzilay, and Amiram Yehudai,
 **Software Bots**  
 Carlene Lebeuf, Margaret-Anne Storey, and Alexey Zagalsky,  
 [IEEE Software](https://www.computer.org/software-magazine/), Software Technology column, Vol. 35, Issue 1, Jan./Feb. 2018.  
-[PDF](/pdf/ieee2018swt.pdf)
+[PDF](/pdf/ieee2018swt.pdf) &nbsp;·&nbsp; [DOI](https://doi.org/10.1109/MS.2017.4541027)
 
 **Facilitating Crowd Sourced Software Engineering via Stack Overflow**  
 Ohad Barzilay, Christoph Treude, and Alexey Zagalsky,  
