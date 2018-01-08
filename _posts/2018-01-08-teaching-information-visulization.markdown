@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Teaching Information Visualization"
-date: 2018-01-07 10:44:18 -0700
+date: 2018-01-08 10:44:18 -0700
 comments: true
 published: true
 categories: ['Information Visualization', Teaching, Data]
