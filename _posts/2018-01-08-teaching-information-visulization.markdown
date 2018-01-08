@@ -25,6 +25,8 @@ One book that's worth covering is Edward Tufte's ["The Visual Display of Quantit
 >
 >--- Edward R. Tufte"
 
+<br>
+
 Tamara Munzner's book, ["Visualization Analysis and Design"](http://www.cs.ubc.ca/~tmm/vadbook/), does a great job in providing and framing the proper terminology for learning about and discussing InfoVis topics (Figure 2.1 of the book shows a summary of this framework). While, Tamara's book would work great as a reference book, I don't think it should be used as the only textbook.
 
 <center>
