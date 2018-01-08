@@ -34,12 +34,12 @@ Additionally, I suggest reading the interesting [story of William Playfair](http
 
 ![A line graph showing England and Scandinavia's import-export balance for the 18th century, from William Playfair's 1786’s Political and Commercial Atlas.](/assets/article_images/2018-01-08-teaching-information-visulization/1024px-Playfair_TimeSeries-2.png "Playfair's line graph from 1786")
 
-For some modern examples, the ["Information is Beautiful" Awards](https://www.informationisbeautifulawards.com/showcase?award=2017&type=awards) website showcases interesting award winning examples. These projects were awarded for excellence and beauty in data visualizations.
-
 <br>
 <center>
 <img src="/assets/article_images/2018-01-08-teaching-information-visulization/nightingale-mortality.jpg" alt="Florence Nightingale's 1858 diagram of the causes of mortality in the army (source: Wikipedia). She's credited with developing the polar area diagram chart.">
 </center>
+
+For some modern examples, the ["Information is Beautiful" Awards](https://www.informationisbeautifulawards.com/showcase?award=2017&type=awards) website showcases interesting award winning examples. These projects were awarded for excellence and beauty in data visualizations.
 
 ## Software and Tools
 
