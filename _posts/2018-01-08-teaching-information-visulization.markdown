@@ -9,7 +9,7 @@ image: /assets/article_images/2018-01-08-teaching-information-visulization/backg
 image2: /assets/article_images/2018-01-08-teaching-information-visulization/background_mobile.jpg
 ---
 
-I see information visualization as one of the most interesting and important areas, particularly for researchers or for anyone who works with data. From cases like [Charles Minard's](https://en.wikipedia.org/wiki/Charles_Joseph_Minard) map of Napoleon's campaign of 1812, and [John Snow's cholera outbreak  map](https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak) of London 1854, we can see examples how visual articulation of data can impact the world. If I were to teach an InfoVis course, I would use the following material and tools.
+I see information visualization as one of the most fascinating and important areas, particularly useful for researchers or people who works with data. From cases like [Charles Minard's](https://en.wikipedia.org/wiki/Charles_Joseph_Minard) map of Napoleon's campaign of 1812, and [John Snow's cholera outbreak  map](https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak) of London 1854, we can see examples how visual articulation of data can impact the world. If I were to teach an InfoVis course, I would use the following material and tools.
 
 <!--more-->
 
