@@ -17,7 +17,7 @@ I see information visualization as one of the most interesting and important are
 
 I can't think of a specific book that can serve as the course textbook. Hence, I'm recommending multiple sources of material.
 
-![Charles Minard's map of Napoleon's disastrous Russian campaign of 1812. The graphic is notable for its representation in two dimensions of six types of data: the number of Napoleon's troops; distance; temperature; the latitude and longitude; direction of travel; and location relative to specific dates.](/assets/article_images/2018-01-08-teaching-information-visulization/minard_lg.gif "Minard's map of Napoleon's Russian campaign of 1812")
+![Charles Minard's map of Napoleon's disastrous Russian campaign of 1812. The graphic is notable for its representation in two dimensions of six types of data: the number of Napoleon's troops; distance; temperature; the latitude and longitude; direction of travel; and location relative to specific dates. (source: Wikipedia)](/assets/article_images/2018-01-08-teaching-information-visulization/minard_lg.gif "Minard's map of Napoleon's Russian campaign of 1812")
 
 A book that's worth covering is Edward Tufte's ["The Visual Display of Quantitative Information"](https://www.edwardtufte.com/tufte/books_vdqi) book. It focuses on comprehensible and usable design, concisely and clearly articulating core principles. It includes many good examples.
 
