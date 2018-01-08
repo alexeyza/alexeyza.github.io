@@ -19,7 +19,11 @@ I can't think of a specific book that can serve as the course textbook. Hence, I
 
 ![Charles Minard's map of Napoleon's disastrous Russian campaign of 1812. The graphic is notable for its representation in two dimensions of six types of data: the number of Napoleon's troops; distance; temperature; the latitude and longitude; direction of travel; and location relative to specific dates. (source: Wikipedia)](/assets/article_images/2018-01-08-teaching-information-visulization/minard_lg.gif "Minard's map of Napoleon's Russian campaign of 1812")
 
-One book that's worth covering is Edward Tufte's ["The Visual Display of Quantitative Information"](https://www.edwardtufte.com/tufte/books_vdqi) book. It focuses on comprehensible and usable design, concisely and clearly articulating core principles. It includes many good examples.
+One book that's worth covering is Edward Tufte's ["The Visual Display of Quantitative Information"](https://www.edwardtufte.com/tufte/books_vdqi) book. It focuses on comprehensible and usable design, concisely and clearly articulating core principles. It includes many good examples (and bad examples).
+
+>"Graphical excellence is the well-designed presentation of interesting data---a matter of substance, of statistics, and of design."
+>
+>--- Edward R. Tufte"
 
 Tamara Munzner's book, ["Visualization Analysis and Design"](http://www.cs.ubc.ca/~tmm/vadbook/), does a great job in providing and framing the proper terminology for learning about and discussing InfoVis topics (Figure 2.1 of the book shows a summary of this framework). While, Tamara's book would work great as a reference book, I don't think it should be used as the only textbook.
 
