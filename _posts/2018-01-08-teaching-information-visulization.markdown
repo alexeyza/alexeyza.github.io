@@ -53,7 +53,7 @@ For more modern examples, the ["Information is Beautiful" Awards](https://www.in
 
 These are commonly used tools that I find useful:
 
-- Visualizations with R and [R Studio](https://www.rstudio.com/products/rstudio/download/#download) (and packages like [ggplot2](http://ggplot2.org/))
+- Visualizations with R and [R Studio](https://www.rstudio.com/products/rstudio/download/#download) (and packages like [ggplot2](http://ggplot2.org/)). Related to visualizations in R, check out the book ["Circular Visualization in R"](http://zuguang.de/circlize_book/book/)
 - [D3.js library](https://d3js.org/) and the ["D3.js in Action" book](https://medium.com/@Elijah_Meeks/d3-js-in-action-second-edition-8cf7ffa2a116): D3 is a great JS library for creating visualizations. It's commonly used and is very customizable
 - Tableau or [Tableau Public](https://public.tableau.com/s/)
 
