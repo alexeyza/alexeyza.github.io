@@ -19,9 +19,9 @@ I can't think of a specific book that can serve as the course textbook. Hence, I
 
 ![Charles Minard's map of Napoleon's disastrous Russian campaign of 1812. The graphic is notable for its representation in two dimensions of six types of data: the number of Napoleon's troops; distance; temperature; the latitude and longitude; direction of travel; and location relative to specific dates. (source: Wikipedia)](/assets/article_images/2018-01-08-teaching-information-visulization/minard_lg.gif "Minard's map of Napoleon's Russian campaign of 1812")
 
-A book that's worth covering is Edward Tufte's ["The Visual Display of Quantitative Information"](https://www.edwardtufte.com/tufte/books_vdqi) book. It focuses on comprehensible and usable design, concisely and clearly articulating core principles. It includes many good examples.
+One book that's worth covering is Edward Tufte's ["The Visual Display of Quantitative Information"](https://www.edwardtufte.com/tufte/books_vdqi) book. It focuses on comprehensible and usable design, concisely and clearly articulating core principles. It includes many good examples.
 
-Tamara Munzner's book, ["Visualization Analysis and Design"](http://www.cs.ubc.ca/~tmm/vadbook/), does a great job in providing and framing the proper terminology for learning about and discussing InfoVis topics (Figure 2.1 of the book shows a summary of this framework). While, Tamara's book would work great as a reference book, I don't think it should be used as the main textbook.
+Tamara Munzner's book, ["Visualization Analysis and Design"](http://www.cs.ubc.ca/~tmm/vadbook/), does a great job in providing and framing the proper terminology for learning about and discussing InfoVis topics (Figure 2.1 of the book shows a summary of this framework). While, Tamara's book would work great as a reference book, I don't think it should be used as the only textbook.
 
 <center>
 <img src="/assets/article_images/2018-01-08-teaching-information-visulization/priestley_chart_of_biography.jpg" alt="Joseph Priestley's Chart of Biography from 1765. His work has reached a huge audience, and among many others, it has influenced William Playfair.">
@@ -39,7 +39,7 @@ Additionally, I suggest reading the interesting [story of William Playfair](http
 <img src="/assets/article_images/2018-01-08-teaching-information-visulization/nightingale-mortality.jpg" alt="Florence Nightingale's 1858 diagram of the causes of mortality in the army (source: Wikipedia). She's credited with developing the polar area diagram chart.">
 </center>
 
-For some modern examples, the ["Information is Beautiful" Awards](https://www.informationisbeautifulawards.com/showcase?award=2017&type=awards) website showcases interesting award winning examples. These projects were awarded for excellence and beauty in data visualizations.
+For more modern examples, the ["Information is Beautiful" Awards](https://www.informationisbeautifulawards.com/showcase?award=2017&type=awards) website showcases interesting award winning examples. These projects were awarded for excellence and beauty in data visualizations.
 
 ## Software and Tools
 
