@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Teaching Information Visualization"
-date: 2018-01-08 10:44:18 -0700
+date: 2018-01-07 10:44:18 -0700
 comments: true
 published: true
 categories: ['Information Visualization', Teaching, Data]
@@ -23,6 +23,10 @@ A book that's worth covering is Edward Tufte's ["The Visual Display of Quantitat
 
 Tamara Munzner's book, ["Visualization Analysis and Design"](http://www.cs.ubc.ca/~tmm/vadbook/), does a great job in providing and framing the proper terminology for learning about and discussing InfoVis topics (Figure 2.1 of the book shows a summary of this framework). While, Tamara's book would work great as a reference book, I don't think it should be used as the main textbook.
 
+<center>
+<img src="/assets/article_images/2018-01-08-teaching-information-visulization/priestley_chart_of_biography.jpg" alt="Joseph Priestley's Chart of Biography from 1765. His work has reached a huge audience and influenced William Playfair.">
+</center>
+
 Additional material that may be worth covering or providing as recommended reading: ["Envisioning Information"](https://www.edwardtufte.com/tufte/books_ei) by Edward Tufte, ["Visual Thinking for Design"](https://www.amazon.com/Visual-Thinking-Design-Colin-Ware/dp/0123708966) by Colin Ware, and ["The Functional Art"](http://www.thefunctionalart.com/) by Alberto Cairo.  
 For aspects of interaction, the paper ["Toward a Deeper Understanding of the Role of Interaction in Information Visualization"](https://dl.acm.org/citation.cfm?id=1313151) may serve as a helpful starting point (by Yi _et al._ 2007).
 
@@ -32,6 +36,10 @@ Additionally, I suggest reading the interesting [story of William Playfair](http
 
 For some modern examples, the ["Information is Beautiful" Awards](https://www.informationisbeautifulawards.com/showcase?award=2017&type=awards) website showcases interesting award winning examples. These projects were awarded for excellence and beauty in data visualizations.
 
+<br>
+<center>
+<img src="/assets/article_images/2018-01-08-teaching-information-visulization/nightingale-mortality.jpg" alt="Florence Nightingale's 1858 diagram of the causes of mortality in the army (source: Wikipedia). She's credited with developing the polar area diagram chart.">
+</center>
 
 ## Software and Tools
 
