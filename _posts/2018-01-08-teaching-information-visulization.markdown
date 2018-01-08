@@ -38,7 +38,7 @@ For aspects of interaction, the paper ["Toward a Deeper Understanding of the Rol
 
 Additionally, I suggest taking a look at the interesting [story of William Playfair](https://www.atlasobscura.com/articles/the-scottish-scoundrel-who-changed-how-we-see-data), the inventor of the pie chart, the bar graph, and the line graph. [Eugene Wei's depiction of his job at Amazon](http://www.eugenewei.com/blog/2017/11/13/remove-the-legend) as the first analyst in the strategic planning department is also worth reading.
 
-No matter what kind of data you aim to visualize, an important question to ask yourself is: are you *communicating information*, *displaying an analysis*, or *exploring data*? For instance, Scott Berinato described [four types of visual communication](https://hbr.org/2016/06/visualizations-that-really-work) (idea illustration, idea generation, visual discovery, and everyday dataviz).
+No matter what kind of data needs to be visualized, an important question to ask oneself is: are you *communicating information*, *displaying an analysis*, or *exploring data*? For instance, Scott Berinato described [four types of visual communication](https://hbr.org/2016/06/visualizations-that-really-work) (idea illustration, idea generation, visual discovery, and everyday dataviz).
 
 ![A line graph showing England and Scandinavia's import-export balance for the 18th century, from William Playfair's 1786’s Political and Commercial Atlas.](/assets/article_images/2018-01-08-teaching-information-visulization/1024px-Playfair_TimeSeries-2.png "Playfair's line graph from 1786")
 
