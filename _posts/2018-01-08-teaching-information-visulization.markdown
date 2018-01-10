@@ -68,4 +68,10 @@ These are commonly used tools that I find useful:
 
 I'd love to add additional material that can be of help to others. If you've taught or taken an InfoVis course---what material did **you** use or have found useful?    
 
+<center>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">We also use this paper in our InfoVis course: <a href="https://t.co/oe4Ayqhj9j">https://t.co/oe4Ayqhj9j</a></p>&mdash; Sebastian Baltes (@s_baltes) <a href="https://twitter.com/s_baltes/status/950997710856998912?ref_src=twsrc%5Etfw">January 10, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<br>
+
 **P.S.** [I'd love to meet you on Twitter.](https://twitter.com/alexeyzagalsky)
