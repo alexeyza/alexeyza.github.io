@@ -23,6 +23,7 @@ In no particular order:
 - [Case Study Research in Software Engineering: Guidelines and Examples](https://www.amazon.com/Case-Study-Research-Software-Engineering/dp/1118104358)<br>by   Per Runeson *et al.*
 - [Views on Internal and External Validity in Empirical Software Engineering](http://dl.acm.org/citation.cfm?id=2818759)<br>by Janet Siegmund *et al.*
 - [‘Unsatisfactory Saturation’: A Critical Exploration of the Notion of Saturated Sample Sizes in Qualitative Research](http://journals.sagepub.com/doi/abs/10.1177/1468794112446106)<br>by Michelle O’Reilly and Nicola Parker
+- [The Truth, The Whole Truth, and Nothing But the Truth: A Pragmatic Guide to Assessing Empirical Evaluations](https://dl.acm.org/citation.cfm?id=2983574)<br>by Stephen M. Blackburn *et al.*
 
 ### More specific aspects in qualitative research:
 
