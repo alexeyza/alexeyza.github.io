@@ -62,6 +62,8 @@ These are commonly used tools that I find useful:
 
 [Giorgia Lupi](http://giorgialupi.com/) is an award winning information designer. I find her work to be inspirational and superb. I highly recommend her [TED talk](https://www.ted.com/talks/giorgia_lupi_how_we_can_find_ourselves_in_data).
 
+[Nadieh Bremer](https://www.visualcinnamon.com/) is an award-winning data visualization designer, with an interesting background as an astronomer and a data scientist. Interestingly, she also shared [a list of resources](https://www.visualcinnamon.com/resources/visualization-resources) and [a compilation of recommended books](https://www.visualcinnamon.com/resources/learning-data-visualization/books), with a short review and thoughts on the usefulness of each book. If you wish to learn more about data visualization, I recommend checking it out.
+
 ![A postcard from the Dear Data project, a year-long, analog data drawing project by Giorgia Lupi and Stefanie Posavec.](/assets/article_images/2018-01-08-teaching-information-visulization/giorgia_lupi.jpg "A postcard from the Dear Data project by Giorgia Lupi and Stefanie Posavec")
 
 ---
