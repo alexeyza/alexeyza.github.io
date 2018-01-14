@@ -17,7 +17,7 @@ Here, I provide a short guide on how to set up a Go development environment with
 ## Installing / Updating Go
 If you're updating a previously installed Go version, you must first delete the older one:
 
-```
+```bash
 sudo rm -r /usr/local/go
 ```
 
