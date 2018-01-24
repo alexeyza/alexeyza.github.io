@@ -38,7 +38,7 @@ For aspects of interaction, the paper ["Toward a Deeper Understanding of the Rol
 
 Additionally, I suggest taking a look at the interesting [story of William Playfair](https://www.atlasobscura.com/articles/the-scottish-scoundrel-who-changed-how-we-see-data), the inventor of the pie chart, the bar graph, and the line graph. [Eugene Wei's depiction of his job at Amazon](http://www.eugenewei.com/blog/2017/11/13/remove-the-legend) as the first analyst in the strategic planning department is also worth reading.
 
-An interesting new book is ["Fundamentals of Data Visualization"](http://serialmentor.com/dataviz/) by Claus O. Wilke. The book seems quite comprehensive, and it's entirely written in R Markdown and ggplot2 is used for the figures.
+An upcoming new book is ["Fundamentals of Data Visualization"](http://serialmentor.com/dataviz/) by Claus O. Wilke. The book seems to be quite comprehensive, fully accessible online, and it's entirely written in R Markdown with ggplot2 for the figures.
 
 No matter what kind of data needs to be visualized, an important question to ask oneself is: are you *communicating information*, *displaying an analysis*, or *exploring data*? For instance, Scott Berinato described [four types of visual communication](https://hbr.org/2016/06/visualizations-that-really-work) (idea illustration, idea generation, visual discovery, and everyday dataviz). Even something as basic as a table can be improved---not by adding more visual cues, but [by removing unnecessary visual clutter](http://www.darkhorseanalytics.com/blog/clear-off-the-table).
 
