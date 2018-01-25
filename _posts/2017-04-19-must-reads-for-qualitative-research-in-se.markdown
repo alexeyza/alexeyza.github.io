@@ -31,6 +31,7 @@ In no particular order:
 - [Grounded Theory in Software Engineering Research: A Critical Review and Guidelines](http://dl.acm.org/citation.cfm?id=2884833)<br>by Klaas-Jan Stol *et al.*
 - [Developing a Grounded Theory to Explain the Practices of Self-Organizing Agile Teams](https://link.springer.com/article/10.1007%2Fs10664-011-9161-0)<br>by Rashina Hoda *et al.*
 - [Building Theories in Software Engineering](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_12#page-1)<br>by Dag I.K. Sjøberg *et al.*
+- [HCI, Natural Science and Design: A Framework for Triangulation Across Disciplines](https://dl.acm.org/citation.cfm?id=263612) by Wendy E. Mackay and Anne-Laure Fayard
 - [The Role of Ethnographic Studies in Empirical Software Engineering](http://ieeexplore.ieee.org/abstract/document/7387744/)<br>by Helen Sharp *et al.*
 - [Taxonomies in Software Engineering: A Systematic Mapping Study and
 a Revised Taxonomy Development Method](http://www.sciencedirect.com/science/article/pii/S0950584917300472)<br>by Muhammad Usman *et al.*
