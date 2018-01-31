@@ -50,7 +50,7 @@ cd ~/.nvm
 git pull origin master
 ```
 
-Then restart your terminal window, and install the latest Node version:
+Then **restart** your terminal window, and install the latest Node version:
 
 ```bash
 nvm install stable
@@ -96,4 +96,4 @@ export NODE_PATH=$NODE_PATH:/home/alexeyza/.nvm/versions/node/v4.1.1/lib/node_mo
 ```
 
 * * *
-The above steps are mostly based on a Stack Overflow [answer](http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046) and the NVM [docs](https://github.com/creationix/nvm), with minor changes to make it more sustainable for future updates.
+The above steps are mostly based on a Stack Overflow [answer](http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046) and the NVM [docs](https://github.com/creationix/nvm), with minor changes to make it more sustainable for future updates. If you prefer to **install a system-wide Node.js** with NVM, please follow [this guide](http://www.marcominetti.net/personal/blog/2015/09/install-system-wide-node-js-with-nvm-the-painless-way).
