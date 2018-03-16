@@ -41,7 +41,7 @@ Additionally, I suggest taking a look at the interesting [story of William Playf
 An upcoming new book is ["Fundamentals of Data Visualization"](http://serialmentor.com/dataviz/) by Claus O. Wilke. The book seems to be quite comprehensive, fully accessible online, and is entirely written in R Markdown.
 
 <center>
-<img src="/assets/article_images/2018-01-08-teaching-information-visulization/j_bertin.jpg" alt="Jacques Bertin's mechanical reorderable matrix from 1968. A great example of physically engaging with data.">
+<img src="/assets/article_images/2018-01-08-teaching-information-visulization/j_bertin.jpg" width="60%" height="60%" alt="Jacques Bertin's mechanical reorderable matrix from 1968. A great example of making data physical.">
 </center>
 
 No matter what kind of data needs to be visualized, an important question to ask oneself is: are you *communicating information*, *displaying an analysis*, or *exploring data*? For instance, Scott Berinato described [four types of visual communication](https://hbr.org/2016/06/visualizations-that-really-work) (idea illustration, idea generation, visual discovery, and everyday dataviz). Even something as basic as a table can be improved---not by adding more visual cues, but [by removing unnecessary visual clutter](http://www.darkhorseanalytics.com/blog/clear-off-the-table).
