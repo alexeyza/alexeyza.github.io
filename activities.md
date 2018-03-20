@@ -38,7 +38,7 @@ May 19<sup>th</sup>, 2015, Florence, Italy
 
 ## Entrepreneurial
 <br>
-**PitchIt March 2015**  
+**UVic's PitchIt Competition 2015**  
 As part of a judging panel for [UVic's](https://www.uvic.ca/) PitchIt elevator pitch competition,  
 March 31<sup>st</sup>, 2015, University of Victoria, BC, Canada  
 [More info](http://www.uvic.ca/innovation/services/competitions/pitchit/index.php)
