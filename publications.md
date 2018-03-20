@@ -62,7 +62,7 @@ Maryi Arciniegas-Mendez, Alexey Zagalsky, Margaret-Anne Storey, and Allyson F. H
 8th International Workshop on Cooperative and Human Aspects of Software Engineering ([CHASE 2015](http://www.chaseresearch.org/workshops/chase2015)), an [ICSE 2015](http://2015.icse-conferences.org/) Workshop, ACM.  
 [PDF](/pdf/chase15.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/CHASE.2015.29) &nbsp;·&nbsp; *`Ethics #15-441`*
 
-**Example overflow: Using social media for code recommendation**  
+**Example Overflow: Using Social Media for Code Recommendation**  
 Alexey Zagalsky, Ohad Barzilay, and Amiram Yehudai,  
 3rd International Workshop on Recommendation Systems for Software Engineering ([RSSE 2012](https://sites.google.com/site/rsseresearch/rsse-2012)), an [ICSE 2012](https://files.ifi.uzh.ch/icseweb/) Workshop, IEEE.  
 [PDF](/pdf/rsse12.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1109/RSSE.2012.6233407) &nbsp;·&nbsp; [Poster](/pdf/rsse12_poster.pdf) &nbsp;·&nbsp; [Tool](http://www.exampleoverflow.net/)

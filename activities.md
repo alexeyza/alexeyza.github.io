@@ -79,7 +79,8 @@ Reviewer, 2016 (1 paper)
 
 **PLOS ONE journal**  
 A peer-reviewed open access scientific journal published by the Public Library of Science ([PLOS](http://journals.plos.org/plosone/s/journal-information))  
-Reviewer, 2017 (1 paper)
+Reviewer, 2017 (1 paper)  
+[More info](http://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0194158.s007)
 
 **Reviewer**  
 Served as a reviewer for [CSCW 2017](https://cscw.acm.org/2017/) and [CSCW 2018](https://cscw.acm.org/2018/)
