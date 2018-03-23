@@ -111,6 +111,7 @@ Other tools I typically use:
 
 - [Balsamiq](https://balsamiq.com/): for low-fidelity mockups
 - [InVision](https://www.invisionapp.com/): for interaction design
+- [UX Check](https://www.uxcheck.co/): for identifying usability issues using Neilsen's heuristic evaluation
 
 ### User Analytics
 
