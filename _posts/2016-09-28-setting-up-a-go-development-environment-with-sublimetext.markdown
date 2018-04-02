@@ -84,7 +84,7 @@ go get -u golang.org/x/tools/cmd/godoc
 Read more [here](https://www.wolfe.id.au/2015/03/05/using-sublime-text-for-go-development/) on how to configure these plugins to work with GoSublime.
 
 ## Programming with Go
-A great starting point is the [Introduction to Programming in Go](https://www.golang-book.com/books/intro) book by Caleb Doxsey.
+A great starting point is the [Introduction to Programming in Go](https://www.golang-book.com/books/intro) book by Caleb Doxsey, and the [JustForFunc: Programming in Go channel](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw) on YouTube.
 
 ## Update: An Up and Coming Go IDE
 There is a new and cool looking Go IDE, [Gogland](https://www.jetbrains.com/go/), created by Jetbrains (the company behind the awesome [IntelliJ](https://www.jetbrains.com/idea/) and [PyCharm](https://www.jetbrains.com/pycharm/)). Check out the early build on their website.
