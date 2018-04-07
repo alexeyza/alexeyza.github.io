@@ -68,7 +68,7 @@ These are commonly used tools that I find useful:
 
 [Hadley Wickham](http://hadley.nz/) is a statistician from New Zealand who is currently Chief Scientist at RStudio. He has developed several notable and widely adopted R packages including [ggplot2](http://ggplot2.org/), plyr, dplyr, and reshape2.
 
-[David Robinson](http://varianceexplained.org/) is the Chief Data Scientist at DataCamp (previously a data scientist at Stack Overflow), and the co-author with [Julia Silge](https://juliasilge.com/) of the [tidytext package for R](https://github.com/juliasilge/tidytext). He writes an awesome blog on data analysis and visualization.
+[David Robinson](http://varianceexplained.org/) is the Chief Data Scientist at DataCamp (previously a data scientist at Stack Overflow), and the co-author with [Julia Silge](https://juliasilge.com/) of the [Tidytext package for R](https://github.com/juliasilge/tidytext). He writes an awesome blog on data analysis and visualization.
 
 [Giorgia Lupi](http://giorgialupi.com/) is an award winning information designer. I find her work to be inspirational and superb. I highly recommend her [TED talk](https://www.ted.com/talks/giorgia_lupi_how_we_can_find_ourselves_in_data).
 
