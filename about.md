@@ -14,4 +14,4 @@ I am also deeply passionate about startups, UX, and entrepreneurship. As a resul
 My research work is done under the guidance of [Margaret-Anne Storey](http://margaretstorey.com/). Prior to that, I was fortunate to work with [Amiram Yehudai](http://www.cs.tau.ac.il/~amiramy/) and [Ohad Barzilay](http://www.barzilab.com/).
 
 <br>
-For additional information, please see the [activities](/activities/), [awards](/awards/), and [publications](/publications/) pages.
+For additional information, please see my [CV](/pdf/alexey-zagalsky-cv.pdf) or check the [activities](/activities/), [awards](/awards/), and [publications](/publications/) pages.
