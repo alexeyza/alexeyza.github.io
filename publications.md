@@ -86,7 +86,7 @@ In [Finding Source Code on the Web for Remix and Reuse](http://www.springer.com/
 **Methodology Matters: Is There a Method Choice Bias in Software Engineering?**  
 Courtney Bornholdt, Alexey Zagalsky, Margaret-Anne Storey,  
 Technical report, 2018, University of Victoria.  
-[PDF](/pdf/technical-report-DCS-358-IR.pdf) &nbsp;·&nbsp; *`Ethics #17-055`*
+[PDF](/pdf/technical-report-DCS-358-IR.pdf) &nbsp;·&nbsp; [Poster](/pdf/methods_poster2018.pdf) &nbsp;·&nbsp; *`Ethics #17-055`*
 
 **Why Developers Are Slacking Off: Understanding How Software Teams use Slack**  
 Bin Lin, Alexey Zagalsky, Margaret-Anne Storey, and Alexander Serebrenik,  
