@@ -60,8 +60,10 @@ For more modern examples, the ["Information is Beautiful" Awards](https://www.in
 These are commonly used tools that I find useful:
 
 - Visualizations with R and [R Studio](https://www.rstudio.com/products/rstudio/download/#download) (and packages like [ggplot2](http://ggplot2.org/)). Related to visualizations in R, check out the book ["Circular Visualization in R"](http://zuguang.de/circlize_book/book/)
+- A [list of 50 ggplot2 visualizations](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html) (with corresponding R code)
 - The [D3.js](https://d3js.org/) library is a great JS library for creating visualizations. It's commonly used and is very customizable. Related to D3, the books ["D3.js in Action"](https://medium.com/@Elijah_Meeks/d3-js-in-action-second-edition-8cf7ffa2a116) by Elijah Meeks, and ["Interactive Data Visualization for the Web"](http://chimera.labs.oreilly.com/books/1230000000345/index.html) by Scott Murray, are exceptionally good (and very practical).
 - Tableau or [Tableau Public](https://public.tableau.com/s/)
+- The [data visualization catalogue](http://www.datavizcatalogue.com/) and the [data viz project](http://datavizproject.com/): for choosing the type of visualizations to use
 
 
 ## Inspirational People in the Field
