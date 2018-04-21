@@ -63,7 +63,7 @@ These are commonly used tools that I find useful:
 - A [list of 50 ggplot2 visualizations](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html) (with corresponding R code)
 - The [D3.js](https://d3js.org/) library is a great JS library for creating visualizations. It's commonly used and is very customizable. Related to D3, the books ["D3.js in Action"](https://medium.com/@Elijah_Meeks/d3-js-in-action-second-edition-8cf7ffa2a116) by Elijah Meeks, and ["Interactive Data Visualization for the Web"](http://chimera.labs.oreilly.com/books/1230000000345/index.html) by Scott Murray, are exceptionally good (and very practical).
 - Tableau or [Tableau Public](https://public.tableau.com/s/)
-- The [data visualization catalogue](http://www.datavizcatalogue.com/), the [data viz project](http://datavizproject.com/), and [Xenographics](https://xeno.graphics/)--a collection of unusual charts: for choosing the type of visualizations to use
+- The [data visualization catalogue](http://www.datavizcatalogue.com/), the [data viz project](http://datavizproject.com/), and [Xenographics](https://xeno.graphics/): for choosing the type of visualizations to use
 
 
 ## Inspirational People in the Field
