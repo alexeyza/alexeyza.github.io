@@ -43,6 +43,7 @@ google_analytics: UA-54265697-1
 # social icons and sharing options
 social:
   - icon:  envelope
+    fa5: fas
     url: mailto:alexeyza@gmail.com
     desc: Contact me by email
     share_url:
@@ -50,6 +51,7 @@ social:
     share_link:
 
   - icon:	twitter
+    fa5: fab
     url:	https://twitter.com/alexeyzagalsky
     desc: Follow me on twitter
     share_url: http://twitter.com/share
@@ -57,6 +59,7 @@ social:
     share_link: "&amp;url="
 
   - icon:	github
+    fa5: fab
     url:	https://github.com/alexeyza
     desc:	Follow me on Github
     share_url:
@@ -64,6 +67,7 @@ social:
     share_link:
 
   - icon:  stack-overflow
+    fa5: fab
     url: https://stackoverflow.com/users/257760/alexey-zagalsky
     desc: My activity on Stack Overflow
     share_url:
@@ -71,6 +75,7 @@ social:
     share_link:
 
   - icon:  500px
+    fa5: fab
     url: http://500px.com/alexeyza
     desc: See my photos on 500px
     share_url:
@@ -78,6 +83,7 @@ social:
     share_link:
 
   - icon:  linkedin
+    fa5: fab
     url: https://linkedin.com/in/alexeyza
     desc: Find me on Linkedin
     share_url:
@@ -85,6 +91,7 @@ social:
     share_link:
 
   - icon:  slideshare
+    fa5: fab
     url: https://speakerdeck.com/alexeyza
     desc: See my slides on Speaker Deck
     share_url:
