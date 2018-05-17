@@ -46,7 +46,7 @@ Alexey Zagalsky, Joseph Feliciano, Margaret-Anne Storey, Yiyun Zhao, and Weilian
 
 **The \(R\) Evolution of Social Media in Software Engineering**  
 Margaret-Anne Storey, Leif Singer, Brendan Cleary, Fernando Figueira Filho, and Alexey Zagalsky,  
-In Future of Software Engineering ([FOSE](http://2014.icse-conferences.org/fose)) track of the 36th International Conference on Software Engineering [ICSE](http://2014.icse-conferences.org/), 2014, ACM.  
+In Future of Software Engineering ([FOSE](http://2014.icse-conferences.org/fose)) track of the 36th International Conference on Software Engineering ([ICSE](http://2014.icse-conferences.org/)), 2014, ACM.  
 [PDF](/pdf/fose14.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2593882.2593887) &nbsp;·&nbsp; *`Ethics #10-283`*
 
 
