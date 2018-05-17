@@ -36,7 +36,7 @@ and Germán Poo-Caamaño,
 
 **Student Experiences Using GitHub in Software Engineering Courses: A Case Study**  
 Joseph Feliciano, Margaret-Anne Storey, and Alexey Zagalsky,  
-In Software Engineering Education and Training ([SEET](http://2016.icse.cs.txstate.edu/educationTraining)) track of the 38th International Conference on Software Engineering [ICSE](http://2016.icse.cs.txstate.edu/), 2016, ACM.  
+In Software Engineering Education and Training ([SEET](http://2016.icse.cs.txstate.edu/educationTraining)) track of the 38th International Conference on Software Engineering ([ICSE](http://2016.icse.cs.txstate.edu/)), 2016, ACM.  
 [PDF](/pdf/icse16seet.pdf) &nbsp;·&nbsp; [DOI](http://dx.doi.org/10.1145/2889160.2889195) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/icse16-student-experiences-using-github-in-software-engineering-courses) &nbsp;·&nbsp; *`Ethics #14-120`*
 
 **The Emergence of GitHub as a Collaborative Platform for Education**  
