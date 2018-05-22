@@ -84,7 +84,7 @@ social:
     share_title:
     share_link:
 
-  - icon:  linkedin
+  - icon:  linkedin-in
     fa5: fab
     url: https://linkedin.com/in/alexeyza
     desc: Find me on Linkedin
@@ -100,7 +100,7 @@ social:
     share_title:
     share_link:
 
-  - icon:  facebook
+  - icon:  facebook-f
     fa5: fab
 #    url: https://facebook.com/alexey.zagalsky
     desc: Connect with me facebook
