@@ -62,10 +62,10 @@ social:
 
   - icon:   hacker-news-square
     fa5: fab
-    url:    https://news.ycombinator.com/user?id=alexeyza
+#    url:    https://news.ycombinator.com/user?id=alexeyza
     desc: My activity on HN
     share_url: https://news.ycombinator.com/submitlink
-    share_title: ?text=
+    share_title: ?t=
     share_link: "&amp;u="
 
   - icon:	github
