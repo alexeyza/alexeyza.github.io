@@ -100,6 +100,15 @@ social:
     share_title:
     share_link:
 
+  - icon:  facebook
+    fa5: fab
+#    url: https://facebook.com/alexey.zagalsky
+    desc: Connect with me facebook
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
+
+
 academics:
   - icon:  google-scholar
     url: https://scholar.google.ca/citations?user=WWYRn7AAAAAJ
@@ -108,12 +117,7 @@ academics:
     share_title:
     share_link:
 
-#  - icon:  facebook
-#    url: https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+
 
 #  - icon:	google-plus
 #    url:	https://google.com/???
