@@ -113,6 +113,10 @@ Other tools I typically use:
 - [InVision](https://www.invisionapp.com/): for interaction design
 - [UX Check](https://www.uxcheck.co/): for identifying usability issues using Neilsen's heuristic evaluation
 
+### Creating Video Demos
+
+- [Shotcut](https://shotcut.org/): cross-platform video editing (works great in combination with OBS).
+
 ### User Analytics
 
 - [Google Analytics](https://www.google.com/analytics)
