@@ -16,7 +16,7 @@ As a researcher and a member of the [CHISEL research group](http://thechiselgrou
 
 ### Writing and Collaborating on Papers
 
-For writing papers, I use [Sublime Text 3](https://www.sublimetext.com/) with the [LaTeXTools](https://latextools.readthedocs.io/en/latest/) package installed. This allows me to edit and compile the document directly from ST3. I have the exact same setup with the [Atom](https://atom.io/) editor as well, and both work well.
+For writing papers, I use [Sublime Text 3](https://www.sublimetext.com/) with the [LaTeXTools](https://latextools.readthedocs.io/en/latest/) package installed. This allows me to edit and compile the document directly from ST3. I have the same setup with the [Atom](https://atom.io/) editor as well, and both work well.
 
 For collaborating on papers, I prefer to use [GitHub](https://github.com/) and host the source files (e.g., `tex`,`bib`) in a repository dedicated for the paper. I believe this gives each co-author the freedom to choose and set up their own work environment and tools (as opposed to something like [ShareLaTeX](https://www.sharelatex.com/)).
 
@@ -24,7 +24,7 @@ Typically when starting to work on a paper, we use [Google Docs](https://www.goo
 
 Other tools I typically use:
 
-- [LatexDiff](https://www.ctan.org/pkg/latexdiff), a command line tool, for generating visual diffs between compiled documents. Very useful when outlining changes to reviewers between revisions. Similarly, [Git-LatexDiff](https://gitlab.com/git-latexdiff/git-latexdiff) aims to generate a diff and simplify the process even further
+- [LatexDiff](https://www.ctan.org/pkg/latexdiff), a command line tool, for generating visual diffs between compiled documents. Useful when outlining changes to reviewers between revisions. Similarly, [Git-LatexDiff](https://gitlab.com/git-latexdiff/git-latexdiff) aims to generate a diff and simplify the process even further
 - [AbstractFormater](https://abstractformatter.inventitech.com/) for formating text. Very useful, especially for paper submissions
 - [BibTex normalizer](https://hsborges.github.io/bibtex-normalizer/) for cleaning up the bibtex file
 - [doi2bib.org](http://www.doi2bib.org/#/doi)
@@ -39,9 +39,9 @@ Other tools I typically use:
 
 ### English Prose
 
-- [Grammarly](https://www.grammarly.com/): for prose linting within the browser
-- [Proselint](https://github.com/amperser/proselint): works well with text and markdown files in Sublime Text and Visual Studio Code
-- [Write-good](https://github.com/btford/write-good)
+- [Grammarly](https://www.grammarly.com/): is an English-language writing aid for the browser
+- [Proselint](https://github.com/amperser/proselint): works well with text and markdown files in Sublime Text and Visual Studio Code (no Latex support though)
+- [Write-good](https://github.com/btford/write-good): a prose linter extension for developers
 
 ### Team Communication
 
@@ -101,7 +101,7 @@ Other tools I typically use:
 
 ### Coding Tools / IDEs
 
-- [Visual Studio Code](https://code.visualstudio.com/): I recently started using it for learning React, and I really like it, reminds me a lot of SublimeText
+- [Visual Studio Code](https://code.visualstudio.com/): I recently started using it for learning React, and I really like it, reminds me a lot of Sublime Text
 - [Eclipse](https://www.eclipse.org/downloads/eclipse-packages/): for Java
 - [PyCharm](https://www.jetbrains.com/pycharm/): for Python
 - [WebStorm](https://www.jetbrains.com/webstorm/)
