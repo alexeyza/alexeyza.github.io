@@ -37,6 +37,12 @@ Other tools I typically use:
 - [Zenodo](https://zenodo.org/): for sharing data from our studies (e.g., replication package)
 - [arXiv](https://arxiv.org/): for preprints or papers that are not archived elsewhere
 
+### English Prose
+
+- [Grammarly](https://www.grammarly.com/): for prose linting within the browser
+- [Proselint](https://github.com/amperser/proselint): works well with text and markdown files in Sublime Text and Visual Studio Code
+- [Write-good](https://github.com/btford/write-good)
+
 ### Team Communication
 
 - [Slack](https://slack.com/): most of our group's communication happens on Slack, though we may switch to [Mattermost](https://about.mattermost.com/) later this year
