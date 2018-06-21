@@ -46,6 +46,7 @@ Other tools I typically use:
 ### Team Communication
 
 - [Slack](https://slack.com/): most of our group's communication happens on Slack, though we may switch to [Mattermost](https://about.mattermost.com/) later this year
+- [Keybase](https://keybase.io/): it's like a combination between Slack and Dropbox, that also leverages cryptography.
 - [Skype](https://www.skype.com/en/): video calls when we're not co-located
 - Email
 
