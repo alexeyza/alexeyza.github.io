@@ -11,7 +11,7 @@ I'm a software engineering researcher who's passionate about startups, UX, and e
 
 I've spent six years studying developers and how they work, conducting surveys, interviews, focus groups, case studies, observations, lab experiments, and mining archival data (including data from Stack Overflow and GitHub). A key factor of my work looks at the socio-technical perspective, recognizing not only the human-computer interactions, but also interactions of groups and communities with technology.
 
-I whole-heartedly believe that *"a 10x engineer isn't someone who is 10x better than those around them, but someone who makes those around them 10x better"*. This guiding principle shapes my views and approach, and is reflected in my current role where I lead, mentor, and manage many awesome PhD and Master's students.
+I whole-heartedly believe that *"a 10x engineer isn't someone who is 10x better than those around them, but someone who makes those around them 10x better"*. This guiding principle shapes my views and approach, and is reflected in my current role where I led, mentored, and managed many awesome PhD and Master's students.
 
 <center>
 <img src="/assets/article_images/about/undraw_coding.png" width="60%" height="60%">
