@@ -2,11 +2,12 @@
 plugins:
   - jemoji
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Site settings
 title: "Alexey Zagalsky"
 description: > # this means to ignore newlines until "email:"
-    Software Engineering Researcher
+    Software engineering researcher
 
 email: alexeyza@gmail.mail
 #blog logo
