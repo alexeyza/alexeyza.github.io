@@ -115,7 +115,7 @@ Programming Languages and Software Engineering ([PLSE](http://www.research.ibm.c
 <br>
 **Knowledge Building in Software Developer Communities**    
 Alexey Zagalsky, Ph.D. Thesis, August 2018, University of Victoria  
-[PDF coming soon](/publications)
+[PDF](/pdf/Zagalsky_Alexey_PhD_2018.pdf)
 
 **Beyond Agile: Studying The Participatory Process in Software Development**  
 Alexey Zagalsky, PhD Candidacy Proposal, December 2015, University of Victoria  
