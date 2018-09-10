@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-I'm a software engineering researcher who's passionate about startups, UX, and entrepreneurship. Currently I'm in the final stages of a PhD in computer science. My research focuses on software engineering, studying the interplay between developers, tools, their activities, and how this interplay affects collaboration and communication---i.e.,*"we shape our tools and our tools shape us"*. Specifically, I explore how developers, communities, and organizations build and share knowledge, and how their tools support (or hinder) this process.
+I'm a software engineering researcher who's passionate about startups, UX, and entrepreneurship. I hold a PhD in computer science from the University of Victoria, Canada, and I received my B.Sc. and M.Sc. in Computer Science from Tel Aviv University. My research focuses on software engineering, studying the interplay between developers, tools, their activities, and how this interplay affects collaboration and communication---i.e.,*"we shape our tools and our tools shape us"*. Specifically, I explore how developers, communities, and organizations build and share knowledge, and how their tools support (or hinder) this process.
 
 <center>
 <img src="/assets/article_images/about/undraw_creation_process.png" width="55%" height="55%">
@@ -18,8 +18,6 @@ I whole-heartedly believe that *"a 10x engineer isn't someone who is 10x better 
 </center>
 
 I also have experience mentoring and guiding teams towards delivering end-user facing products that people love. I designed and taught nine iterations of *Startup Programming* (2010-2016), a project-based course where student teams learn to build innovative web and mobile products for real users. This course was so successful that I recreated it in my current institution, it has been featured in the GitHub education blog, and it has inspired similar courses at other universities. My past students have gone on to found their own startup companies or secure jobs at prominent companies such as Microsoft, Amazon, and local startups. The students' projects varied greatly. Since each team had their own set of unique needs, I provided tailored mentorship, driving them & pushing them, to successfully build products for real users and help them become exceptional developers, designers, and founders. I also brought in extraordinary local industry mentors to work closely with the student teams, and mediated between the different stakeholders. I enjoyed this immensely!
-
-My PhD research work was done under the guidance of [Margaret-Anne Storey](http://margaretstorey.com/). Prior to that, I was fortunate to work with [Amiram Yehudai](http://www.cs.tau.ac.il/~amiramy/) and [Ohad Barzilay](http://www.barzilab.com/).
 
 <br>
 For additional information, please see my [CV](/pdf/alexey-zagalsky-cv.pdf) or check the [activities](/activities/), [awards](/awards/), and [publications](/publications/) pages.
