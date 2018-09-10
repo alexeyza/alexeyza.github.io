@@ -118,7 +118,7 @@ Alexey Zagalsky, Ph.D. Thesis, August 2018, University of Victoria
 [PDF](/pdf/Zagalsky_Alexey_PhD_2018.pdf) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/thesis-defense-knowledge-building-in-software-developer-communities)
 
 **Beyond Agile: Studying The Participatory Process in Software Development**  
-Alexey Zagalsky, PhD Candidacy Proposal, December 2015, University of Victoria  
+Alexey Zagalsky, Ph.D. Candidacy Proposal, December 2015, University of Victoria  
 [PDF](/pdf/candidacy-proposal.pdf) &nbsp;·&nbsp; [Slides](https://speakerdeck.com/alexeyza/phd-candidacy-exam-studying-the-participatory-process-in-software-development) &nbsp;·&nbsp; [arXiv](https://arxiv.org/abs/1705.05450)
 
 **Investigating Opportunistic Software Development Using Social Media Recommendation System**  
