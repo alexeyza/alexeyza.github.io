@@ -92,8 +92,13 @@ nvm uninstall 4.1.1
 If later on you encounter errors with installing packages _globaly_, make sure your `NODE_PATH` is defined. You can do so by adding the following to `~/.bashrc` or `~/.zshrc`:
 
 ```
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
 export NODE_PATH=$NODE_PATH:/home/alexeyza/.nvm/versions/node/v4.1.1/lib/node_modules
 ```
+
+If there are any issues loading the selected node version, make sure the above lines are at the bottom part of `~/.bashrc` (the order matters).
 
 * * *
 The above steps are mostly based on a Stack Overflow [answer](http://askubuntu.com/questions/672994/how-to-install-nodejs-4-on-ubuntu-15-04-64-bit-edition/673046#673046) and the NVM [docs](https://github.com/creationix/nvm), with minor changes to make it more sustainable for future updates. If you prefer to **install a system-wide Node.js** with NVM, please follow [this guide](http://www.marcominetti.net/personal/blog/2015/09/install-system-wide-node-js-with-nvm-the-painless-way).
