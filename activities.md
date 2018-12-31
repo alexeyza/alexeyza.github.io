@@ -46,13 +46,18 @@ March 31<sup>st</sup>, 2015, University of Victoria, BC, Canada
 
 ## Program Committee
 <br>
+**BotSE 2019 Workshop**  
+1st International Workshop on Bots in Software Engineering ([BotSE 2019](https://botse.github.io/))  
+Program Committee member  
+[More info](https://botse.github.io/#organization)
+
 **VisSoft 2017 NIER and Tools Track**  
-The 5th IEEE Working Conference on Software Visualization ([VISSOFT 2017](http://vissoft17.dcc.uchile.cl/))  
+5th IEEE Working Conference on Software Visualization ([VISSOFT 2017](http://vissoft17.dcc.uchile.cl/))  
 Program Committee member  
 [More info](http://vissoft17.dcc.uchile.cl/committee.html)
 
 **VisSoft 2016**  
-The 4th IEEE Working Conference on Software Visualization ([VISSOFT 2016](http://vissoft16.ysu.edu/))  
+4th IEEE Working Conference on Software Visualization ([VISSOFT 2016](http://vissoft16.ysu.edu/))  
 Program Committee member  
 [More info](http://vissoft16.ysu.edu/committee.html)
 
