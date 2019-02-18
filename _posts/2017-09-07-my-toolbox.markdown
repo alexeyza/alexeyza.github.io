@@ -9,7 +9,7 @@ image: /assets/article_images/2017-09-07-my-toolbox/background.jpeg
 image2: /assets/article_images/2017-09-07-my-toolbox/background-mobile.jpeg
 ---
 
-As a researcher and a member of the [CHISEL research group](http://thechiselgroup.org/), I use many software tools on a regular basis that I find useful.
+As a researcher, I use many software tools on a regular basis that I find helpful.
 
 <!--more-->
 <br>
