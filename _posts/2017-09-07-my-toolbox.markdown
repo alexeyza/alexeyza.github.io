@@ -9,7 +9,7 @@ image: /assets/article_images/2017-09-07-my-toolbox/background.jpeg
 image2: /assets/article_images/2017-09-07-my-toolbox/background-mobile.jpeg
 ---
 
-As a researcher, I use a variety of software tools on a regular basis, and I list these tools below.
+As a researcher, I use a variety of software tools on a regular basis, and I'd like to share this list of tools here.
 
 <!--more-->
 <br>
