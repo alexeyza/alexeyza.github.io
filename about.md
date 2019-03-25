@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-I am a software engineering researcher who's passionate about startups, UX, and entrepreneurship. As of March 2019, I'm a postdoctoral fellow at the [Department of Technology and Information Management](https://en-coller.tau.ac.il/faculty-research/departments/technology-information-management), at the Coller School of Business.  
+I am a software engineering researcher who's passionate about startups, UX, and entrepreneurship. As of March 2019, I'm a postdoctoral fellow at the [Department of Technology and Information Management](https://en-coller.tau.ac.il/faculty-research/departments/technology-information-management), at the Coller School of Management.  
 I hold a PhD in Computer Science from the [University of Victoria](https://www.uvic.ca/), Canada, and a BSc and MSc in Computer Science from [Tel Aviv University](https://english.tau.ac.il/). My research focuses on software engineering, studying the interplay between developers, tools, their activities, and how this interplay affects collaboration and communication---i.e.,*"we shape our tools and our tools shape us"*. Specifically, I explore how developers, communities, and organizations build and share knowledge, and how their tools support (or hinder) this process.
 
 <center>
