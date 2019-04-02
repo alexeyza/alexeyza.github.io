@@ -35,6 +35,7 @@ In no particular order:
 - [The Role of Ethnographic Studies in Empirical Software Engineering](http://ieeexplore.ieee.org/abstract/document/7387744/)<br>by Helen Sharp *et al.*
 - [Taxonomies in Software Engineering: A Systematic Mapping Study and
 a Revised Taxonomy Development Method](http://www.sciencedirect.com/science/article/pii/S0950584917300472)<br>by Muhammad Usman *et al.*
+- [Counting in Qualitative Research: Why to Conduct it, When to Avoid it, and When to Closet it](https://journals.sagepub.com/doi/abs/10.1177/1056492610375988)<br>by David R. Hannah and Brenda A. Lautsch
 
 There are many other recommended papers and books (too many to fit in a single blog post), so I tried to list the papers that should apply to most researchers. Have I forgotten to mention an important paper? Please let me know.
 
