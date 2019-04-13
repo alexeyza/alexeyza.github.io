@@ -73,6 +73,11 @@ Referee, 2015-2017 (3 papers)
 Journal of Empirical Software Engineering ([EMSE](https://www.springer.com/computer/swe/journal/10664))  
 Reviewer, 2017 (1 paper), 2019 (1 paper)  
 
+
+**INFSOF journal**  
+Information and Software Technology journal ([INFSOF](https://www.journals.elsevier.com/information-and-software-technology))  
+Reviewer, 2019 (1 paper)  
+
 **JSS**  
 Journal of Systems and Software ([JSS](http://ees.elsevier.com/jss/mainpage.html))  
 Reviewer, 2015 (1 paper)  
