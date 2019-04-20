@@ -7,7 +7,7 @@ plugins:
 # Site settings
 title: "Alexey Zagalsky"
 description: > # this means to ignore newlines until "email:"
-    Software Engineering Researcher & Data Scientist
+    Software Engineering Researcher
 
 email: alexeyza@gmail.mail
 #blog logo
