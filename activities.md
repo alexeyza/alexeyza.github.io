@@ -92,6 +92,10 @@ A peer-reviewed open access scientific journal published by the Public Library o
 Reviewer, 2017 (1 paper)  
 [More info](http://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0194158.s007)
 
+**IEEE Access**  
+A multidisciplinary, all-electronic archival journal ([More info](https://ieeeaccess.ieee.org/))  
+Reviewer, 2019 (1 paper)
+
 **Reviewer**  
 Served as a reviewer for [CSCW 2017](https://cscw.acm.org/2017/) and [CSCW 2018](https://cscw.acm.org/2018/)
 
