@@ -55,7 +55,7 @@ In Future of Software Engineering ([FOSE](http://2014.icse-conferences.org/fose)
 **Defining and Classifying Software Bots: A Faceted Taxonomy** *(invited paper)*  
 Carlene Lebeuf, Alexey Zagalsky, Matthieu Foucault, and Margaret-Anne Storey,  
 1st International Workshop on Bots in Software Engineering ([BotSE 2019](https://botse.github.io/)) an [ICSE 2019](https://conf.researchr.org/home/icse-2019/) Workshop, 2019, IEEE.  
-[Preprint](http://chisel.cs.uvic.ca/pubs/lebeuf-BotSE2019.pdf) &nbsp;·&nbsp; *`Ethics #17-350`*
+[PDF](/pdf/botse2019invited.pdf) &nbsp;·&nbsp; *`Ethics #17-350`*
 
 **How Software Developers Mitigate Collaboration Friction with Chatbots**  
 Carlene Lebeuf, Margaret-Anne Storey, and Alexey Zagalsky,  
