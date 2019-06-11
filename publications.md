@@ -3,6 +3,16 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
+
+Testing
+
+<div id=pubfilters><span>Sort: &nbsp &nbsp</span>
+    <button onclick="showPubsByTopic()">by Topic</button>
+    <button onclick="showPubsByYear()">by Year</button>
+    <button onclick="showPubsByType()">by Type</button>
+</div>
+
+
 ## Journal Articals (refereed)
 <br>
 **How the R Community Creates and Curates Knowledge: An Extended Study of Stack Overflow and Mailing Lists**  
