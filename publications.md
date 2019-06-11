@@ -3,10 +3,8 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-
-Testing
-
-<div id=pubfilters><span>Sort: &nbsp &nbsp</span>
+<div id=pubfilters>
+    <span>Sort by: &nbsp; &nbsp;</span>
     <button onclick="showPubsByTopic()">by Topic</button>
     <button onclick="showPubsByYear()">by Year</button>
     <button onclick="showPubsByType()">by Type</button>
