@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Publications
+title: New Publications
 permalink: /newpublications/
 ---
+Testing new publications page
+
 <section id="publications">
     <div id="pubfilters">
         <span>Sort by: &nbsp; &nbsp;</span>
