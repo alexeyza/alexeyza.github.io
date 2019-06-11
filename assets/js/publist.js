@@ -1,5 +1,5 @@
 var section = document.querySelector('#publications'); // Identifies the publications section of the website
-var requestURL = "/assets/js/pubsList.json"; // Identifies the json file where the publications are listed
+var requestURL = "/assets/js/publications.json"; // Identifies the json file where the publications are listed
 var request = new XMLHttpRequest();
 /*
 request.open('GET', requestURL);
