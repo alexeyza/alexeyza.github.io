@@ -1,0 +1,202 @@
+{
+  "listName" : "Publications",
+  "pubs" : [
+    {
+      "title" : "\"It's almost like they're trying to hide it\": How User-Provided Image Descriptions Have Failed to Make Twitter Accessible",
+      "year" : 2019,
+      "authors" : ["Cole Gleason","Patrick Carrington","Cameron Cassidy","Meredith Ringel Morris","Kris M. Kitani","Jeffrey P. Bigham"],
+      "venue" : "Proceedings of the Web Conference (WWW 2019).",
+      "location" : "San Francisco, California",
+      "link" : "http://patrickcarrington.com/docs/pdfs/TwitterImageDescriptions_WebConf2019.pdf",
+      "type": "0-Conferences",
+      "topic": "Accessibility",
+      "awards": "",
+      "acceptance": "18%"
+    },
+    {
+      "title" : "\"Occupational Therapy is Making\": Design Iteration and Digital Fabrication in Occupational Therapy",
+      "year" : 2019,
+      "authors" : ["Megan Hofmann","Kristin Williams","Toni Kaplan","Stephanie Valencia","Gabriella Han","Scott E. Hudson","Jennifer Mankoff","Patrick Carrington"],
+      "venue" : "Proceedings of ACM Conference on Human Factors in Computing (CHI 2019). ACM.",
+      "location" : "Glasgow, Scotland",
+      "link" : "http://patrickcarrington.com/docs/pdfs/OccupationalTherapyIsMaking_CHI2019.pdf",
+      "type": "0-Conferences",
+      "topic": "Accessibility",
+      "awards": "Best Paper Award (Top 1%)",
+      "acceptance": "23.8%"
+    },
+    {
+      "title" : "Exploring the Data Use and Sharing Preferences of Wheelchair Athletes",
+      "year" : 2018,
+      "authors" : ["Patrick Carrington", "Gierad Laput", "Jeffrey P. Bigham"],
+      "venue" : "Proceedings of ACM SIGACCESS Conference on Computers and Accessibility (ASSETS 2018). ACM.",
+      "location" : "Galway, Ireland",
+      "link" : "https://dl.acm.org/authorize?N664883",
+      "type": "0-Conferences",
+      "topic": "Wearables and Athletics",
+      "awards": "Best Paper Honorable Mention (Top 5%)",
+      "acceptance": "26%"
+    },
+    {
+      "title" : "Wearables and Chairables: Inclusive Design of Mobile Input and Output Techniques for Power Wheelchair Users",
+      "year" : 2014,
+      "authors" : ["Patrick Carrington", "Amy Hurst", "Shaun K. Kane"],
+      "venue" : "In Proceedings of ACM Conference on Human Factors in Computing Systems (CHI 2014). ACM.",
+      "location" : "Toronto, Canada",
+      "link" : "http://dl.acm.org/authorize?N99925",
+      "type": "0-Conferences",
+      "topic": "Chairables and Wheelchairs",
+      "awards": "Best Paper Honorable Mention (Top 5%)",
+      "acceptance": "23%"
+    },
+    {
+      "title" : "The Gest-Rest: A Pressure-Sensitive Chairable Input Pad for Power Wheelchair Armrests",
+      "year" : 2014,
+      "authors" : ["Patrick Carrington", "Amy Hurst", "Shaun K. Kane"],
+      "venue" : "In Proceedings of ACM SIGACCESS Conference on Computers and Accessibility (ASSETS 2014). ACM.",
+      "location" : "Rochester, New York",
+      "link" : "http://dl.acm.org/authorize?N99914",
+      "type": "0-Conferences",
+      "topic": "Chairables and Wheelchairs",
+      "awards": "",
+      "acceptance":"26%"
+    },
+    {
+      "title" : "Understanding Fatigue and Stamina Management Opportunities and Challenges in Wheelchair Basketball",
+      "year" : 2017,
+      "authors" : ["Patrick Carrington", "Denzel Ketter","Amy Hurst"],
+      "venue" : "Proceedings of ACM SIGACCESS Conference on Computers and Accessibility (ASSETS 2017). ACM.",
+      "location" : "Baltimore, Maryland",
+      "link" : "http://dl.acm.org/authorize?N41698",
+      "type": "0-Conferences",
+      "topic": "Wearables and Athletics",
+      "awards": "",
+      "acceptance":"22%"
+    },
+    {
+      "title" : "\"But I don't take steps\": Examining the Inaccessibility of Fitness devices for Wheelchair Athletes",
+      "year" : 2015,
+      "authors" : ["Patrick Carrington", "Kevin Chang", "Helena Mentis", "Amy Hurst"],
+      "venue" : "Proceedings of ACM SIGACCESS Conference on Computers and Accessibility (ASSETS 2015). ACM.",
+      "location" : "Lisbon, Portugal",
+      "link" : "http://dl.acm.org/authorize?N07381",
+      "type": "0-Conferences",
+      "topic": "Wearables and Athletics",
+      "awards": "",
+      "acceptance":"24%"
+    },
+    {
+      "title" : "Learning from the Front: People with Disabilities as Early Adopters of AI",
+      "year" : 2018,
+      "authors" : ["Jeffrey P. Bigham","Patrick Carrington"],
+      "venue" : "HCIC 2018.",
+      "location" : "Watsonville, California",
+      "link" : "http://patrickcarrington.com/docs/pdfs/ai-and-hci-people-with-disabilities-as-early-adopters.pdf",
+      "type": "4-Other",
+      "topic": "Accessibility",
+      "awards": "",
+      "acceptance": ""
+    },
+    {
+      "title" : "Vocal Programming for People with Upper-Body Motor Impairments",
+      "year" : 2018,
+      "authors" : ["Lucas Rosenblatt", "Patrick Carrington", "Kotaro Hara", "Jeffrey P. Bigham"],
+      "venue" : "W4A 2018.",
+      "location" : "Lyon, France",
+      "link" : "https://dl.acm.org/authorize?N664884",
+      "type": "0-Conferences",
+      "topic": "Accessibility",
+      "awards": "",
+      "acceptance":"58%"
+    },
+    {
+      "title" : "\"Like This, But Better\": Supporting Novices' Design and Fabrication of 3D Models Using Existing Objects",
+      "year" : 2015,
+      "authors" : ["Patrick Carrington", "Shannon Hosmer","Tom Yeh", "Amy Hurst", "Shaun K. Kane"],
+      "venue" : "In Proceedings of iConference 2015.",
+      "link" : "https://www.ideals.illinois.edu/bitstream/handle/2142/73670/236_ready.pdf?sequence=2",
+      "type": "0-Conferences",
+      "topic": "Z-Other",
+      "awards": "",
+      "acceptance":"36%"
+    },
+    {
+      "title" : "Developing an interface to support procedural memory training using a participatory-based approach",
+      "year" : 2012,
+      "authors" : ["Patrick Carrington", "Ravi Kuber", "Lisa Anthony", "Amy Hurst", "Sapna Prasad"],
+      "venue" : "In Proceedings of BCS HCI 2012.",
+      "link" : "https://dl.acm.org/citation.cfm?id=2377962&CFID=820751005&CFTOKEN=15480791",
+      "type": "2-Posters",
+      "topic": "Accessibility",
+      "awards": "",
+      "acceptance":""
+    },
+    {
+      "title" : "Gesture Dynamics: Features Sensitive to Task Difficulty and Correlated with Physiological Sensors",
+      "year" : 2011,
+      "authors" : ["Lisa Anthony","Patrick Carrington","Peng Chu","Jianwei Lai","Andrew Sears"],
+      "venue" : "In Proceedings of ICMI MMCogEmS 2011.",
+      "link" : "http://patrickcarrington.com/docs/pdfs/lanthony-icmi2011-mmcogems.pdf",
+      "type": "2-Posters",
+      "topic": "Z-Other",
+      "awards": "",
+      "acceptance":""
+    },
+    {
+      "title" : "The Gest-Rest Family: Exploring input possibilities for Wheelchair armrests",
+      "year" : 2016,
+      "authors" : ["Patrick Carrington","Jian-Ming Chang", "Kevin Chang", "Catherine Hornback","Amy Hurst","Shaun K. Kane"],
+      "venue" : "ACM Transactions on Accessible Computing (TACCESS). ACM.",
+      "link" : "https://dl.acm.org/authorize?N00302",
+      "type": "1-Journals",
+      "topic": "Chairables and Wheelchairs",
+      "awards": "",
+      "acceptance":""
+    },
+    {
+      "title" : "How Power Wheelchair Users Choose Computing Devices",
+      "year" : 2013,
+      "authors" : ["Patrick Carrington", "Amy Hurst", "Shaun K. Kane"],
+      "venue" : "In Proceedings of ACM SIGACCESS Conference on Computers and Accessibility (ASSETS 2013). ACM.",
+      "link" : "https://dl.acm.org/authorize?N654199",
+      "type": "2-Posters",
+      "topic": "Chairables and Wheelchairs",
+      "awards": "",
+      "acceptance":""
+    },
+    {
+      "title" : "Designing Chairables: Assistive Augmentations to Support Wheelchair Users",
+      "year" : 2014,
+      "authors" : ["Patrick Carrington", "Amy Hurst", "Shaun K. Kane"],
+      "venue" : "Workshop on Assistive Augmentation in Conjunction with CHI 2014.",
+      "link" : "http://patrickcarrington.com/docs/pdfs/aa-workshop-chairables.pdf",
+      "type": "3-Workshops",
+      "topic": "Chairables and Wheelchairs",
+      "awards": "",
+      "acceptance":""
+    },
+    {
+      "title" : "Chairable Computing",
+      "year" : 2017,
+      "authors" : ["Patrick Carrington"],
+      "venue" : "Dissertation. University of Maryland, Baltimore County.",
+      "link" : "https://search.proquest.com/openview/141f931bf630669c983c60f8b4fbfddb/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "type": "5-Dissertation",
+      "topic": "Chairables and Wheelchairs",
+      "awards": "",
+      "acceptance":""
+    },
+    {
+      "title" : "Collaboratively Designing Assistive Technology",
+      "year" : 2014,
+      "authors" : ["Shaun K. Kane","Amy Hurst","Erin Buehler","Patrick Carrington","Michele Williams"],
+      "venue" : "ACM Interactions. 21, 2 (March 2014).",
+      "link" : "https://dl.acm.org/authorize?N42854",
+      "type": "6-Editorial Reviewed Works",
+      "topic": "Z-Other",
+      "awards": "",
+      "acceptance":""
+    }
+
+]
+}

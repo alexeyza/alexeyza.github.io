@@ -3,12 +3,17 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-<div id="pubfilters">
-    <span>Sort by: &nbsp; &nbsp;</span>
-    <button onclick="showPubsByTopic()">by Topic</button>
-    <button onclick="showPubsByYear()">by Year</button>
-    <button onclick="showPubsByType()">by Type</button>
-</div>
+<section id="publications">
+    <div id="pubfilters">
+        <span>Sort by: &nbsp; &nbsp;</span>
+        <button onclick="showPubsByTopic()">by Topic</button>
+        <button onclick="showPubsByType()">by Type</button>
+    </div>
+
+<script> //Runs the first time the page loads
+    showPubsByTopic()
+</script>
+</section>
 
 
 ## Journal Articals (refereed)
