@@ -3,9 +3,6 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-
-
-
 ## Journal Articals (refereed)
 <br>
 **How the R Community Creates and Curates Knowledge: An Extended Study of Stack Overflow and Mailing Lists**  
