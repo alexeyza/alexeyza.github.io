@@ -3,7 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-<div id=pubfilters>
+<div id="pubfilters">
     <span>Sort by: &nbsp; &nbsp;</span>
     <button onclick="showPubsByTopic()">by Topic</button>
     <button onclick="showPubsByYear()">by Year</button>
