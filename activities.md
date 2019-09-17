@@ -66,7 +66,7 @@ Program Committee member
 <br>
 **TOSEM journal**  
 ACM Transactions on Software Engineering and Methodology ([TOSEM](http://tosem.acm.org/))  
-Referee, 2015-2017 (3 papers)  
+Referee, 2015-2019 (4 papers)  
 [More info](http://tosem.acm.org/past-reviewers.cfm)
 
 **EMSE journal**  
