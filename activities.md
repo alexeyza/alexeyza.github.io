@@ -46,6 +46,11 @@ March 31<sup>st</sup>, 2015, University of Victoria, BC, Canada
 
 ## Program Committee
 <br>
+**CSCW 2020**  
+The 23nd ACM Conference on Computer-Supported Cooperative Work and Social Computing ([CSCW 2020](https://cscw.acm.org/2020/))  
+Associate Chair  
+[More info](http://cscw.acm.org/2020/submit-papers.html)
+
 **BotSE 2019 Workshop**  
 1st International Workshop on Bots in Software Engineering ([BotSE 2019](https://botse.github.io/))  
 Program Committee member  
@@ -80,7 +85,7 @@ Reviewer, 2019 (1 paper)
 
 **JSS**  
 Journal of Systems and Software ([JSS](http://ees.elsevier.com/jss/mainpage.html))  
-Reviewer, 2015 (1 paper)  
+Reviewer, 2015, 2019 (2 papers)  
 [More info](/pdf/jss15_certificate.pdf)
 
 **IEEE Software**  
