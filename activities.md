@@ -85,7 +85,7 @@ Reviewer, 2019 (1 paper)
 
 **JSS**  
 Journal of Systems and Software ([JSS](http://ees.elsevier.com/jss/mainpage.html))  
-Reviewer, 2015, 2019 (2 papers)  
+Reviewer, 2015 (1 papers)  
 [More info](/pdf/jss15_certificate.pdf)
 
 **IEEE Software**  
