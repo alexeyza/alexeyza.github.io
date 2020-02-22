@@ -1,4 +1,4 @@
-# Guide for using Jekyll
+# (Obsolete) Guide for using Jekyll
 
 ## Creating a new post
 
