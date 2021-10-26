@@ -21,7 +21,7 @@ Transactions on Software Engineering ([TSE](https://www.computer.org/web/tse)) j
 **The Design of Reciprocal Learning Between Human and Artificial Intelligence**  
 Alexey Zagalsky, Dov Te'eni, Inbal Yahav, David G. Schwartz, Gahl Silverman, Daniel Cohen, Yossi Mann, Dafna Lewinsky,  
 24th ACM conference on Computer-Supported Cooperative Work and Social Computing ([CSCW](https://cscw.acm.org/2021/)), 2021, ACM.  
-[PDF](https://dl.acm.org/doi/pdf/10.1145/3479587) &nbsp;·&nbsp; [DOI](https://doi.org/10.1145/3479587)
+[PDF](/pdf/cscw2021.pdf) &nbsp;·&nbsp; [DOI](https://doi.org/10.1145/3479587)
 
 **Using the Model of Regulation to Understand Software Development Collaboration Practices and Tool Support**  
 Maryi Arciniegas-Mendez, Alexey Zagalsky, Margaret-Anne Storey, and Allyson F. Hadwin,  
