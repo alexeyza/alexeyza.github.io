@@ -5,6 +5,11 @@ permalink: /publications/
 ---
 ## Journal Articals (refereed)
 <br>
+**Reciprocal Human-Machine Learning: A Theory and an Instantiation for the Case of Message Classification**  
+Dov Te'eni, Inbal Yahav, Alexely Zagalsky, David Schwartz, Gahl Silverman, Daniel Cohen, Yossi Mann, Dafna Lewinsky,  
+Management Science ([MNSC](https://pubsonline.informs.org/journal/mnsc)), 2023, Informs.  
+[PDF](https://pubsonline.informs.org/doi/epdf/10.1287/mnsc.2022.03518) &nbsp;·&nbsp; [DOI](https://doi.org/10.1287/mnsc.2022.03518)
+
 **How the R Community Creates and Curates Knowledge: An Extended Study of Stack Overflow and Mailing Lists**  
 Alexey Zagalsky, Daniel M. German, Margaret-Anne Storey, Carlos Gómez Teshima, and Germán Poo-Caamaño,  
 Journal of Empirical Software Engineering ([EMSE](http://www.springer.com/computer/swe/journal/10664)), 2017, Springer.  
