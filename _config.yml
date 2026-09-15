@@ -4,12 +4,22 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
+# Files that must not be published to the site. Setting `exclude` replaces
+# Jekyll's defaults, so the defaults (Gemfile, vendor, ...) are repeated here.
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
 # Site settings
 title: "Alexey Zagalsky"
 description: > # this means to ignore newlines until "email:"
     Software Engineering Researcher
 
-email: alexeyza@gmail.mail
+email: alexeyza@gmail.com
 #blog logo
 logo: "/assets/images/az_logo.png"
 float_logo: true # true, false (default)
