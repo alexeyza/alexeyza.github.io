@@ -49,9 +49,6 @@ twitter_handle: '@alexeyzagalsky'
 #fill in disqus shortname to use disqus
 disqus: alexeyzablog
 
-#Google analytics ID
-google_analytics: UA-54265697-1
-
 # social icons and sharing options
 social:
   - icon:  envelope
