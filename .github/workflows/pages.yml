@@ -1,0 +1,70 @@
+# Builds the Jekyll site and deploys it to GitHub Pages.
+#
+# This replaces GitHub's legacy "pages build and deployment" builder. It runs the
+# same `github-pages build` command (safe mode + plugin whitelist, from the
+# github-pages gem), but with the gem versions pinned in Gemfile.lock, so what
+# Dependabot sees is what actually gets deployed.
+#
+# Security notes:
+# - Runs only on pushes to master (and manual dispatch). Never on pull_request,
+#   so code from forks can never execute with this repo's token.
+# - Every action is pinned to a full commit SHA; the tag is in the comment.
+#   Dependabot (github-actions ecosystem) keeps the SHAs current.
+# - Permissions are least-privilege and scoped per job.
+
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+# Default for all jobs; the deploy job adds what it needs.
+permissions:
+  contents: read
+
+# One deployment at a time. Don't cancel an in-progress production deploy.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Ruby and install gems from Gemfile.lock
+        uses: ruby/setup-ruby@bec3f19a76460dbe12f60def7d1a77585f07516c # v1.322.0
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build with github-pages (same command as GitHub's legacy builder)
+        run: bundle exec github-pages build --source . --destination ./_site
+        env:
+          JEKYLL_ENV: production
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_BUILD_REVISION: ${{ github.sha }}
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from this workflow
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
