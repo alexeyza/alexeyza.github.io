@@ -1,0 +1,26 @@
+# Dependabot: keep gems and workflow actions current.
+# Docs: https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+version: 2
+updates:
+  # Ruby gems (Gemfile / Gemfile.lock). github-pages pins the whole Jekyll set,
+  # so most updates here are transitive gems bumped for security fixes.
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      gems-minor-and-patch:
+        update-types: [minor, patch]
+
+  # Actions used in .github/workflows/*.yml. They are pinned to commit SHAs;
+  # Dependabot updates the SHA and the version comment together.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    groups:
+      actions-minor-and-patch:
+        update-types: [minor, patch]
